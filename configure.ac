@@ -99,8 +99,9 @@ PKG_CHECK_MODULES(SENDTO,
 dnl caja-sendto plugin
 AC_ARG_ENABLE(caja-sendto,
               AS_HELP_STRING([--enable-caja-sendto=@<:@no/yes/auto@:>@],
-                             [build caja-sendto plugin]), ,
-                             enable_nst=yes)
+                             [build caja-sendto plugin]),
+                             [enable_nst=$enableval],
+                             [enable_nst=auto])
 
 if test "x$enable_nst" != "xno"; then
    PKG_CHECK_MODULES(NST,
