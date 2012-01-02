@@ -1,12 +1,12 @@
 AC_PREREQ(2.52)
 
-m4_define(matebt_version_major, 2011)
-m4_define(matebt_version_minor, 12)
-m4_define(matebt_version_micro, 01)
+m4_define(matebt_version_major, 1)
+m4_define(matebt_version_minor, 1)
+m4_define(matebt_version_micro, 0)
 
 AC_INIT([mate-bluetooth],
         [matebt_version_major.matebt_version_minor.matebt_version_micro],
-        [http://bugzilla.mate.org/enter_bug.cgi?product=mate-bluetooth])
+        [http://www.mate-desktop.org])
 
 AC_CONFIG_SRCDIR([applet/main.c])
 AC_CONFIG_HEADERS([config.h])
@@ -71,8 +71,8 @@ AM_CONDITIONAL([ICON_UPDATE], [test -n "$UPDATE_ICON_CACHE"])
 GTK_REQUIRED=2.19.1
 GLIB_REQUIRED=2.25.7
 DBUS_GLIB_REQUIRED=0.74
-NOTIFY_REQUIRED=0.4.3
-CAJA_SENDTO_REQUIRED=2.31.7
+NOTIFY_REQUIRED=1.1.0
+CAJA_SENDTO_REQUIRED=1.1.0
 
 dnl Requires for the properties window
 PKG_CHECK_MODULES(PROPS,
