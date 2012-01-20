@@ -2,7 +2,7 @@ MATE Bluetooth
 ===============
 
 mate-bluetooth is a fork of gnome-bluetooth (and it is a fork of
-bluez-mate) focused on integration with the MATE desktop environment.
+bluez-gnome) focused on integration with the MATE desktop environment.
 
 mate-bluetooth is the historical name of the first MATE focused
 Bluetooth effort for Linux. As such, when the need came to name
@@ -32,6 +32,6 @@ required and should be provided by the distribution
 Copyright
 ---------
 
-The original bluez-mate is:
+The original bluez-gnome is:
 Copyright (C) 2005-2008  Marcel Holtmann <marcel@holtmann.org>
 
