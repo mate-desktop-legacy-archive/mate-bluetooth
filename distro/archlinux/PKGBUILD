@@ -10,11 +10,11 @@ options=('!emptydirs')
 install=mate-bluetooth.install
 url="http://www.mate-desktop.org"
 groups=('mate-extras')
-source=(http://sourceforge.net/projects/matede/files/${pkgver}/${pkgname}.tar.gz/download)
-sha256sums=('8c6d52b103f4903564c614a3640d2fb3a9bb56e29336baba5d14f7dbfaa0a651')
+source=()
+sha256sums=()
 
 build() {
-	cd "${srcdir}/${pkgname}"
+	cd "${srcdir}/../../../"
 	./configure --prefix=/usr --sysconfdir=/etc \
 		--localstatedir=/var --disable-desktop-update \
 		--disable-icon-update || return 1
@@ -23,7 +23,7 @@ build() {
 }
 
 package() {
-    cd "$srcdir/$pkgname"
+	cd "${srcdir}/../../../"
 
 	make MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL=1 DESTDIR="${pkgdir}" install || return 1
 
