@@ -12,7 +12,7 @@ PKG_NAME="mate-bluetooth"
     exit 1
 }
 
-which mate-autogen.sh || {
+which mate-autogen || {
     echo "You need to install mate-common from the MATE Git"
     exit 1
 }
@@ -23,4 +23,4 @@ REQUIRED_MATE_DOC_UTILS_VERSION=0.9.0
 USE_MATE2_MACROS=1
 USE_COMMON_DOC_BUILD=yes
 
-. mate-autogen.sh
+. mate-autogen
