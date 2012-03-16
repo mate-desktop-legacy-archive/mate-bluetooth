@@ -38,7 +38,7 @@
 <!DOCTYPE devices [
 	<!ELEMENT devices (device)+>
 	<!ELEMENT device EMPTY>
-	<!ATTLIST device type (any|mouse|keyboard|headset|headphones|audio|printer|network) "any">
+	<!ATTLIST device type (any|mouse|tablet|keyboard|headset|headphones|audio|printer|network) "any">
 	<!ATTLIST device oui CDATA #IMPLIED>
 	<!ATTLIST device name CDATA #IMPLIED>
 	<!ATTLIST device pin CDATA #REQUIRED>
@@ -60,6 +60,10 @@
 	     to be paired -->
 	<device oui="00:0A:95:" type="mouse" pin="0000"/>
 	<device oui="00:14:51:" type="mouse" pin="0000"/>
+
+	<!-- Apple Magic Trackpad
+	     Note: same as above, tablet needs to be paired -->
+	<device oui="D8:A2:5E:" type="tablet" pin="0000"/>
 
 	<!-- Wiimote -->
 	<device oui="00:19:1D:" name="Nintendo RVL-CNT-01" pin="NULL"/>
