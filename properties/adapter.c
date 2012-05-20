@@ -147,7 +147,7 @@ device_selected_cb(GObject *object,
 
 static void wizard_callback(GtkWidget *button, gpointer user_data)
 {
-	const char *command = "bluetooth-wizard";
+	const char *command = "mate-bluetooth-wizard";
 
 	if (!g_spawn_command_line_async(command, NULL))
 		g_printerr("Couldn't execute command: %s\n", command);
