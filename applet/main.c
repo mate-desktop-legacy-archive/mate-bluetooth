@@ -203,7 +203,7 @@ void sendto_callback(GObject *widget, gpointer user_data)
 	alias = g_object_get_data (widget, "alias");
 
 	a = g_ptr_array_new ();
-	g_ptr_array_add (a, "bluetooth-sendto");
+	g_ptr_array_add (a, "mate-bluetooth-sendto");
 	if (address != NULL) {
 		char *s;
 
