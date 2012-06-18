@@ -104,7 +104,7 @@ static void help_callback(GtkWidget *item)
 	GError *error = NULL;
 
 	if(!gtk_show_uri (gtk_widget_get_screen (GTK_WIDGET(item)),
-		"ghelp:mate-bluetooth",  gtk_get_current_event_time (), &error)) {
+		"http://wiki.mate-desktop.org/docs:mate-bluetooth",  gtk_get_current_event_time (), &error)) {
 
 		g_printerr("Unable to launch help: %s", error->message);
 		g_error_free(error);
