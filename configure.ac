@@ -1,8 +1,8 @@
 AC_PREREQ(2.52)
 
 m4_define(matebt_version_major, 1)
-m4_define(matebt_version_minor, 2)
-m4_define(matebt_version_micro, 1)
+m4_define(matebt_version_minor, 3)
+m4_define(matebt_version_micro, 0)
 
 AC_INIT([mate-bluetooth],
         [matebt_version_major.matebt_version_minor.matebt_version_micro],
@@ -228,7 +228,7 @@ Configure summary:
 	Compiler Flags..............:  ${CFLAGS}
 	Prefix......................:  ${prefix}
 	Moblin interface............:  ${have_moblin}
-	caja-sendto plugin......:  ${have_nst}
+	caja-sendto plugin..........:  ${have_nst}
 	Documentation...............:  ${enable_gtk_doc}
 	GObject-Introspection.......:  ${found_introspection}
 "
