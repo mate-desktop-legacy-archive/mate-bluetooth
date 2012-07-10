@@ -1,0 +1,788 @@
+========== af.po ==========
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# F Wolff <friedel@translate.org.za>, 2009.
+
+
+
+
+========== ar.po ==========
+# Arabic translation for bluez-mate
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the bluez-mate package.
+# Khaled Hosny <khaledhosny@eglug.org>, 2009, 2010.
+
+
+
+
+========== as.po ==========
+# Assamese translation of mate-bluetooth.
+# Copyright (C) 2009 mate-bluetooth's COPYRIGHT HOLDER
+# This file is distributed under the same license as the mate-bluetooth package.
+#
+# Amitakhya Phukan <aphukan@fedoraproject.org>, 2009.
+
+
+
+
+========== ast.po ==========
+# Asturian translation for mate-bluetooth.
+# Copyright (C) 2010 mate-bluetooth's COPYRIGHT HOLDER
+# This file is distributed under the same license as the mate-bluetooth package.
+# Xandru Armesto <xandru@softastur.org>, 2010.
+
+
+
+
+========== be.po ==========
+# Belarusian translation for mate-bluetooth
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the bluez-mate package.
+# Alexander Nyakhaychyk <nyakhaychyk@gmail.com>, 2007, 2009.
+#
+
+
+
+
+========== bg.po ==========
+# Bulgarian translation of mate-bluetooth po-file.
+# Copyright (C) 2009, 2010 Free Software Foundation, Inc.
+# Copyright (C) 2009 Krasimir "Bfaf" Chonov <mk2616@abv.bg>.
+# This file is distributed under the same license as the mate-bluetooth package.
+# Krasimir "Bfaf" Chonov <mk2616@abv.bg>, 2009, 2010.
+# Alexander Shopov <ash@kambanaria.org>, 2009, 2010.
+#
+
+
+
+
+========== bn.po ==========
+# Bengali translation of mate-bluetooth.
+# Copyright (C) 2009 mate-bluetooth's COPYRIGHT HOLDER
+# This file is distributed under the same license as the mate-bluetooth package.
+#
+# Runa Bhattacharjee <runab@redhat.com>, 2009.
+# Loba Yeasmeen <loba@ankur.org.bd>, 2009.
+# Sadia Afroz <sadia@ankur.org.bd>, 2010.
+# Israt Jahan <israt@ankur.org.bd>, 2010.
+#
+
+
+
+
+========== bn_IN.po ==========
+# translation of bn_IN.po to Bengali INDIA
+# Bengali (India) translation of mate-bluetooth.
+# Copyright (C) 2009 mate-bluetooth's COPYRIGHT HOLDER
+# This file is distributed under the same license as the mate-bluetooth package.
+#
+# Runa Bhattacharjee <runab@redhat.com>, 2009.
+
+
+
+
+========== ca.po ==========
+# Catalan translation for bluez-mate
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the bluez-mate package.
+# Jaume Villalba <javs@tinet.cat>, 2007.
+# David Planella <david.planella@gmail.com>, 2007, 2008, 2009, 2010.
+#
+
+
+
+
+========== ca@valencia.po ==========
+# Catalan translation for bluez-mate
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the bluez-mate package.
+# Jaume Villalba <javs@tinet.cat>, 2007.
+# David Planella <david.planella@gmail.com>, 2007, 2008, 2009, 2010.
+#
+
+
+
+
+========== cs.po ==========
+# Czech translation for mate-bluetooth.
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007.
+# Copyright (C) 2009 the author(s) of mate-bluetooth.
+# This file is distributed under the same license as the mate-bluetooth package.
+# Kamil Páral <ripper42@gmail.com>, 2008.
+# Petr Kovar <pknbe@volny.cz>, 2009.
+# Marek Černocký <marek@manet.cz>, 2009, 2010.
+#
+
+
+
+
+========== da.po ==========
+# Danish translation for bluez-mate
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the bluez-mate package.
+# Mads Bille Lundby <lundbymads@gmail.com>, 2009.
+# Kenneth Nielsen <k.nielsen81@gmail.com>, 2009.
+#
+# paired -> parvis
+# to pair -> at danne par (Man kan måske synes at denne formulering er en lille smule mærkelig på grund af sammenhængen man ellers kan tale om at danne par. Men formuleringer som denne bruges også i f.eks. Apples danske IPhone dokumentation http://support.apple.com/kb/HT1838?viewlocale=da_DK så det bør være ok)
+#
+
+
+
+
+========== de.po ==========
+# German translation for mate-bluetooth
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the mate-bluetooth package.
+# #
+# pair - verbinden/koppeln
+# #
+# Mario Blättermann <mariobl@gnome.org>, 2009, 2010.
+# Christian Kirbach <Christian.Kirbach@googlemail.com>, 2009, 2010.
+#
+
+
+
+
+========== el.po ==========
+# Greek translation for bluez-mate
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the bluez-mate package.
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008, 2009.
+# Tournaris Pavlos <p.tournaris@gmail.com>>, 2009.
+
+
+
+
+========== en@shaw.po ==========
+# Shavian translation for mate-bluetooth.
+# Copyright (C) 2009 The Mate Foundation.
+# Thomas Thurman <tthurman@gnome.org>, 2009.
+
+
+
+
+========== en_GB.po ==========
+# English (United Kingdom) translation for mate-bluetooth
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same licence as the mate-bluetooth package.
+# Bruce Cowan <bruce@bcowan.me.uk>, 2009, 2010.
+# Philip Withnall <philip@tecnocode.co.uk>, 2010.
+
+
+
+
+========== es.po ==========
+# Spanish translation for bluez-mate
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the bluez-mate package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2007.
+# Jorge González <jorgegonz@svn.mate.org>, 2009, 2010.
+#
+
+
+
+
+========== et.po ==========
+# MATE bluetoothi eesti keele tõlge.
+# Estonian translation of MATE bluetooth.
+#
+# Copyright (C) 2008-2010 The Mate Project.
+# This file is distributed under the same license as the mate-bluetooth
+# package.
+#
+# Mattias Põldaru <mahfiaz gmail com>, 2008-2010.
+# Priit Laes <plaes plaes org>, 2008, 2009
+# Ivar Smolin <okul linux ee>, 2009, 2010.
+#
+
+
+
+
+========== eu.po ==========
+# translation of eu_to_be_translate.po to Basque
+# Basque translation for bluez-mate
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the bluez-mate package.
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2007.
+# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2009, 2010.
+
+
+
+
+========== fi.po ==========
+# Finnish translation for mate-bluetooth
+# Copyright (c) 2007, 2009 Timo Jyrinki
+# This file is distributed under the same license as the bluez-mate package.
+# Timo Jyrinki <timo.jyrinki@iki.fi>, 2007, 2010.
+# Tommi Vainikainen <thv@iki.fi>, 2009.
+# Jiri Grönroos <jiri.gronroos@iki.fi>, 2010.
+#
+# Note: Mate Finnish translation team is at http://mate.fi/
+#
+
+
+
+
+========== fr.po ==========
+# French translation for mate-bluetooth
+# Copyright (c) 2007-2010 Free Software Foundation, Inc
+# This file is distributed under the same license as the mate-bluetooth package.
+#
+# Claude Paroz <claude@2xlibre.net>, 2009-2010
+# ikonea ?, 2009
+# Laurent Coudeur <laurentc@iol.ie>, 2009.
+#
+# Sites de référence :
+# http://french.bluetooth.com/Bluetooth/Technology/Basics.htm
+# http://fr.wikipedia.org/wiki/Bluetooth
+#
+
+
+
+
+========== fy.po ==========
+# Frisian translation for bluez-mate
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the bluez-mate package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+
+
+
+
+========== ga.po ==========
+# Irish translations for mate-bluetooth package.
+# Copyright (C) 2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mate-bluetooth package.
+# Seán de Búrca <leftmostcat@gmail.com>, 2009.
+#
+
+
+
+
+========== gl.po ==========
+# translation of mate-bluetooth-master-po-gl-18070.merged.po to Galician
+# Galician translations for PACKAGE package.
+# Copyright (C) 2009 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Antón Méixome <meixome@mancomun.org>, 2009.
+# Fran Diéguez <frandieguez@ubuntu.com>, 2009, 2010.
+# Antón Méixome <meixome@certima.net>, 2010.
+# Fran Dieguez <frandieguez@ubuntu.com>, 2010.
+#
+
+
+
+
+========== gu.po ==========
+# translation of mate-bluetooth.master.gu.po to Gujarati
+# Gujarati translation of mate-bluetooth.
+# Copyright (C) 2009 mate-bluetooth's COPYRIGHT HOLDER
+# This file is distributed under the same license as the mate-bluetooth package.
+#
+# Sweta Kothari <swkothar@redhat.com>, 2009.
+
+
+
+
+========== he.po ==========
+# Hebrew translation for bluez-mate
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the bluez-mate package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2007.
+#
+
+
+
+
+========== hi.po ==========
+# translation of mate-bluetooth.po.master.po to Hindi
+# Hindi translation for mate-bluetooth.
+# Copyright (C) 2009 mate-bluetooth's COPYRIGHT HOLDER
+# This file is distributed under the same license as the mate-bluetooth package.
+#
+# Rajesh Ranjan <rajesh672@gmail.com>, 2009.
+
+
+
+
+========== hr.po ==========
+# Croatian translation for bluez-mate
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the bluez-mate package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2007.
+#
+
+
+
+
+========== hu.po ==========
+# Hungarian translation for mate-bluetooth
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the mate-bluetooth package.
+#
+# Gabor Kelemen <kelemeng at mate dot hu>, 2009, 2010.
+
+
+
+
+========== id.po ==========
+# Indonesian translation for bluez-mate
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the bluez-mate package.
+# Andika Triwidada <andika@gmail.com>, 2007.
+
+
+
+
+========== it.po ==========
+# Italian translation for mate-bluetooth
+# Copyright (C) 2004, 2005, 2006, 2007, 2008, 2009, 2010 the mate-bluetooth'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mate-bluetooth package.
+# Francesco Marletta <francesco.marletta@tiscali.it>, 2004, 2005, 2006, 2007, 2008, 2009, 2010.
+#
+# ---------------------------------------------------------------------
+# [Note]
+#  All'interno della traduzione, sono state fatte le seguenti scelte:
+#   1) passkey  --> chiave d'accesso
+#   2) grant    --> accordare
+#   3) pairing  --> associare (termine usato dai telefoni cellulari)
+#
+#  Alcune utili immagini del programma possono essere visualizzate su
+#    http://live.mate.org/MateBluetooth
+# -------------------------------------------------------------------------------
+#
+
+
+
+
+========== ja.po ==========
+# Japanese translation for mate-bluetooth
+# Copyright (c) 2007-2010 Rosetta Contributors and Canonical Ltd 2007-2009
+# This file is distributed under the same license as the bluez-mate package.
+# CHIKAMA Masaki <masaki.chikama@gmail.com>, 2008.
+# Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2009-2010.
+# Hideki Yamane (Debian-JP) <henrich@debian.or.jp>, 2009.
+#
+
+
+
+
+========== ka.po ==========
+# Georgian translation for bluez-mate
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the bluez-mate package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+
+
+
+
+========== kk.po ==========
+# Kazakh translation for mate-bluetooth.
+# Copyright (C) 2010 mate-bluetooth's COPYRIGHT HOLDER
+# This file is distributed under the same license as the mate-bluetooth package.
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2010.
+#
+
+
+
+
+========== kn.po ==========
+# translation of mate-bluetooth.master.kn.po to Kannada
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Shankar Prasad <svenkate@redhat.com>, 2009.
+
+
+
+
+========== ko.po ==========
+# mate-bluetooth translation
+# This file is distributed under the same license as the mate-bluetooth package.
+#
+# Based on Rosetta translation:
+# Korean translation for bluez-mate
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the bluez-mate package.
+# Hyunseok Hwang <fr.hwang@gmail.com>, 2007, 2008.
+# Young-Ho Cha <ganadist@gmail.com>, 2008.
+#
+# Update in mate-bluetooth:
+# Changwoo Ryu <cwryu@debian.org>, 2009, 2010.
+#
+# 새로 번역하시는 분은 아래 "translator-credits"에 추가하세요.
+#
+# 주의:
+# - Bluetooth는 "블루투스"로 번역.
+# - pair(ing)은 "결합하다"("결합")로 번역 (MS에서는 "페어링"으로 사용)
+#
+
+
+
+
+========== lt.po ==========
+# Lithuanian translation for Bluez.
+# Copyright (C) 2009 Bluetooth Applet 1.8
+# Copyright (C) 2009 Free Software Foundation, Inc.
+# Tadas Masiulionis <tadzikaz@gmail.com>, 2009.
+# Žygimantas Beručka <zygis@gnome.org>, 2009, 2010.
+
+
+
+
+========== lv.po ==========
+# Latvian translation for bluez-mate
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the bluez-mate package.
+#
+# Peteris Krisjanis <pecisk@gmail.com>, 2009.
+# Anita Reitere <nitalynx@gmail.com>, 2010.
+
+
+
+
+========== mai.po ==========
+# translation of mate-bluetooth.master.po to Maithili
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sangeeta Kumari <sangeeta09@gmail.com>, 2009.
+
+
+
+
+========== ml.po ==========
+# translation of mate-bluetooth.master.ml.po to
+# translation of mate-bluetooth-master-po-ml-86413.po to
+# Malayalam translation of mate-bluetooth.
+# Copyright (C) 2009-2010 mate-bluetooth's COPYRIGHT HOLDER
+# This file is distributed under the same license as the mate-bluetooth package.
+# rine joseph <rinejoseph@trystnetworks.com>, 2009.
+# Ani Peter|അനി പീറ്റര്‍ <apeter@redhat.com>, 2009.
+# Praveen Arimbrathodiyil <pravi.a@gmail.com>, 2010.
+
+
+
+
+========== mn.po ==========
+# Mongolian translation for bluez-mate
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the bluez-mate package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+
+
+
+
+========== mr.po ==========
+# translation of mr.po to Marathi
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sandeep Shedmake <sandeep.shedmake@gmail.com>, 2009.
+# Sandeep Shedmake <sshedmak@redhat.com>, 2009.
+
+
+
+
+========== ms.po ==========
+# Malay translation for bluez-mate
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the bluez-mate package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+
+
+
+
+========== nb.po ==========
+# Norwegian Bokmål translation for bluez-mate
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the bluez-mate package.
+# Kjartan Maraas <kmaraas@gnome.org>, 2007-2010.
+#
+
+
+
+
+========== nl.po ==========
+# Dutch translation for mate-bluetooth
+#
+# Reinout van Schouwen <reinouts@gnome.org>, 2008
+# Wouter Bolsterlee <wbolster@gnome.org>, 2010
+
+
+
+
+========== nn.po ==========
+# Norwegian Nynorsk translation for mate-bluetooth.
+# Copyright (C) 2010 mate-bluetooth's COPYRIGHT HOLDER
+# This file is distributed under the same license as the mate-bluetooth package.
+# Torstein Adolf Winterseth <kvikende@fsfe.org>, 2010.
+
+
+
+
+========== oc.po ==========
+# Occitan (post 1500) translation for bluez-mate
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the bluez-mate package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2007.
+#
+
+
+
+
+========== or.po ==========
+# translation of mate-bluetooth.master.or.po to Oriya
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Manoj Kumar Giri <mgiri@redhat.com>, 2009.
+
+
+
+
+========== pa.po ==========
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# A S Alam <aalam@users.sf.net>, 2009, 2010.
+
+
+
+
+========== pl.po ==========
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Aviary.pl
+# Jeśli masz jakiekolwiek uwagi odnoszące się do tłumaczenia lub chcesz
+# pomóc w jego rozwijaniu i pielęgnowaniu, napisz do nas:
+# matepl@aviary.pl
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+
+
+========== pt.po ==========
+# mate-bluetooth's Portuguese translation.
+# Copyright © 2007, 2008, 2009, 2010 mate-bluetooth
+# This file is distributed under the same license as the mate-bluetooth package.
+# Susana Pereira <susana.pereira@gmail.com> 2007, 2008.
+# Duarte Loreto <happyguy_pt@hotmail.com> 2009, 2010.
+#
+
+
+
+
+========== pt_BR.po ==========
+# Brazilian Portuguese translation for bluez-mate
+# Copyright (c) 2007 Luiz Augusto von Dentz
+# This file is distributed under the same license as the bluez-mate package.
+# Luiz Augusto von Dentz <luiz.dentz@indt.org.br>, 2007.
+# Henrique P Machado <zehrique@gmail.com>, 2009.
+# Flamarion Jorge <jorge.flamarion@gmail.com>, 2010.
+
+
+
+
+========== ro.po ==========
+# Romanian translation for bluez-mate
+# Copyright (c) 2007 Alexandru Szasz
+# Copyright (c) 2009 Lucian Adrian Grijincu
+# Copyright (c) 2009 Adi Roiban
+# This file is distributed under the same license as the bluez-mate package.
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2009, 2010.
+
+
+
+
+========== ru.po ==========
+# translation of mate-bluetooth.master.ru.po to Russian
+# Leonid Kanter <leon@asplinux.ru>, 2009, 2010.
+# Valery Inozemtsev <inozemtsev@gmail.com>, 2009.
+# Yuri Kozlov <yuray@komyakino.ru>, 2010.
+
+
+
+
+========== sk.po ==========
+# Slovak translation for bluez-mate
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the bluez-mate package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2007.
+#
+
+
+
+
+========== sl.po ==========
+# Slovenian translations for mate-bluetooth.
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the mate-bluetooth package.
+#
+# Matej Urbančič <mateju@svn.mate.org>, 2009 - 2010.
+#
+
+
+
+
+========== sr.po ==========
+# Serbian translation for mate-bluetooth
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the mate-bluetooth package.
+#
+# Maintainer: Милош Поповић <gpopac@gmail.com>
+#
+# Launchpad Contributions:
+#  Bojan Bogdanović https://launchpad.net/~bojce\n"
+#  Marcel Holtmann https://launchpad.net/~holtmann\n"
+# Милош Поповић <gpopac@gmail.com>, 2007-2009, 2010.
+#
+
+
+
+
+========== sr@latin.po ==========
+# Serbian translation for mate-bluetooth
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the mate-bluetooth package.
+#
+# Maintainer: Miloš Popović <gpopac@gmail.com>
+#
+# Launchpad Contributions:
+#  Bojan Bogdanović https://launchpad.net/~bojce\n"
+#  Marcel Holtmann https://launchpad.net/~holtmann\n"
+# Miloš Popović <gpopac@gmail.com>, 2007-2009, 2010.
+#
+
+
+
+
+========== sv.po ==========
+# Swedish translation for mate-bluetooth
+# Copyright (c) 2007-2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mate-bluetooth package.
+# Daniel Nylander <po@danielnylander.se>, 2007, 2009, 2010.
+#
+
+
+
+
+========== ta.po ==========
+# translation of mate-bluetooth.master.po to Tamil
+# Tamil translation of mate-bluetooth.
+# Copyright (C) 2009 mate-bluetooth's COPYRIGHT HOLDER
+# This file is distributed under the same license as the mate-bluetooth package.
+#
+# I. Felix <ifelix@redhat.com>, 2009.
+# Dr.T.Vasudevan <agnihot3@gmail.com>, 2009.
+# Dr,T,Vasudevan <agnihot3@gmail.com>, 2010.
+
+
+
+
+========== te.po ==========
+# translation of mate-bluetooth.master.te.po to Telugu
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Krishna Babu K <kkrothap@redhat.com>, 2009.
+
+
+
+
+========== th.po ==========
+# Thai translation of mate-bluetooth.
+# Copyright (C) 2009-2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mate-bluetooth package.
+# Akom C. <knight2000@gmail.com>, 2009-2010.
+#
+
+
+
+
+========== tr.po ==========
+# Turkish translation for bluez-mate
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the bluez-mate package.
+# Baris Cicek <baris@teamforce.name.tr>, 2009.
+
+
+
+
+========== ug.po ==========
+# Uyghur translation for mate-bluetooth.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Sahran <sahran@live.com>, 2010.
+# OmarjanTk <omarjan14@qq.com>, 2010.
+# 
+
+
+
+
+========== uk.po ==========
+# Ukrainian translation for bluez-mate
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the bluez-mate package.
+# Oleksandr Kovalenko <alx.kovalenko@gmail.com>, 2009.
+# Kyrylo Polezhajev <polezhajev@ukr.net>, 2009.
+# wanderlust <wanderlust@ukr.net>, 2009.
+
+
+
+
+========== vi.po ==========
+# Vietnamese translation of mate-bluetooth.
+# Copyright (C) 2009 mate-bluetooth's MATE i18n Project for Vietnamse
+# This file is distributed under the same license as the mate-bluetooth package.
+# Bùi Xuân Dương <buixuanduong1983@gmail.com>, 2009.Bùi Xuân Dương <buixuanduong1983@gmail.com>, 2009.
+
+
+
+
+========== zh_CN.po ==========
+# Chinese (China) translation for mate-bluetooth.
+# Copyright (c) 2007, 2009, 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mate-bluetooth package.
+# Aron Xu <aronxu@gnome.org>, 2007.
+# fujianwzh <fujianwzh@gmail.com>, 2009.
+# Richard Ma <richard.ma.19850509@gmail.com>, 2009.
+# Tao Wei <weitao1979@gmail.com>, 2010.
+# Yinghua Wang <wantinghard@gmail.com>, 2010.
+#
+
+
+
+
+========== zh_HK.po ==========
+# Chinese (Hong Kong) translation for bluez-mate
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the bluez-mate package.
+# Peter Chen <petercpg@gmail.com>, 2007.
+# Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2009.
+# Cheng-Chia Tseng <pswo10680@gmail.com>, 2010.
+#
+
+
+
+
+========== zh_TW.po ==========
+# Traditional Chinese translation for bluez-mate
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the bluez-mate package.
+# Peter Chen <petercpg@gmail.com>, 2007.
+# Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2009.
+# Cheng-Chia Tseng <pswo10680@gmail.com>, 2010.
+#
+
+
+
+

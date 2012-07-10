@@ -1,28 +1,22 @@
-# French translation for mate-bluetooth
-# Copyright (c) 2007-2010 Free Software Foundation, Inc
-# This file is distributed under the same license as the mate-bluetooth package.
-#
-# Claude Paroz <claude@2xlibre.net>, 2009-2010
-# ikonea ?, 2009
-# Laurent Coudeur <laurentc@iol.ie>, 2009.
-#
-# Sites de référence :
-# http://french.bluetooth.com/Bluetooth/Technology/Basics.htm
-# http://fr.wikipedia.org/wiki/Bluetooth
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+#   <mauron@vmail.me>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-bluetooth master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=mate-"
-"bluetooth&component=general\n"
-"POT-Creation-Date: 2010-08-13 08:08+0000\n"
-"PO-Revision-Date: 2010-03-01 16:37+0100\n"
-"Last-Translator: Claude Paroz <claude@2xlibre.net>\n"
-"Language-Team: MATE French Team <matefr@traduc.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-01-02 17:44+0100\n"
+"PO-Revision-Date: 2012-03-15 23:48+0000\n"
+"Last-Translator: mauron <mauron@vmail.me>\n"
+"Language-Team: French (http://www.transifex.com/projects/p/MATE/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 
 #: ../lib/bluetooth-client.c:127
 msgid "All types"
@@ -44,7 +38,8 @@ msgstr "Ordinateur"
 msgid "Network"
 msgstr "Réseau"
 
-#. translators: a hands-free headset, a combination of a single speaker with a microphone
+#. translators: a hands-free headset, a combination of a single speaker with a
+#. microphone
 #: ../lib/bluetooth-client.c:138
 msgid "Headset"
 msgstr "Casque audio"
@@ -110,9 +105,7 @@ msgstr "Supprimer « %s » de la liste des périphériques ?"
 #: ../lib/bluetooth-chooser.c:374
 msgid ""
 "If you remove the device, you will have to set it up again before next use."
-msgstr ""
-"Si vous enlevez le périphérique, vous devrez le reconfigurer pour un usage "
-"ultérieur."
+msgstr "Si vous enlevez le périphérique, vous devrez le reconfigurer pour un usage ultérieur."
 
 #: ../lib/bluetooth-chooser.c:746
 msgid "Device"
@@ -211,7 +204,7 @@ msgstr "Désactiver Bluetooth"
 msgid "Bluetooth: On"
 msgstr "Bluetooth : actif"
 
-#: ../applet/main.c:390 ../applet/notify.c:154
+#: ../applet/main.c:390 ../applet/notify.c:163
 msgid "Bluetooth: Disabled"
 msgstr "Bluetooth : désactivé"
 
@@ -273,10 +266,7 @@ msgstr "- applet Bluetooth"
 msgid ""
 "%s\n"
 "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"%s\n"
-"Exécutez « %s --help » pour voir une liste complète des options disponibles\n"
-"en ligne de commande.\n"
+msgstr "%s\nExécutez « %s --help » pour voir une liste complète des options disponibles\nen ligne de commande.\n"
 
 #: ../applet/main.c:1122
 msgid "Bluetooth Applet"
@@ -286,12 +276,13 @@ msgstr "Applet Bluetooth"
 #. Translators: This string appears next to a toggle switch which controls
 #. * enabling/disabling Bluetooth radio's on the device. Akin to the power
 #. * switches in the Network UI of Moblin
-#: ../applet/notify.c:115 ../properties/bluetooth-properties.desktop.in.in.h:1
+#: ../applet/notify.c:124
+#: ../properties/mate-bluetooth-properties.desktop.in.in.h:1
 #: ../moblin/moblin-panel.c:1455
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: ../applet/notify.c:154
+#: ../applet/notify.c:163
 msgid "Bluetooth: Enabled"
 msgstr "Bluetooth : activé"
 
@@ -303,16 +294,12 @@ msgstr "Le périphérique « %s » souhaite se connecter à cet ordinateur"
 #: ../applet/agent.c:257
 #, c-format
 msgid "Please enter the PIN mentioned on device %s."
-msgstr ""
-"Veuillez saisir le numéro d'identification personnel mentionné sur le "
-"périphérique %s."
+msgstr "Veuillez saisir le numéro d'identification personnel mentionné sur le périphérique %s."
 
 #: ../applet/agent.c:339
 #, c-format
 msgid "Please confirm whether the PIN '%s' matches the one on device %s."
-msgstr ""
-"Veuillez confirmer que le numéro d'identification personnel « %s » correspond "
-"à celui du périphérique %s."
+msgstr "Veuillez confirmer que le numéro d'identification personnel « %s » correspond à celui du périphérique %s."
 
 #. translators: Whether to grant access to a particular service
 #: ../applet/agent.c:385
@@ -361,13 +348,13 @@ msgstr "Demande d'autorisation de « %s »"
 msgid "Check authorization"
 msgstr "Vérifier l'autorisation"
 
-#: ../applet/bluetooth-applet.desktop.in.in.h:1
+#: ../applet/mate-bluetooth-applet.desktop.in.in.h:1
 msgid "Bluetooth Manager"
 msgstr "Gestionnaire Bluetooth"
 
-#: ../applet/bluetooth-applet.desktop.in.in.h:2
-msgid "Bluetooth Manager applet"
-msgstr "Applet de gestion Bluetooth"
+#: ../applet/mate-bluetooth-applet.desktop.in.in.h:2
+msgid "MATE Bluetooth Manager applet"
+msgstr "Applet de gestion Bluetooth de MATE"
 
 #: ../applet/popup-menu.ui.h:1
 msgid "Bluetooth: Checking"
@@ -434,9 +421,7 @@ msgstr "Impossible d'ouvrir les préférences du partage de fichiers personnels"
 msgid ""
 "Please verify that the \"Personal File Sharing\" program is correctly "
 "installed."
-msgstr ""
-"Contrôlez que le programme de partage des fichiers personnels est "
-"correctement installé."
+msgstr "Contrôlez que le programme de partage des fichiers personnels est correctement installé."
 
 #: ../properties/main.c:124
 msgid "Bluetooth Preferences"
@@ -491,14 +476,14 @@ msgstr "Votre ordinateur n'est pas équipé d'adaptateur Bluetooth."
 msgid "Bluetooth has been disabled by a switch on your computer."
 msgstr "Le Bluetooth a été désactivé par une modification sur votre ordinateur."
 
-#: ../properties/bluetooth-properties.desktop.in.in.h:2
+#: ../properties/mate-bluetooth-properties.desktop.in.in.h:2
 msgid "Configure Bluetooth settings"
 msgstr "Configuration des paramètres Bluetooth"
 
 #. translators:
 #. * The '%s' is the device name, for example:
 #. * Pairing with 'Sony Bluetooth Headset' cancelled
-#.
+#. 
 #: ../wizard/main.c:206 ../wizard/main.c:327
 #, c-format
 msgid "Pairing with '%s' cancelled"
@@ -507,9 +492,7 @@ msgstr "Appairage de « %s » annulé"
 #: ../wizard/main.c:246 ../moblin/moblin-panel.c:1049
 #, c-format
 msgid "Please confirm that the PIN displayed on '%s' matches this one."
-msgstr ""
-"Veuillez confirmer que le numéro d'identification personnel affiché sur « %"
-"s » correspond à celui-ci."
+msgstr "Veuillez confirmer que le numéro d'identification personnel affiché sur « %s » correspond à celui-ci."
 
 #: ../wizard/main.c:300 ../moblin/moblin-panel.c:1100
 msgid "Please enter the following PIN:"
@@ -518,7 +501,7 @@ msgstr "Veuillez saisir le numéro d'identification personnel suivant :"
 #. translators:
 #. * The '%s' is the device name, for example:
 #. * Setting up 'Sony Bluetooth Headset' failed
-#.
+#. 
 #: ../wizard/main.c:383
 #, c-format
 msgid "Setting up '%s' failed"
@@ -527,7 +510,7 @@ msgstr "Échec de la configuration de « %s »"
 #. translators:
 #. * The '%s' is the device name, for example:
 #. * Connecting to 'Sony Bluetooth Headset' now...
-#.
+#. 
 #: ../wizard/main.c:514
 #, c-format
 msgid "Connecting to '%s'..."
@@ -537,9 +520,7 @@ msgstr "Connexion en cours avec « %s »..."
 #, c-format
 msgid ""
 "Please enter the following PIN on '%s' and press “Enter” on the keyboard:"
-msgstr ""
-"Saisissez le numéro d'identification personnel ci-après sur « %s », puis "
-"appuyez sur la touche Entrée du clavier :"
+msgstr "Saisissez le numéro d'identification personnel ci-après sur « %s », puis appuyez sur la touche Entrée du clavier :"
 
 #: ../wizard/main.c:552 ../moblin/moblin-panel.c:660
 #, c-format
@@ -549,7 +530,7 @@ msgstr "Saisissez le numéro d'identification personnel suivant sur « %s » 
 #. translators:
 #. * The '%s' is the device name, for example:
 #. * Please wait while finishing setup on 'Sony Bluetooth Headset'...
-#.
+#. 
 #: ../wizard/main.c:573
 #, c-format
 msgid "Please wait while finishing setup on device '%s'..."
@@ -629,9 +610,7 @@ msgstr "_Options de numéro d'identification personnel..."
 
 #: ../wizard/wizard.ui.h:20 ../moblin/moblin-panel.c:1163
 msgid "Select the additional services you want to use with your device:"
-msgstr ""
-"Sélectionnez les services supplémentaires que vous souhaitez utiliser avec "
-"votre périphérique :"
+msgstr "Sélectionnez les services supplémentaires que vous souhaitez utiliser avec votre périphérique :"
 
 #: ../wizard/wizard.ui.h:21
 msgid "Select the device you want to setup"
@@ -645,20 +624,14 @@ msgstr "Configuration terminée"
 msgid ""
 "The Bluetooth new device setup will walk you through the process of "
 "configuring Bluetooth enabled devices for use with this computer."
-msgstr ""
-"La configuration de nouveau périphérique Bluetooth va vous aider durant "
-"l'installation de périphériques Bluetooth pour leur utilisation avec cet "
-"ordinateur."
+msgstr "La configuration de nouveau périphérique Bluetooth va vous aider durant l'installation de périphériques Bluetooth pour leur utilisation avec cet ordinateur."
 
 #: ../wizard/wizard.ui.h:24
 msgid ""
 "The device will need to be within 10 meters of your computer, and be "
-"“visible” (sometimes called “discoverable”). Check the device's manual if in "
-"doubt."
-msgstr ""
-"Le périphérique doit se trouver à moins de 10 mètres de votre ordinateur et "
-"il doit être en mode « visible ». En cas de doute, consultez le manuel de "
-"votre périphérique."
+"“visible” (sometimes called “discoverable”). Check the device's manual if in"
+" doubt."
+msgstr "Le périphérique doit se trouver à moins de 10 mètres de votre ordinateur et il doit être en mode « visible ». En cas de doute, consultez le manuel de votre périphérique."
 
 #: ../wizard/wizard.ui.h:25
 msgid "Welcome to the Bluetooth new device setup"
@@ -729,9 +702,7 @@ msgstr "Une erreur inconnue est survenue"
 msgid ""
 "Make sure that remote device is switched on and that it accepts Bluetooth "
 "connections"
-msgstr ""
-"Vérifiez que le périphérique est allumé et qu'il accepte les connexions "
-"Bluetooth"
+msgstr "Vérifiez que le périphérique est allumé et qu'il accepte les connexions Bluetooth"
 
 #: ../sendto/main.c:450
 #, c-format
@@ -753,7 +724,6 @@ msgstr "%d Ko/s"
 msgid "%d B/s"
 msgstr "%d o/s"
 
-# Titre de fenêtre
 #: ../sendto/main.c:641
 msgid "Select Device to Send To"
 msgstr "Choix du périphérique cible"
@@ -762,7 +732,6 @@ msgstr "Choix du périphérique cible"
 msgid "Send _To"
 msgstr "_Envoyer à"
 
-# Titre de fenêtre
 #: ../sendto/main.c:687
 msgid "Choose files to send"
 msgstr "Choix des fichiers à envoyer"
@@ -777,8 +746,7 @@ msgstr "Nom du périphérique distant"
 
 #: ../sendto/caja-sendto-plugin.c:168
 msgid "Programming error, could not find the device in the list"
-msgstr ""
-"Erreur de programmation, impossible de trouver le périphérique dans la liste"
+msgstr "Erreur de programmation, impossible de trouver le périphérique dans la liste"
 
 #: ../sendto/caja-sendto-plugin.c:243
 #, c-format
@@ -863,5 +831,3 @@ msgstr "Envoyer un ficher depuis l'ordinateur"
 #: ../moblin/bluetooth-panel.desktop.in.in.h:1
 msgid "Bluetooth Manager Panel"
 msgstr "Panneau de gestion Bluetooth"
-
-

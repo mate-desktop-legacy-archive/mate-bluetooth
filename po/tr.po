@@ -1,150 +1,167 @@
-# Turkish translation for bluez-mate
-# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
-# This file is distributed under the same license as the bluez-mate package.
-# Baris Cicek <baris@teamforce.name.tr>, 2009.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# ali engin <colemerg.engin@gmail.com>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: bluez-mate\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-30 05:06+0300\n"
-"PO-Revision-Date: 2009-08-30 05:06+0300\n"
-"Last-Translator: Baris Cicek <baris@teamforce.name.tr>\n"
-"Language-Team: Turkish <mate-turk@gnome.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-01-02 17:44+0100\n"
+"PO-Revision-Date: 2012-03-16 17:37+0000\n"
+"Last-Translator: ali engin <colemerg.engin@gmail.com>\n"
+"Language-Team: Turkish (http://www.transifex.com/projects/p/MATE/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
-#: ../lib/bluetooth-client.c:109
+#: ../lib/bluetooth-client.c:127
 msgid "All types"
 msgstr "Tüm türler"
 
-#: ../lib/bluetooth-client.c:111
+#: ../lib/bluetooth-client.c:129
 msgid "Phone"
 msgstr "Telefon"
 
-#: ../lib/bluetooth-client.c:113
+#: ../lib/bluetooth-client.c:131
 msgid "Modem"
 msgstr "Modem"
 
-#: ../lib/bluetooth-client.c:115
+#: ../lib/bluetooth-client.c:133
 msgid "Computer"
 msgstr "Bilgisayar"
 
-#: ../lib/bluetooth-client.c:117
+#: ../lib/bluetooth-client.c:135
 msgid "Network"
 msgstr "Ağ"
 
-#. translators: a hands-free headset, a combination of a single speaker with a microphone
-#: ../lib/bluetooth-client.c:120
+#. translators: a hands-free headset, a combination of a single speaker with a
+#. microphone
+#: ../lib/bluetooth-client.c:138
 msgid "Headset"
 msgstr "Kulaklık/mikrofon"
 
-#: ../lib/bluetooth-client.c:122
+#: ../lib/bluetooth-client.c:140
 msgid "Headphones"
 msgstr "Kulaklıklar"
 
-#: ../lib/bluetooth-client.c:124
+#: ../lib/bluetooth-client.c:142
 msgid "Audio device"
 msgstr "Ses aygıtı"
 
-#: ../lib/bluetooth-client.c:126
+#: ../lib/bluetooth-client.c:144
 msgid "Keyboard"
 msgstr "Klavye"
 
-#: ../lib/bluetooth-client.c:128
+#: ../lib/bluetooth-client.c:146
 msgid "Mouse"
 msgstr "Fare"
 
-#: ../lib/bluetooth-client.c:130
+#: ../lib/bluetooth-client.c:148
 msgid "Camera"
 msgstr "Fotoğraf Makinesi"
 
-#: ../lib/bluetooth-client.c:132
+#: ../lib/bluetooth-client.c:150
 msgid "Printer"
 msgstr "Yazıcı"
 
-#: ../lib/bluetooth-client.c:134
+#: ../lib/bluetooth-client.c:152
 msgid "Joypad"
 msgstr "Joypad"
 
-#: ../lib/bluetooth-client.c:136
+#: ../lib/bluetooth-client.c:154
 msgid "Tablet"
 msgstr "Tablet"
 
-#: ../lib/bluetooth-client.c:138 ../lib/bluetooth-chooser.c:105
-#: ../lib/bluetooth-chooser.c:139
+#: ../lib/bluetooth-client.c:156
+msgid "Video device"
+msgstr "video aygıtı"
+
+#: ../lib/bluetooth-client.c:158 ../lib/bluetooth-chooser.c:129
+#: ../lib/bluetooth-filter-widget.c:81
 msgid "Unknown"
 msgstr "Bilinmeyen"
 
-#: ../lib/bluetooth-chooser-button.c:65 ../lib/bluetooth-chooser-button.c:360
+#: ../lib/bluetooth-chooser-button.c:75 ../lib/bluetooth-chooser-button.c:369
 msgid "Click to select device..."
 msgstr "Cihazı seçmek için tıklayın..."
 
-#: ../lib/bluetooth-chooser.c:95
-msgid "All categories"
-msgstr "Tüm kategoriler"
-
-#: ../lib/bluetooth-chooser.c:97
-msgid "Paired"
-msgstr "Eşleştirilmiş"
-
-#: ../lib/bluetooth-chooser.c:99
-msgid "Trusted"
-msgstr "Güvenilir"
-
-#: ../lib/bluetooth-chooser.c:101
-msgid "Not paired or trusted"
-msgstr "Eşleştirilmiş veya güvenilir olmayan"
-
-#: ../lib/bluetooth-chooser.c:103
-msgid "Paired or trusted"
-msgstr "Eşleştirilmiş veya güvenilir"
-
-#: ../lib/bluetooth-chooser.c:180
+#: ../lib/bluetooth-chooser.c:170
 msgid "No adapters available"
 msgstr "Hiçbir adaptör mevcut değil"
 
-#: ../lib/bluetooth-chooser.c:184 ../lib/bluetooth-chooser.c:813
+#: ../lib/bluetooth-chooser.c:174 ../lib/bluetooth-chooser.c:868
 msgid "Searching for devices..."
 msgstr "Aygıtlar aranıyor..."
 
-#: ../lib/bluetooth-chooser.c:683
+#: ../lib/bluetooth-chooser.c:372
+#, c-format
+msgid "Remove '%s' from the list of devices?"
+msgstr "Cihazlar listesinden '%s' aygıtı silinsin mi?"
+
+#: ../lib/bluetooth-chooser.c:374
+msgid ""
+"If you remove the device, you will have to set it up again before next use."
+msgstr "Eğer cihazı kaldırırsanız, yeniden kullanmadan önce tekrar kurmanız gerekir."
+
+#: ../lib/bluetooth-chooser.c:746
 msgid "Device"
 msgstr "Aygıt"
 
-#: ../lib/bluetooth-chooser.c:720
+#: ../lib/bluetooth-chooser.c:783
 msgid "Type"
 msgstr "Tür"
 
-#. The filters
-#: ../lib/bluetooth-chooser.c:836
-msgid "Show Only Bluetooth Devices With..."
-msgstr "Sadece Bluetooth Cihazları ile Göster..."
+#: ../lib/bluetooth-filter-widget.c:71
+msgid "All categories"
+msgstr "Tüm kategoriler"
+
+#: ../lib/bluetooth-filter-widget.c:73
+msgid "Paired"
+msgstr "Eşleştirilmiş"
+
+#: ../lib/bluetooth-filter-widget.c:75
+msgid "Trusted"
+msgstr "Güvenilir"
+
+#: ../lib/bluetooth-filter-widget.c:77
+msgid "Not paired or trusted"
+msgstr "Eşleştirilmiş veya güvenilir olmayan"
+
+#: ../lib/bluetooth-filter-widget.c:79
+msgid "Paired or trusted"
+msgstr "Eşleştirilmiş veya güvenilir"
+
+#: ../lib/bluetooth-filter-widget.c:227
+msgid "<b>Show Only Bluetooth Devices With...</b>"
+msgstr "bluetooth cihazını </b> ile göster"
 
 #. The device category filter
-#: ../lib/bluetooth-chooser.c:856
+#: ../lib/bluetooth-filter-widget.c:243
 msgid "Device _category:"
 msgstr "Aygıt _kategorisi:"
 
-#: ../lib/bluetooth-chooser.c:871
-msgid "Select the device category to filter above list"
-msgstr "Yukarıdaki listeyi filtrelemek için cihazı kategorisi seçin"
+#: ../lib/bluetooth-filter-widget.c:258
+msgid "Select the device category to filter"
+msgstr "filtrelenecek cihazların kategorisini seç"
 
 #. The device type filter
-#: ../lib/bluetooth-chooser.c:885
+#: ../lib/bluetooth-filter-widget.c:272
 msgid "Device _type:"
 msgstr "Aygıt _türü:"
 
-#: ../lib/bluetooth-chooser.c:906
-msgid "Select the device type to filter above list"
-msgstr "Yukarıdaki listeyi filtrelemek için cihazı türü seçin"
+#: ../lib/bluetooth-filter-widget.c:293
+msgid "Select the device type to filter"
+msgstr "filtrelenecek aygıt türlerini seçin"
 
-#: ../lib/bluetooth-chooser.c:912
-msgid "Input devices (mice, keyboards, ...)"
-msgstr "Giriş aygıtları (fare, klavye, ...)"
+#: ../lib/bluetooth-filter-widget.c:299
+msgid "Input devices (mice, keyboards, etc.)"
+msgstr "Giriş aygıtları(klavye, fare vs.)"
 
-#: ../lib/bluetooth-chooser.c:916
+#: ../lib/bluetooth-filter-widget.c:303
 msgid "Headphones, headsets and other audio devices"
 msgstr "Kulaklıklar, kulaklık ve diğer ses cihazları"
 
@@ -159,102 +176,113 @@ msgstr "Geolocation hizmetleri için bu GPS cihazını kullan"
 msgid "Access the Internet using your cell phone (test)"
 msgstr "İnternet erişimi için cep telefonunuzu kullanın (test)"
 
-#: ../applet/main.c:112
+#: ../applet/main.c:147
 msgid "Select Device to Browse"
 msgstr "Göz Atmak için Cihaz Seçin"
 
-#: ../applet/main.c:116
+#: ../applet/main.c:151
 msgid "_Browse"
 msgstr "_Göz at"
 
-#: ../applet/main.c:124
+#: ../applet/main.c:160
 msgid "Select device to browse"
 msgstr "Göz atmak için cihaz seçin"
 
-#: ../applet/main.c:278 ../properties/properties-adapter-off.ui.h:1
+#: ../applet/main.c:380 ../properties/properties-adapter-off.ui.h:1
 msgid "Turn On Bluetooth"
 msgstr "Bluetooth Aç"
 
-#: ../applet/main.c:279
+#: ../applet/main.c:381
 msgid "Bluetooth: Off"
 msgstr "Bluetooth: Kapalı"
 
-#: ../applet/main.c:282
+#: ../applet/main.c:384
 msgid "Turn Off Bluetooth"
 msgstr "Bluetooth Kapat"
 
-#: ../applet/main.c:283
+#: ../applet/main.c:385
 msgid "Bluetooth: On"
 msgstr "Bluetooth: Açık"
 
-#: ../applet/main.c:288 ../applet/notify.c:148
+#: ../applet/main.c:390 ../applet/notify.c:163
 msgid "Bluetooth: Disabled"
 msgstr "Bluetooth: Etkin değil"
 
-#: ../applet/main.c:410
+#: ../applet/main.c:544
 msgid "Disconnecting..."
 msgstr "Bağlantı kesiliyor..."
 
-#: ../applet/main.c:413 ../sendto/main.c:213
+#: ../applet/main.c:547 ../sendto/main.c:217 ../sendto/main.c:314
 msgid "Connecting..."
 msgstr "Bağlanıyor..."
 
-#: ../applet/main.c:416 ../applet/main.c:756
+#: ../applet/main.c:550 ../applet/main.c:891
 msgid "Connected"
 msgstr "Bağlı"
 
-#: ../applet/main.c:419 ../applet/main.c:756
+#: ../applet/main.c:553 ../applet/main.c:891
 msgid "Disconnected"
 msgstr "Bağlantı Kesik"
 
-#: ../applet/main.c:774 ../applet/main.c:828 ../properties/adapter.c:446
+#: ../applet/main.c:909 ../applet/main.c:973 ../properties/adapter.c:380
 msgid "Disconnect"
 msgstr "Bağlantıyı Kes"
 
-#: ../applet/main.c:774 ../applet/main.c:828
+#: ../applet/main.c:909 ../applet/main.c:973
 msgid "Connect"
 msgstr "Bağlan"
 
-#: ../applet/main.c:787
+#: ../applet/main.c:922
 msgid "Send files..."
 msgstr "Dosya gönder..."
 
-#: ../applet/main.c:797
+#: ../applet/main.c:932
 msgid "Browse files..."
 msgstr "Dosyalara göz at..."
 
-#: ../applet/main.c:808
+#: ../applet/main.c:943
 msgid "Open Keyboard Preferences..."
 msgstr "Klavye Tercihlerini Aç..."
 
-#: ../applet/main.c:816
+#: ../applet/main.c:951
 msgid "Open Mouse Preferences..."
 msgstr "Fare Tercihlerini Aç..."
 
-#: ../applet/main.c:942
+#: ../applet/main.c:961
+msgid "Open Sound Preferences..."
+msgstr "Ses açma seçenekleri"
+
+#: ../applet/main.c:1081
 msgid "Debug"
 msgstr "Hata Ayıklama"
 
 #. Parse command-line options
-#: ../applet/main.c:962
+#: ../applet/main.c:1100
 msgid "- Bluetooth applet"
 msgstr "- Bluetooth uygulamacığı"
 
-#: ../applet/main.c:967
+#: ../applet/main.c:1105
 #, c-format
 msgid ""
 "%s\n"
 "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"%s \n"
-"Tüm kullanılabilir komut satırı seçeneklerinin tam listesini görmek için '%s "
-"--help' çalıştırın.\n"
+msgstr "%s \nTüm kullanılabilir komut satırı seçeneklerinin tam listesini görmek için '%s --help' çalıştırın.\n"
 
-#: ../applet/main.c:983
+#: ../applet/main.c:1122
 msgid "Bluetooth Applet"
 msgstr "Bluetooth Programcığı"
 
-#: ../applet/notify.c:148
+#. Power switch
+#. Translators: This string appears next to a toggle switch which controls
+#. * enabling/disabling Bluetooth radio's on the device. Akin to the power
+#. * switches in the Network UI of Moblin
+#: ../applet/notify.c:124
+#: ../properties/mate-bluetooth-properties.desktop.in.in.h:1
+#: ../moblin/moblin-panel.c:1455
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: ../applet/notify.c:163
 msgid "Bluetooth: Enabled"
 msgstr "Bluetooth: Etkin"
 
@@ -271,8 +299,7 @@ msgstr "Lütfen cihaz %s üzerinde belirtilen PIN'i girin."
 #: ../applet/agent.c:339
 #, c-format
 msgid "Please confirm whether the PIN '%s' matches the one on device %s."
-msgstr ""
-"Lütfen PIN '%s' ile aygıt %s üzerindekinin eşleşip eşleşmediğini onaylayın."
+msgstr "Lütfen PIN '%s' ile aygıt %s üzerindekinin eşleşip eşleşmediğini onaylayın."
 
 #. translators: Whether to grant access to a particular service
 #: ../applet/agent.c:385
@@ -321,13 +348,13 @@ msgstr "'%s' için yetkilendirme isteği"
 msgid "Check authorization"
 msgstr "Yetkilendirme kontrol et"
 
-#: ../applet/bluetooth-applet.desktop.in.in.h:1
+#: ../applet/mate-bluetooth-applet.desktop.in.in.h:1
 msgid "Bluetooth Manager"
 msgstr "Bluetooth Yöneticisi"
 
-#: ../applet/bluetooth-applet.desktop.in.in.h:2
-msgid "Bluetooth Manager applet"
-msgstr "Bluetooth Yönetim Programcığı"
+#: ../applet/mate-bluetooth-applet.desktop.in.in.h:2
+msgid "MATE Bluetooth Manager applet"
+msgstr "MATE Bluetooth, yönetim aygıtı"
 
 #: ../applet/popup-menu.ui.h:1
 msgid "Bluetooth: Checking"
@@ -337,7 +364,8 @@ msgstr "Bluetooth: Kontrol ediliyor"
 msgid "Browse files on device..."
 msgstr "Aygıttaki dosyalara göz at..."
 
-#: ../applet/popup-menu.ui.h:3 ../properties/adapter.c:405
+#: ../applet/popup-menu.ui.h:3 ../properties/adapter.c:339
+#: ../moblin/moblin-panel.c:1297 ../moblin/moblin-panel.c:1385
 msgid "Devices"
 msgstr "Aygıtlar"
 
@@ -356,6 +384,10 @@ msgstr "Cihaza dosyalar gönderin..."
 #: ../applet/popup-menu.ui.h:7
 msgid "Set up new device..."
 msgstr "Yeni bir cihaz kur..."
+
+#: ../applet/popup-menu.ui.h:8
+msgid "Visible"
+msgstr "görünür"
 
 #: ../applet/authorisation-dialogue.ui.h:1
 msgid "_Always grant access"
@@ -381,67 +413,58 @@ msgstr "_Eşleşiyor"
 msgid "_Show input"
 msgstr "_Girdi göster"
 
-#: ../properties/main.c:131
-msgid "A Bluetooth manager for the MATE desktop"
-msgstr "MATE masaüstü için bir Bluetooth yöneticisi"
+#: ../properties/main.c:90
+msgid "Cannot start \"Personal File Sharing\" Preferences"
+msgstr "\"Kişisel Dosya Paylaşımı\" tercihini açamıyor"
 
-#: ../properties/main.c:134
-msgid "translator-credits"
-msgstr "Barış Çiçek <baris@teamforce.name.tr>"
+#: ../properties/main.c:95
+msgid ""
+"Please verify that the \"Personal File Sharing\" program is correctly "
+"installed."
+msgstr "Lütfen \"Kişisel Dosya Paylaşımı\" programının doğru kurulduğunu kontrol edin."
 
-#: ../properties/main.c:136
-msgid "MATE Bluetooth home page"
-msgstr "MATE Bluetooth ev sayfası"
-
-#: ../properties/main.c:161
+#: ../properties/main.c:124
 msgid "Bluetooth Preferences"
 msgstr "Bluetooth Tercihleri"
 
-#: ../properties/main.c:176
+#: ../properties/main.c:139
 msgid "_Show Bluetooth icon"
 msgstr "Bluetooth simgesi _göster"
 
-#: ../properties/main.c:332
+#: ../properties/main.c:163
+msgid "Receive Files"
+msgstr "Dosya Al"
+
+#: ../properties/main.c:211
 msgid "Output a list of currently known devices"
 msgstr "Şu anda bilinen cihazların listesinin çıktısı"
 
-#: ../properties/main.c:369
+#: ../properties/main.c:249
 msgid "Bluetooth Properties"
 msgstr "Bluetooth Özellikleri"
 
-#: ../properties/adapter.c:179
-#, c-format
-msgid "Remove '%s' from the list of devices?"
-msgstr "Cihazlar listesinden '%s' aygıtı silinsin mi?"
-
-#: ../properties/adapter.c:181
-msgid ""
-"If you remove the device, you will have to set it up again before next use."
-msgstr ""
-"Eğer cihazı kaldırırsanız, yeniden kullanmadan önce tekrar kurmanız gerekir."
-
 #. The discoverable checkbox
-#: ../properties/adapter.c:352
-msgid "Make computer _discoverable"
-msgstr "_Bilgisayarı keşfedilebilir yap"
+#: ../properties/adapter.c:286
+msgid "Make computer _visible"
+msgstr "Bilgisayarı görünür yap"
 
-#: ../properties/adapter.c:375
+#: ../properties/adapter.c:309
 msgid "Friendly name"
 msgstr "Dostça isim"
 
-#: ../properties/adapter.c:437
+#: ../properties/adapter.c:371
 msgid "Set up _new device..."
 msgstr "Yeni bir cihaz _kur..."
 
-#: ../properties/adapter.c:460
+#: ../properties/adapter.c:394
 msgid "_Remove"
 msgstr "_Sil"
 
-#: ../properties/adapter.c:735
+#: ../properties/adapter.c:671
 msgid "Bluetooth is disabled"
 msgstr "Bluetooth etkin değil"
 
-#: ../properties/adapter.c:771
+#: ../properties/adapter.c:711
 msgid "No Bluetooth adapters present"
 msgstr "Bluetooth adaptörü bulunmuyor"
 
@@ -449,53 +472,36 @@ msgstr "Bluetooth adaptörü bulunmuyor"
 msgid "Your computer does not have any Bluetooth adapters plugged in."
 msgstr "Bilgisayarınızda herhangi bir Bluetooth adaptörü takılı değil."
 
-#: ../properties/bluetooth-properties.desktop.in.in.h:1
-msgid "Bluetooth"
-msgstr "Bluetooth"
+#: ../properties/properties-killed-adapter.ui.h:1
+msgid "Bluetooth has been disabled by a switch on your computer."
+msgstr "Bluetooth bilgisayarınızdaki kapatma düğmesinden kapatıldı"
 
-#: ../properties/bluetooth-properties.desktop.in.in.h:2
+#: ../properties/mate-bluetooth-properties.desktop.in.in.h:2
 msgid "Configure Bluetooth settings"
 msgstr "Bluetooth Seçeneklerini Ayarla"
-
-#: ../properties/bluetooth-manager.schemas.in.h:1
-msgid "Whether to show the notification icon"
-msgstr "Uyarı simgesinin gösterilmesi"
-
-#: ../properties/bluetooth-manager.schemas.in.h:2
-msgid "Whether to show the notification icon."
-msgstr "Uyarı simgesini gösterilmesi."
-
-#: ../properties/mateconf-bridge.c:1223
-#, c-format
-msgid "MateConf error: %s"
-msgstr "MateConf hatası: %s"
-
-#: ../properties/mateconf-bridge.c:1228
-msgid "All further errors shown only on terminal."
-msgstr "İlave bütün hatalar sadece uçbirimde gösterilir."
 
 #. translators:
 #. * The '%s' is the device name, for example:
 #. * Pairing with 'Sony Bluetooth Headset' cancelled
-#.
+#. 
 #: ../wizard/main.c:206 ../wizard/main.c:327
 #, c-format
 msgid "Pairing with '%s' cancelled"
 msgstr "'%s' ile eşleştirme iptal edildi"
 
-#: ../wizard/main.c:246
+#: ../wizard/main.c:246 ../moblin/moblin-panel.c:1049
 #, c-format
 msgid "Please confirm that the PIN displayed on '%s' matches this one."
 msgstr "Lütfen '%s' üzerinde gösterilen PIN ile bunun eşleştiğini onaylayın."
 
-#: ../wizard/main.c:300
+#: ../wizard/main.c:300 ../moblin/moblin-panel.c:1100
 msgid "Please enter the following PIN:"
 msgstr "Lütfen aşağıdaki PIN kodunu girin:"
 
 #. translators:
 #. * The '%s' is the device name, for example:
 #. * Setting up 'Sony Bluetooth Headset' failed
-#.
+#. 
 #: ../wizard/main.c:383
 #, c-format
 msgid "Setting up '%s' failed"
@@ -504,21 +510,19 @@ msgstr "'%s' kurulumu başarısız oldu"
 #. translators:
 #. * The '%s' is the device name, for example:
 #. * Connecting to 'Sony Bluetooth Headset' now...
-#.
+#. 
 #: ../wizard/main.c:514
 #, c-format
 msgid "Connecting to '%s'..."
 msgstr "'%s' aygıtına bağlanılıyor..."
 
-#: ../wizard/main.c:550
+#: ../wizard/main.c:550 ../moblin/moblin-panel.c:658
 #, c-format
 msgid ""
 "Please enter the following PIN on '%s' and press “Enter” on the keyboard:"
-msgstr ""
-"Lütfen aşağıdaki PIN kodunu '%s' üzerine girin ve klavyedeki “Enter” tuşuna "
-"basın:"
+msgstr "Lütfen aşağıdaki PIN kodunu '%s' üzerine girin ve klavyedeki “Enter” tuşuna basın:"
 
-#: ../wizard/main.c:552
+#: ../wizard/main.c:552 ../moblin/moblin-panel.c:660
 #, c-format
 msgid "Please enter the following PIN on '%s':"
 msgstr "Lütfen aşağıdaki PIN kodunu '%s' üzerine girin:"
@@ -526,13 +530,13 @@ msgstr "Lütfen aşağıdaki PIN kodunu '%s' üzerine girin:"
 #. translators:
 #. * The '%s' is the device name, for example:
 #. * Please wait while finishing setup on 'Sony Bluetooth Headset'...
-#.
+#. 
 #: ../wizard/main.c:573
 #, c-format
 msgid "Please wait while finishing setup on device '%s'..."
 msgstr "Lütfen cihaz '%s' kurulum bitene kadar bekleyin..."
 
-#: ../wizard/main.c:586
+#: ../wizard/main.c:589 ../moblin/moblin-panel.c:686
 #, c-format
 msgid "Successfully set up new device '%s'"
 msgstr "Aygıt '%s' başarıyla kuruldu"
@@ -554,8 +558,8 @@ msgid "Bluetooth New Device Setup"
 msgstr "Bluetooth Yeni Aygıt Kurulumu"
 
 #: ../wizard/wizard.ui.h:5
-msgid "Custom PIN code:"
-msgstr "Özel PIN kodu:"
+msgid "Custom PIN:"
+msgstr "PIN al"
 
 #: ../wizard/wizard.ui.h:6
 msgid "Device Setup"
@@ -569,168 +573,257 @@ msgstr "Aygıt Kurulumu Başarısız Oldu"
 msgid "Device search"
 msgstr "Aygıt arama"
 
+#: ../wizard/wizard.ui.h:9
+msgid "Do not pair"
+msgstr "Eşleşme başarısız"
+
 #. This is a button to answer: Does the PIN matches the one on the device?
-#: ../wizard/wizard.ui.h:10
+#: ../wizard/wizard.ui.h:11 ../moblin/moblin-panel.c:1253
 msgid "Does not match"
 msgstr "Eşleşmiyor"
 
-#: ../wizard/wizard.ui.h:11
+#: ../wizard/wizard.ui.h:12
 msgid "Finishing New Device Setup"
 msgstr "Yeni Aygıt Kurulumu Tamamlanıyor"
 
 #. Translators: this is a PIN with a set value, such as 1111, or 0000
-#: ../wizard/wizard.ui.h:13
+#: ../wizard/wizard.ui.h:14
 msgid "Fixed PIN"
 msgstr "Sabit PIN"
 
-#: ../wizard/wizard.ui.h:14
+#: ../wizard/wizard.ui.h:15
 msgid "Introduction"
 msgstr "Tanıtım"
 
 #. This is a button to answer: Does the PIN matches the one on the device?
-#: ../wizard/wizard.ui.h:16
+#: ../wizard/wizard.ui.h:17 ../moblin/moblin-panel.c:1249
 msgid "Matches"
 msgstr "Eşleşiyor"
 
-#: ../wizard/wizard.ui.h:17
+#: ../wizard/wizard.ui.h:18
 msgid "PIN Options"
 msgstr "PIN Seçenekleri"
 
-#: ../wizard/wizard.ui.h:18
+#: ../wizard/wizard.ui.h:19
 msgid "PIN _options..."
 msgstr "PIN _seçenekleri..."
 
-#: ../wizard/wizard.ui.h:19
+#: ../wizard/wizard.ui.h:20 ../moblin/moblin-panel.c:1163
 msgid "Select the additional services you want to use with your device:"
 msgstr "Cihazınızla kullanmak istediğiniz ek hizmetleri seçin:"
 
-#: ../wizard/wizard.ui.h:20
+#: ../wizard/wizard.ui.h:21
 msgid "Select the device you want to setup"
 msgstr "Seçin kurmak istediğiniz cihazı seçin"
 
-#: ../wizard/wizard.ui.h:21
+#: ../wizard/wizard.ui.h:22
 msgid "Setup Completed"
 msgstr "Kurulum Tamamlandı"
 
-#: ../wizard/wizard.ui.h:22
+#: ../wizard/wizard.ui.h:23
 msgid ""
 "The Bluetooth new device setup will walk you through the process of "
 "configuring Bluetooth enabled devices for use with this computer."
-msgstr ""
-"Bluetooth yeni aygıt kurulumu bu bilgisayar ile Bluetooth etkinleştirilmiş "
-"aygıtların yapılandırması işleminde size yol gösterecek."
-
-#: ../wizard/wizard.ui.h:23
-msgid ""
-"The device will need to be within 10 meters of your computer, and be “"
-"discoverable” (sometimes called “visible”). Check the "
-"device's manual if in doubt."
-msgstr ""
-"Aygıtın bilgisayarınıza 10 metre çevresinde olması gerekir, ve “"
-"keşfedilebilir” olmalıdır (bazen “görülebilir” de denir). "
-"Eğer şüpheliyseniz aygıtın kılavuzuna bakın."
+msgstr "Bluetooth yeni aygıt kurulumu bu bilgisayar ile Bluetooth etkinleştirilmiş aygıtların yapılandırması işleminde size yol gösterecek."
 
 #: ../wizard/wizard.ui.h:24
+msgid ""
+"The device will need to be within 10 meters of your computer, and be "
+"“visible” (sometimes called “discoverable”). Check the device's manual if in"
+" doubt."
+msgstr "Bu cihaz bilgisayarınıza 10 metre uzakta ve \"görünür\" olmalı. Sorun olması halinde aygıt kullanımını kullanın"
+
+#: ../wizard/wizard.ui.h:25
 msgid "Welcome to the Bluetooth new device setup"
 msgstr "Bluetooth yeni aygıt kurulumuna hoş geldiniz"
 
-#: ../wizard/wizard.ui.h:25
+#: ../wizard/wizard.ui.h:26
 msgid "_Automatic PIN selection"
 msgstr "_Otomatik PIN seçimi"
 
-#: ../wizard/wizard.ui.h:26
+#: ../wizard/wizard.ui.h:27
 msgid "_Restart Setup"
 msgstr "_Kurulum Yeniden Başlat"
 
-#: ../sendto/main.c:98
+#: ../sendto/main.c:162
 #, c-format
 msgid "%'d second"
 msgid_plural "%'d seconds"
 msgstr[0] "%'d saniye"
 
-#: ../sendto/main.c:103 ../sendto/main.c:116
+#: ../sendto/main.c:167 ../sendto/main.c:180
 #, c-format
 msgid "%'d minute"
 msgid_plural "%'d minutes"
 msgstr[0] "%'d dakika"
 
-#: ../sendto/main.c:114
+#: ../sendto/main.c:178
 #, c-format
 msgid "%'d hour"
 msgid_plural "%'d hours"
 msgstr[0] "%'d saat"
 
-#: ../sendto/main.c:124
+#: ../sendto/main.c:188
 #, c-format
 msgid "approximately %'d hour"
 msgid_plural "approximately %'d hours"
 msgstr[0] "yaklaşık %'d saat"
 
-#: ../sendto/main.c:150
+#: ../sendto/main.c:249
 msgid "File Transfer"
 msgstr "Dosya Transferi"
 
+#: ../sendto/main.c:253
+msgid "_Retry"
+msgstr "Tekrar dene"
+
 #. translators: This is the heading for the progress dialogue
-#: ../sendto/main.c:169
+#: ../sendto/main.c:273
 msgid "Sending files via Bluetooth"
 msgstr "Bluetooth aracılığıyla dosyalar gönderiliyor"
 
-#: ../sendto/main.c:181
+#: ../sendto/main.c:285
 msgid "From:"
 msgstr "Gönderen:"
 
-#: ../sendto/main.c:197
+#: ../sendto/main.c:298
 msgid "To:"
 msgstr "Alıcı:"
 
-#: ../sendto/main.c:243
+#: ../sendto/main.c:343 ../sendto/main.c:359
 msgid "An unknown error occurred"
 msgstr "Bilinmeyen bir hata oluştu"
 
-#: ../sendto/main.c:253
+#: ../sendto/main.c:352
 msgid ""
 "Make sure that remote device is switched on and that it accepts Bluetooth "
 "connections"
-msgstr ""
-"Uzaktaki cihazın açık olduğundan ve Bluetooth bağlantıları kabul ettiğinden "
-"emin olun  "
+msgstr "Uzaktaki cihazın açık olduğundan ve Bluetooth bağlantıları kabul ettiğinden emin olun  "
 
-#: ../sendto/main.c:337
+#: ../sendto/main.c:450
 #, c-format
 msgid "Sending %s"
 msgstr "%s gönderiliyor"
 
-#: ../sendto/main.c:344 ../sendto/main.c:406
+#: ../sendto/main.c:457 ../sendto/main.c:523
 #, c-format
 msgid "Sending file %d of %d"
 msgstr "Gönderilen dosya %d / %d"
 
-#: ../sendto/main.c:402
+#: ../sendto/main.c:519
 #, c-format
 msgid "%d KB/s"
 msgstr "%d KB/s"
 
-#: ../sendto/main.c:404
+#: ../sendto/main.c:521
 #, c-format
 msgid "%d B/s"
 msgstr "%d B/s"
 
-#: ../sendto/main.c:498
+#: ../sendto/main.c:641
 msgid "Select Device to Send To"
 msgstr "Göndermek İstediğiniz Cihazı Seçin"
 
-#: ../sendto/main.c:502
+#: ../sendto/main.c:645
 msgid "Send _To"
 msgstr "_Gönder"
 
-#: ../sendto/main.c:543
+#: ../sendto/main.c:687
 msgid "Choose files to send"
 msgstr "Göndermek için dosya seçin"
 
-#: ../sendto/main.c:572
+#: ../sendto/main.c:716
 msgid "Remote device to use"
 msgstr "Kullanılacak uzaktaki cihaz"
 
-#: ../sendto/main.c:574
+#: ../sendto/main.c:718
 msgid "Remote device's name"
 msgstr "Uzaktaki cihazın ismi"
+
+#: ../sendto/caja-sendto-plugin.c:168
+msgid "Programming error, could not find the device in the list"
+msgstr "Program hatası, cihaz listede bulunamadı"
+
+#: ../sendto/caja-sendto-plugin.c:243
+#, c-format
+msgid "Obex Push file transfer unsupported"
+msgstr "Obex Push dosya transferi desteklenmiyor"
+
+#: ../sendto/caja-sendto-plugin.c:262
+msgid "Bluetooth (OBEX Push)"
+msgstr "Bluetooth (OBEX Push)"
+
+#: ../moblin/main.c:86
+msgid "Run in standalone mode"
+msgstr "Yalnız modda koştur"
+
+#: ../moblin/main.c:94 ../moblin/bluetooth-panel.desktop.in.in.h:2
+msgid "Moblin Bluetooth Panel"
+msgstr "Moblin Bluetooth Paneli"
+
+#: ../moblin/main.c:95
+msgid "- Moblin Bluetooth Panel"
+msgstr "- Moblin Bluetooth Paneli"
+
+#: ../moblin/main.c:122
+msgid "bluetooth"
+msgstr "bluetooth"
+
+#: ../moblin/moblin-panel.c:533
+#, c-format
+msgid "Pairing with %s failed."
+msgstr "%s eşleşmesi başarısız oldu"
+
+#: ../moblin/moblin-panel.c:895
+msgid "<u>Pair</u>"
+msgstr "<u>, </u> eşleşir"
+
+#: ../moblin/moblin-panel.c:909
+msgid "<u>Connect</u>"
+msgstr "<u>, </u> bağlar"
+
+#: ../moblin/moblin-panel.c:928
+msgid "<u>Browse</u>"
+msgstr "<u>, </u> alır"
+
+#: ../moblin/moblin-panel.c:1122
+msgid "Device setup failed"
+msgstr "Aygıt kurulumu başarısız oldu"
+
+#. Back button
+#: ../moblin/moblin-panel.c:1136 ../moblin/moblin-panel.c:1212
+#: ../moblin/moblin-panel.c:1261 ../moblin/moblin-panel.c:1323
+#: ../moblin/moblin-panel.c:1540
+msgid "Back to devices"
+msgstr "Cihaza geri dön"
+
+#: ../moblin/moblin-panel.c:1175
+msgid "Done"
+msgstr "Bitti"
+
+#: ../moblin/moblin-panel.c:1196 ../moblin/moblin-panel.c:1233
+msgid "Device setup"
+msgstr "Aygıt kurulumu"
+
+#: ../moblin/moblin-panel.c:1344
+msgid "Only show:"
+msgstr "Sadece göster:"
+
+#. Button for PIN options file
+#: ../moblin/moblin-panel.c:1350
+msgid "PIN options"
+msgstr "PIN seçenekleri"
+
+#. Add new button
+#: ../moblin/moblin-panel.c:1433
+msgid "Add a new device"
+msgstr "Yeni bir cihaz ekle"
+
+#. Button for Send file
+#: ../moblin/moblin-panel.c:1500
+msgid "Send file from your computer"
+msgstr "Bilgisayaarınızdan dosya gönderin"
+
+#: ../moblin/bluetooth-panel.desktop.in.in.h:1
+msgid "Bluetooth Manager Panel"
+msgstr "Bluetooth Yönetim Paneli"
