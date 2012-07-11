@@ -1,7 +1,7 @@
 AC_PREREQ(2.52)
 
 m4_define(matebt_version_major, 1)
-m4_define(matebt_version_minor, 3)
+m4_define(matebt_version_minor, 4)
 m4_define(matebt_version_micro, 0)
 
 AC_INIT([mate-bluetooth],
