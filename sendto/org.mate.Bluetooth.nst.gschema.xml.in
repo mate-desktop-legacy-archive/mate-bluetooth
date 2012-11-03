@@ -1,5 +1,5 @@
 <schemalist>
-  <schema id="org.mate.Bluetooth.nst" path="/apps/bluetooth-sendto/" gettext-domain="mate-bluetooth2">
+  <schema id="org.mate.Bluetooth.nst" path="/org/mate/bluetooth-sendto/" gettext-domain="mate-bluetooth2">
     <key name="last-used" type="s">
       <default>''</default>
       <summary>The last Bluetooth device we sent files to</summary>
