@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-  <schema path="/apps/bluetooth-manager/" id="org.mate.Bluetooth" gettext-domain="mate-bluetooth2">
+  <schema path="/org/mate/mate-bluetooth-manager/" id="org.mate.Bluetooth" gettext-domain="mate-bluetooth2">
     <key type="b" name="show-icon">
       <default>true</default>
       <summary>Whether to show the notification icon</summary>
