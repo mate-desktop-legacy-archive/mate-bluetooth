@@ -144,7 +144,7 @@ PKG_CHECK_MODULES(COMMON,
 
 dnl Requires for the geoclue plugin
 PKG_CHECK_MODULES(GEOCLUE,
-		  mateconf-2.0
+		  gio-2.0
 		  dbus-glib-1)
 
 dnl Requires for the plugins

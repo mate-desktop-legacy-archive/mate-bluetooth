@@ -29,11 +29,31 @@
 
 #include <gtk/gtk.h>
 #include <bluetooth-plugin.h>
-#include <mateconf/mateconf-client.h>
+#include <gio/gio.h>
 
 #include "bluetooth-client.h"
 
-#define GPS_KEY "/apps/geoclue/master/org.freedesktop.Geoclue.GPSDevice"
+/* http://cgit.freedesktop.org/geoclue/tree/src/org.freedesktop.Geoclue.gschema.xml */
+#define GPS_SCHEMA "org.freedesktop.Geoclue"
+#define GPS_KEY "gps-device"
+
+static gboolean
+gsettings_schema_exists(const char *schema)
+{
+	const char * const *schemas;
+	gboolean schema_exists = FALSE;
+	gint i;
+
+	schemas = g_settings_list_schemas ();
+	for (i = 0; schemas[i] != NULL; i++) {
+		if (g_strcmp0 (schemas[i], schema) == 0) {
+			schema_exists = TRUE;
+			break;
+		}
+	}
+
+	return schema_exists;
+}
 
 static char *
 get_name_and_type (const char *address, BluetoothType *ret_type)
@@ -127,24 +147,24 @@ static void
 toggle_button (GtkToggleButton *button, gpointer user_data)
 {
 	gboolean state;
-	MateConfClient *client;
+	GSettings *settings;
 	const char *bdaddr;
 
-	client = g_object_get_data (G_OBJECT (button), "client");
+	settings = g_object_get_data (G_OBJECT (button), "settings");
 	bdaddr = g_object_get_data (G_OBJECT (button), "bdaddr");
 
 	state = gtk_toggle_button_get_active (button);
 	if (state == FALSE) {
 		const char *old_bdaddr;
 		old_bdaddr = g_object_get_data (G_OBJECT (button), "old-bdaddr");
-		mateconf_client_set_string (client, GPS_KEY, old_bdaddr ? old_bdaddr : "", NULL);
+		g_settings_set_string (settings, GPS_KEY, old_bdaddr ? old_bdaddr : "");
 	} else {
 		char *old_bdaddr;
 
-		old_bdaddr = mateconf_client_get_string (client, GPS_KEY, NULL);
+		old_bdaddr = g_settings_get_string (settings, GPS_KEY);
 		g_object_set_data_full (G_OBJECT (button), "old-bdaddr",
 					old_bdaddr, g_free);
-		mateconf_client_set_string (client, GPS_KEY, bdaddr, NULL);
+		g_settings_set_string (settings, GPS_KEY, bdaddr);
 	}
 }
 
@@ -152,19 +172,20 @@ static GtkWidget *
 get_config_widgets (const char *bdaddr, const char **uuids)
 {
 	GtkWidget *button;
-	MateConfClient *client;
+	GSettings *settings = NULL;
 	char *old_bdaddr;
 
-	client = mateconf_client_get_default ();
-	if (client == NULL)
+	if (gsettings_schema_exists (GPS_SCHEMA))
+		settings = g_settings_new (GPS_SCHEMA);
+	if (settings == NULL)
 		return NULL;
 
 	button = gtk_check_button_new_with_label (_("Use this GPS device for Geolocation services"));
 	g_object_set_data_full (G_OBJECT (button), "bdaddr", g_strdup (bdaddr), g_free);
-	g_object_set_data_full (G_OBJECT (button), "client", client, g_object_unref);
+	g_object_set_data_full (G_OBJECT (button), "settings", settings, g_object_unref);
 
 	/* Is it already setup? */
-	old_bdaddr = mateconf_client_get_string (client, GPS_KEY, NULL);
+	old_bdaddr = g_settings_get_string (settings, GPS_KEY);
 	if (g_strcmp0 (old_bdaddr, bdaddr) == 0) {
 		gtk_toggle_button_set_active (GTK_TOGGLE_BUTTON (button), TRUE);
 		g_object_set_data (G_OBJECT (button), "bdaddr", old_bdaddr);
@@ -182,21 +203,22 @@ get_config_widgets (const char *bdaddr, const char **uuids)
 static void
 device_removed (const char *bdaddr)
 {
-	MateConfClient *client;
+	GSettings *settings = NULL;
 	char *str;
 
-	client = mateconf_client_get_default ();
-	if (client == NULL)
+	if (gsettings_schema_exists (GPS_SCHEMA))
+		settings = g_settings_new (GPS_SCHEMA);
+	if (settings == NULL)
 		return;
 
-	str = mateconf_client_get_string (client, GPS_KEY, NULL);
+	str = g_settings_get_string (settings, GPS_KEY);
 	if (g_strcmp0 (str, bdaddr) == 0) {
-		mateconf_client_set_string (client, GPS_KEY, "", NULL);
+		g_settings_set_string (settings, GPS_KEY, "");
 		g_message ("Device '%s' got disabled as a Geoclue GPS", bdaddr);
 	}
 
 	g_free (str);
-	g_object_unref (client);
+	g_object_unref (settings);
 }
 
 static GbtPluginInfo plugin_info = {
