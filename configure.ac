@@ -71,7 +71,7 @@ AM_CONDITIONAL([ICON_UPDATE], [test -n "$UPDATE_ICON_CACHE"])
 GTK_REQUIRED=2.19.1
 GLIB_REQUIRED=2.25.7
 DBUS_GLIB_REQUIRED=0.74
-NOTIFY_REQUIRED=1.1.0
+NOTIFY_REQUIRED=0.7.0
 CAJA_SENDTO_REQUIRED=1.1.0
 
 dnl Requires for the properties window
@@ -87,7 +87,7 @@ PKG_CHECK_MODULES(APPLET,
 		  gmodule-export-2.0
 		  glib-2.0 >= $GLIB_REQUIRED
 		  gtk+-2.0 >= $GTK_REQUIRED
-		  libmatenotify >= $NOTIFY_REQUIRED
+		  libnotify >= $NOTIFY_REQUIRED
 		  unique-1.0)
 
 dnl Requires for the sendto app

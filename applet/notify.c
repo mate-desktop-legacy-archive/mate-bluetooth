@@ -28,13 +28,8 @@
 
 #include <glib/gi18n.h>
 #include <gtk/gtk.h>
-#include <libmatenotify/notify.h>
+#include <libnotify/notify.h>
 #include "notify.h"
-
-/* TODO: verify if this is necessary */
-#ifndef NOTIFY_CHECK_VERSION
-	#define NOTIFY_CHECK_VERSION(x, y, z) 0
-#endif
 
 static GtkStatusIcon *statusicon = NULL;
 static char *icon_name = NULL;
@@ -76,11 +71,7 @@ void show_notification(const gchar *summary, const gchar *message,
 		notify_notification_close(notify, NULL);
 	}
 
-	#if NOTIFY_CHECK_VERSION (0, 7, 0)
-		notify = notify_notification_new(summary, message, icon_name);
-	#else
-		notify = notify_notification_new(summary, message, icon_name, NULL);
-	#endif
+	notify = notify_notification_new(summary, message, icon_name);
 
 	notify_notification_set_timeout(notify, timeout);
 

@@ -19,8 +19,8 @@ proximity tool.
 Requirements
 ------------
 
-- GLib (with GIO), GTK+, MateConf, dbus-glib, libhal
-- libunique and libmatenotify
+- GLib (with GIO), GTK+, dbus-glib, libhal
+- libunique and libnotify
 - BlueZ 4.36 is absolutely required
 - kernel 2.6.31 (or pre-releases) with the new rfkill
   sub-system are required for rfkill to work [1]
