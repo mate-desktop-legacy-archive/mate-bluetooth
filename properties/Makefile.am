@@ -7,7 +7,7 @@ mate_bluetooth_properties_LDADD = $(top_builddir)/lib/libmate-bluetooth.la $(top
 
 AM_CFLAGS = $(PROPS_CFLAGS) $(WARN_CFLAGS) $(DISABLE_DEPRECATED) -DPKGDATADIR="\"$(pkgdatadir)\""
 
-INCLUDES = -I$(top_srcdir)/lib
+AM_CPPFLAGS = -I$(top_srcdir)/lib
 
 man_MANS = mate-bluetooth-properties.1
 
