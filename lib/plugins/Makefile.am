@@ -1,6 +1,6 @@
 plugindir = $(libdir)/mate-bluetooth/plugins/
 
-INCLUDES =                                      \
+AM_CPPFLAGS =                                      \
         -DDATADIR=\"$(datadir)\"                \
         -DICONDIR=\"$(icondir)\"                \
 	-DLOCALEDIR="\"$(datadir)/locale\""	\

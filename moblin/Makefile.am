@@ -10,7 +10,7 @@ bluetooth_panel_LDADD = $(top_builddir)/lib/libcommon.la $(top_builddir)/lib/lib
 
 AM_CFLAGS = $(MOBLIN_CFLAGS) $(WARN_CFLAGS) $(DISABLE_DEPRECATED) -DPKGDATADIR="\"$(pkgdatadir)\""
 
-INCLUDES = -I$(top_srcdir)/lib -I$(top_srcdir)/wizard -I$(top_srcdir)/moblin/moblin-copy-n-paste
+AM_CPPFLAGS = -I$(top_srcdir)/lib -I$(top_srcdir)/wizard -I$(top_srcdir)/moblin/moblin-copy-n-paste
 
 ui_DATA = pin.ui
 uidir = $(pkgdatadir)

@@ -15,7 +15,7 @@ test_icon_LDADD = $(top_builddir)/lib/libcommon.la $(APPLET_LIBS)
 
 AM_CFLAGS = $(APPLET_CFLAGS) $(WARN_CFLAGS) $(DISABLE_DEPRECATED) -DPKGDATADIR="\"$(pkgdatadir)\""
 
-INCLUDES = -I$(top_srcdir)/lib
+AM_CPPFLAGS = -I$(top_srcdir)/lib
 
 man_MANS = mate-bluetooth-applet.1
 
