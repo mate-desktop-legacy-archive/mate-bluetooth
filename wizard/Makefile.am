@@ -24,7 +24,7 @@ pindir = $(pkgdatadir)
 ui_DATA = wizard.ui
 uidir = $(pkgdatadir)
 
-INCLUDES = -I$(top_srcdir)/lib
+AM_CPPFLAGS = -I$(top_srcdir)/lib
 
 man_MANS = mate-bluetooth-wizard.1
 
