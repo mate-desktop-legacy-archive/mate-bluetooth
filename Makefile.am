@@ -4,6 +4,8 @@ if WITH_MOBLIN
 MOBLIN_DIR = moblin
 endif
 
+ACLOCAL_AMFLAGS = -I m4
+
 SUBDIRS = icons lib applet properties wizard sendto $(MOBLIN_DIR) docs po help
 
 DIST_SUBDIRS = $(DEF_SUBDIRS) moblin
