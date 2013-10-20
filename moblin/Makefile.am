@@ -26,10 +26,6 @@ autostart_DATA = $(desktop_data)
 paneldir = @PANEL_DIR@
 panel_DATA = $(desktop_data)
 
-servicedir = $(datadir)/dbus-1/services
-service_in_files = org.moblin.UX.Shell.Panels.bluetooth.service.in
-service_DATA = org.moblin.UX.Shell.Panels.bluetooth.service
-
 @INTLTOOL_DESKTOP_RULE@
 
 CLEANFILES = $(autostart_DATA)
@@ -37,8 +33,3 @@ CLEANFILES = $(autostart_DATA)
 EXTRA_DIST = $(autostart_in_in_files) $(ui_DATA) $(service_DATA)
 
 MAINTAINERCLEANFILES = Makefile.in
-
-DISTCLEANFILES = $(service_DATA)
-
-%.service: %.service.in
-	$(QUIET_GEN)sed -e "s|\@bindir\@|$(bindir)|" $< > $@
