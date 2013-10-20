@@ -9,7 +9,7 @@ endif
 SUBDIRS = icons lib applet properties wizard sendto $(MOBLIN_DIR) docs po help
 
 DIST_SUBDIRS = $(DEF_SUBDIRS) moblin
-EXTRA_DIST = intltool-extract.in intltool-update.in intltool-merge.in ChangeLog.pre-2.27 gtk-doc.make mate-doc-utils.make
+EXTRA_DIST = AUTHORS README NEWS ChangeLog intltool-extract.in intltool-update.in intltool-merge.in gtk-doc.make mate-doc-utils.make
 
 # FIXME https://bugzilla.mate.org/show_bug.cgi?id=595675
 DISTCHECK_CONFIGURE_FLAGS = --disable-schemas-install \
