@@ -1,14 +1,7 @@
-DEF_SUBDIRS = icons lib applet properties wizard sendto docs po help
-
-if WITH_MOBLIN
-MOBLIN_DIR = moblin
-endif
-
 ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
-SUBDIRS = icons lib applet properties wizard sendto $(MOBLIN_DIR) docs po help
+SUBDIRS = icons lib applet properties wizard sendto docs po help
 
-DIST_SUBDIRS = $(DEF_SUBDIRS) moblin
 EXTRA_DIST = AUTHORS README NEWS ChangeLog intltool-extract.in intltool-update.in intltool-merge.in gtk-doc.make
 
 # FIXME https://bugzilla.mate.org/show_bug.cgi?id=595675
