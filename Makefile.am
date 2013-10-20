@@ -1,6 +1,6 @@
 DEF_SUBDIRS = icons lib applet properties wizard sendto docs po help
 
-ACLOCAL_AMFLAGS = -I m4
+ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
 if WITH_MOBLIN
 MOBLIN_DIR = moblin

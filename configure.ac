@@ -10,8 +10,9 @@ AC_INIT([mate-bluetooth],
 
 AC_CONFIG_SRCDIR([applet/main.c])
 AC_CONFIG_HEADERS([config.h])
+AC_CONFIG_MACRO_DIR([m4])
 
-AM_INIT_AUTOMAKE([1.8 dist-bzip2 no-dist-gzip check-news])
+AM_INIT_AUTOMAKE([1.8 dist-xz no-dist-gzip])
 
 # Before making a release, the MATEBT_LT_VERSION string should be modified.
 # The string is of the form C:R:A.
