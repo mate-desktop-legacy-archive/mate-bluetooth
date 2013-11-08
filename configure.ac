@@ -12,7 +12,7 @@ AC_CONFIG_SRCDIR([applet/main.c])
 AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_MACRO_DIR([m4])
 
-AM_INIT_AUTOMAKE([1.8 dist-bzip2 no-dist-gzip check-news])
+AM_INIT_AUTOMAKE([1.8 dist-xz no-dist-gzip])
 
 # Before making a release, the MATEBT_LT_VERSION string should be modified.
 # The string is of the form C:R:A.
@@ -152,36 +152,6 @@ dnl Requires for the plugins
 PKG_CHECK_MODULES(PLUGINS,
 		  gtk+-2.0)
 
-dnl Requires for the moblin interface
-AC_ARG_ENABLE(moblin,
-              AS_HELP_STRING([--enable-moblin=@<:@no/yes/auto@:>@],
-                             [build moblin interface]), ,
-                             enable_moblin=auto)
-
-if test "x$enable_moblin" != "xno"; then
-   PKG_CHECK_MODULES(MOBLIN,
-   [
-      dbus-glib-1,
-      gtk+-2.0,
-      mx-gtk-1.0
-      moblin-panel
-   ], have_moblin="yes", have_moblin="no")
-
-   THEME_DIR="${datadir}/${PACKAGE}/theme"
-   AS_AC_EXPAND(THEME_DIR, $THEME_DIR)
-   AC_DEFINE_UNQUOTED([THEME_DIR], "$THEME_DIR", [Carrick theme directory])
-
-   PANEL_DIR=$($PKG_CONFIG moblin-panel --variable=moblin_panel_panels_dir)
-   AC_SUBST(PANEL_DIR)
-else
-   have_moblin=no
-fi
-
-if test "x$enable_moblin" = "xyes" -a "x$have_moblin" != "xyes"; then
-   AC_MSG_ERROR([Couldn't find Moblin dependencies.])
-fi
-AM_CONDITIONAL(WITH_MOBLIN, test "x$have_moblin" = "xyes")
-
 DBUS_BINDING_TOOL="dbus-binding-tool"
 AC_SUBST(DBUS_BINDING_TOOL)
 
@@ -209,11 +179,6 @@ AC_OUTPUT(Makefile
 	  properties/mate-bluetooth-properties.desktop.in
 	  wizard/Makefile
 	  sendto/Makefile
-	  moblin/Makefile
-	  moblin/bluetooth-panel.desktop.in
-	  moblin/theme/Makefile
-	  moblin/moblin-copy-n-paste/Makefile
-	  moblin/moblin-icons/Makefile
 	  docs/Makefile
 	  docs/reference/Makefile
 	  docs/reference/libmate-bluetooth/Makefile
@@ -228,7 +193,6 @@ Configure summary:
 	Compiler....................:  ${CC}
 	Compiler Flags..............:  ${CFLAGS}
 	Prefix......................:  ${prefix}
-	Moblin interface............:  ${have_moblin}
 	caja-sendto plugin..........:  ${have_nst}
 	Documentation...............:  ${enable_gtk_doc}
 	GObject-Introspection.......:  ${found_introspection}
