@@ -64,7 +64,7 @@ if HAVE_INTROSPECTION
 introspection_sources = $(matebluetooth_HEADERS)
 
 MateBluetooth-1.0.gir: libmate-bluetooth.la
-MateBluetooth_1_0_gir_INCLUDES = GObject-2.0 Gtk-2.0 DBusGLib-1.0 GModule-2.0
+MateBluetooth_1_0_gir_INCLUDES = GObject-2.0 Gtk-$(GTK_API_VERSION) DBusGLib-1.0 GModule-2.0
 MateBluetooth_1_0_gir_CFLAGS = -I$(srcdir) $(LIBMATEBT_CFLAGS)
 MateBluetooth_1_0_gir_LIBS = libmate-bluetooth.la
 MateBluetooth_1_0_gir_SCANNERFLAGS = --strip-prefix=Bluetooth --pkg-export=mate-bluetooth-1.0
