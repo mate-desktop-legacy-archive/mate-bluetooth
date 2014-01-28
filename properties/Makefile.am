@@ -28,7 +28,7 @@ gsettings_SCHEMAS = $(gsettingsschema_in_files:.xml.in=.xml)
 @INTLTOOL_XML_NOMERGE_RULE@
 @GSETTINGS_RULES@
 
-CLEANFILES = $(desktop_DATA) $(schema_DATA)
+CLEANFILES = $(desktop_DATA) $(gsettings_SCHEMAS)
 
 EXTRA_DIST = $(man_MANS) $(desktop_in_in_files) $(schema_in_files) $(ui_DATA) $(convert_DATA) $(gsettingsschema_in_files)
 
