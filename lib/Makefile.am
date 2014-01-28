@@ -71,12 +71,12 @@ MateBluetooth_1_0_gir_SCANNERFLAGS = --strip-prefix=Bluetooth --pkg-export=mate-
 MateBluetooth_1_0_gir_FILES = $(introspection_sources)
 INTROSPECTION_GIRS += MateBluetooth-1.0.gir
 
-girdir = $(INTROSPECTION_GIRDIR)
+girdir = $(datadir)/gir-1.0
 
 EXTRA_DIST += $(BUILT_GIRSOURCES)
 gir_DATA = $(INTROSPECTION_GIRS)
 
-typelibdir = $(INTROSPECTION_TYPELIBDIR)
+typelibdir = $(libdir)/girepository-1.0
 typelib_DATA = $(INTROSPECTION_GIRS:.gir=.typelib)
 
 
