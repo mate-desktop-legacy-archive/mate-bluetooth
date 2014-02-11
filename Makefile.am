@@ -2,7 +2,7 @@ ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
 SUBDIRS = icons lib applet properties wizard sendto docs po help
 
-EXTRA_DIST = AUTHORS README NEWS ChangeLog intltool-extract.in intltool-update.in intltool-merge.in gtk-doc.make
+EXTRA_DIST = autogen.sh AUTHORS README NEWS ChangeLog intltool-extract.in intltool-update.in intltool-merge.in gtk-doc.make
 
 # FIXME https://bugzilla.mate.org/show_bug.cgi?id=595675
 DISTCHECK_CONFIGURE_FLAGS = --disable-schemas-install \
