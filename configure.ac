@@ -104,6 +104,24 @@ AC_ARG_ENABLE(caja-sendto,
                              [enable_nst=$enableval],
                              [enable_nst=auto])
 
+AC_MSG_CHECKING([Which version of bluez to use])
+AC_ARG_WITH([bluez], AS_HELP_STRING([--with-bluez=4|5], [which version of bluez to use (default 4)]),
+	[
+	case "$with_bluez" in
+		4|5) ;;
+		*) AC_MSG_ERROR([invalid bluez version specified]) ;;
+	esac
+	],
+	[with_bluez=4])
+AC_MSG_RESULT([$with_bluez])
+
+case "$with_bluez" in
+  4) AC_DEFINE(HAVE_BLUEZ4, [], [Use bluez version 4])
+     ;;
+  5) AC_DEFINE(HAVE_BLUEZ5, [], [Use bluez version 5])
+     ;;
+esac
+
 if test "x$enable_nst" != "xno"; then
    PKG_CHECK_MODULES(NST,
    [
@@ -193,6 +211,7 @@ Configure summary:
 	Compiler....................:  ${CC}
 	Compiler Flags..............:  ${CFLAGS}
 	Prefix......................:  ${prefix}
+	Bluez version...............:  ${with_bluez}
 	caja-sendto plugin..........:  ${have_nst}
 	Documentation...............:  ${enable_gtk_doc}
 	GObject-Introspection.......:  ${found_introspection}
