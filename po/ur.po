@@ -3,274 +3,273 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# abuyop <abuyop@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-01-02 17:44+0100\n"
-"PO-Revision-Date: 2013-08-15 14:53+0000\n"
-"Last-Translator: abuyop <abuyop@gmail.com>\n"
-"Language-Team: Malay (http://www.transifex.com/projects/p/MATE/language/ms/)\n"
+"PO-Revision-Date: 2013-06-03 11:26+0000\n"
+"Last-Translator: mauron\n"
+"Language-Team: Urdu (http://www.transifex.com/projects/p/MATE/language/ur/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ms\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ur\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../lib/bluetooth-client.c:127
 msgid "All types"
-msgstr "Semua Jenis"
+msgstr "تمام انواع"
 
 #: ../lib/bluetooth-client.c:129
 msgid "Phone"
-msgstr "Telefon"
+msgstr "فون"
 
 #: ../lib/bluetooth-client.c:131
 msgid "Modem"
-msgstr "Modem"
+msgstr "موڈیم"
 
 #: ../lib/bluetooth-client.c:133
 msgid "Computer"
-msgstr "Komputer"
+msgstr "کمپیوٹر"
 
 #: ../lib/bluetooth-client.c:135
 msgid "Network"
-msgstr "Rangkaian"
+msgstr "نیٹ ورک"
 
 #. translators: a hands-free headset, a combination of a single speaker with a
 #. microphone
 #: ../lib/bluetooth-client.c:138
 msgid "Headset"
-msgstr "Set Kepala"
+msgstr "ہیڈ سیٹ"
 
 #: ../lib/bluetooth-client.c:140
 msgid "Headphones"
-msgstr "Fon kepala"
+msgstr "ہیڈ فون"
 
 #: ../lib/bluetooth-client.c:142
 msgid "Audio device"
-msgstr "Peranti Audio"
+msgstr "صوتی آلہ"
 
 #: ../lib/bluetooth-client.c:144
 msgid "Keyboard"
-msgstr "Papan Kekunci"
+msgstr "کیبورڈ"
 
 #: ../lib/bluetooth-client.c:146
 msgid "Mouse"
-msgstr "Tetikus"
+msgstr "ماؤس"
 
 #: ../lib/bluetooth-client.c:148
 msgid "Camera"
-msgstr "Kamera"
+msgstr "کیمرا"
 
 #: ../lib/bluetooth-client.c:150
 msgid "Printer"
-msgstr "Pencetak"
+msgstr "پرنٹر"
 
 #: ../lib/bluetooth-client.c:152
 msgid "Joypad"
-msgstr "Pad Ria"
+msgstr "جوئے پیڈ"
 
 #: ../lib/bluetooth-client.c:154
 msgid "Tablet"
-msgstr "Tablet"
+msgstr "ٹیبلیٹ"
 
 #: ../lib/bluetooth-client.c:156
 msgid "Video device"
-msgstr "Peranti Video"
+msgstr "ویڈیو ألہ"
 
 #: ../lib/bluetooth-client.c:158 ../lib/bluetooth-chooser.c:129
 #: ../lib/bluetooth-filter-widget.c:81
 msgid "Unknown"
-msgstr "Tidak Diketahui"
+msgstr "نامعلوم"
 
 #: ../lib/bluetooth-chooser-button.c:75 ../lib/bluetooth-chooser-button.c:369
 msgid "Click to select device..."
-msgstr "Klik untuk memilih peranti..."
+msgstr "آلہ منتخب کرنے کے لیے کلک کریں..."
 
 #: ../lib/bluetooth-chooser.c:170
 msgid "No adapters available"
-msgstr "Tiada penyesuai tersedia"
+msgstr "کوئی اڈاپٹر دستیاب نہیں"
 
 #: ../lib/bluetooth-chooser.c:174 ../lib/bluetooth-chooser.c:868
 msgid "Searching for devices..."
-msgstr "Menggelintar peranti..."
+msgstr "آلوں کی تلاش کی جارہی ہے..."
 
 #: ../lib/bluetooth-chooser.c:372
 #, c-format
 msgid "Remove '%s' from the list of devices?"
-msgstr "Buang '%s' dari senarai peranti?"
+msgstr "کیا '%s' کو ألوں کی فہرست سے حذف کردیا جائے؟"
 
 #: ../lib/bluetooth-chooser.c:374
 msgid ""
 "If you remove the device, you will have to set it up again before next use."
-msgstr "Jika anda tanggalkan peranti tersebut, anda perlu tetapkan ia semula untuk kegunaan akan datang."
+msgstr "اگر آلہ حذف کیا گیا، تو اگلے استعمال سے پہلے آپ کو اسے دوبارہ وضع کرنا پڑے گا."
 
 #: ../lib/bluetooth-chooser.c:746
 msgid "Device"
-msgstr "Peranti"
+msgstr "ألہ"
 
 #: ../lib/bluetooth-chooser.c:783
 msgid "Type"
-msgstr "Jenis"
+msgstr "نوعیت"
 
 #: ../lib/bluetooth-filter-widget.c:71
 msgid "All categories"
-msgstr "Semua Kategori"
+msgstr "تمام زمرے"
 
 #: ../lib/bluetooth-filter-widget.c:73
 msgid "Paired"
-msgstr "Berpasangan"
+msgstr "جڑی ہوئی"
 
 #: ../lib/bluetooth-filter-widget.c:75
 msgid "Trusted"
-msgstr "Dipercayai"
+msgstr "مُعتبر"
 
 #: ../lib/bluetooth-filter-widget.c:77
 msgid "Not paired or trusted"
-msgstr "Tidak berpasang atau dipercayai"
+msgstr "جڑی ہوئی یا معتبر نہیں ہے"
 
 #: ../lib/bluetooth-filter-widget.c:79
 msgid "Paired or trusted"
-msgstr "Berpasang atau dipercayai"
+msgstr "جڑی ہوئی یا معتبر"
 
 #: ../lib/bluetooth-filter-widget.c:227
 msgid "<b>Show Only Bluetooth Devices With...</b>"
-msgstr "<b>Hanya Tunjuk Peranti Bluetooth Dengan...</b>"
+msgstr "<b>صرف بلیو ٹوتھ آلے دکھائیں بمع...</b>"
 
 #. The device category filter
 #: ../lib/bluetooth-filter-widget.c:243
 msgid "Device _category:"
-msgstr "Kategori _Peranti"
+msgstr "ألے کا _زمرہ:"
 
 #: ../lib/bluetooth-filter-widget.c:258
 msgid "Select the device category to filter"
-msgstr "Pilih kategori peranti untuk ditapis"
+msgstr "فلٹر کرنے کے لیے آلے کا زمرہ منتخب کریں"
 
 #. The device type filter
 #: ../lib/bluetooth-filter-widget.c:272
 msgid "Device _type:"
-msgstr "Jenis _peranti:"
+msgstr "آلے کی _نوعیت:"
 
 #: ../lib/bluetooth-filter-widget.c:293
 msgid "Select the device type to filter"
-msgstr "Pilih jenis peranti untuk ditapis"
+msgstr "فلٹر کرنے کے لیے آلے کی نوعیت منتخب کریں"
 
 #: ../lib/bluetooth-filter-widget.c:299
 msgid "Input devices (mice, keyboards, etc.)"
-msgstr "Peranti Input (tetikus, papan kekunci, dll.)"
+msgstr "ماداخل ألے (ماؤس، کیبورڈ، وغیرہ.)"
 
 #: ../lib/bluetooth-filter-widget.c:303
 msgid "Headphones, headsets and other audio devices"
-msgstr "Fon kepala, set kepala dan lain-lain peranti audio"
+msgstr "ہیڈ فون، ہیڈ سیٹ اور دیگر صوتی آلے"
 
 #: ../lib/plugins/geoclue.c:162
 msgid "Use this GPS device for Geolocation services"
-msgstr "Guna peranti GPS ini untuk perkhidmatan Geolocation"
+msgstr "زمینی مقام خدمات کے لیے یہ GPS ألہ استعمال کریں"
 
 #. translators:
 #. * This is in a test plugin, please make sure you add the "(test)" part,
 #. * or leave untranslated
 #: ../lib/plugins/test.c:53
 msgid "Access the Internet using your cell phone (test)"
-msgstr "Capai Internet menggunakan telefon bimbit anda (ujian)"
+msgstr "اپنے سیل فون کو استعمال کرتے ہوئے انٹرنیٹ تک رسائی حاصل کریں (جانچ)"
 
 #: ../applet/main.c:147
 msgid "Select Device to Browse"
-msgstr "Pilih Peranti untuk Dilayar"
+msgstr "دیکھنے کے لیے آلہ منتخب کریں"
 
 #: ../applet/main.c:151
 msgid "_Browse"
-msgstr "_Layar"
+msgstr "_انتخاب"
 
 #: ../applet/main.c:160
 msgid "Select device to browse"
-msgstr "Pilih peranti  untuk dilayar"
+msgstr "دیکھنے کے لیے آلہ منتخب کریں"
 
 #: ../applet/main.c:380 ../properties/properties-adapter-off.ui.h:1
 msgid "Turn On Bluetooth"
-msgstr "Hidupkan Bluetooth"
+msgstr "بلیو ٹوتھ کو چلائیں"
 
 #: ../applet/main.c:381
 msgid "Bluetooth: Off"
-msgstr "Bluetooth: Dimatikan"
+msgstr "بلیو ٹوتھ: بند"
 
 #: ../applet/main.c:384
 msgid "Turn Off Bluetooth"
-msgstr "Matikan Bluetooth"
+msgstr "بلیو ٹوتھ کو بند کریں"
 
 #: ../applet/main.c:385
 msgid "Bluetooth: On"
-msgstr "Bluetooth: Dihidupkan"
+msgstr "بلیو ٹوتھ: فعال"
 
 #: ../applet/main.c:390 ../applet/notify.c:163
 msgid "Bluetooth: Disabled"
-msgstr "Bluetooth: Dilumpuhkan"
+msgstr "بلیو ٹوتھ: معطل"
 
 #: ../applet/main.c:544
 msgid "Disconnecting..."
-msgstr "Memutuskan..."
+msgstr "غیر متصل کیا جارہا ہے..."
 
 #: ../applet/main.c:547 ../sendto/main.c:217 ../sendto/main.c:314
 msgid "Connecting..."
-msgstr "Bersambung..."
+msgstr "اتصال قائم کیا جارہا ہے..."
 
 #: ../applet/main.c:550 ../applet/main.c:891
 msgid "Connected"
-msgstr "Bersambung"
+msgstr "متصل"
 
 #: ../applet/main.c:553 ../applet/main.c:891
 msgid "Disconnected"
-msgstr "Terputus"
+msgstr "غیر متصل"
 
 #: ../applet/main.c:909 ../applet/main.c:973 ../properties/adapter.c:380
 msgid "Disconnect"
-msgstr "Putuskan"
+msgstr "غیر متصل کریں"
 
 #: ../applet/main.c:909 ../applet/main.c:973
 msgid "Connect"
-msgstr "Sambung"
+msgstr "متصل کریں"
 
 #: ../applet/main.c:922
 msgid "Send files..."
-msgstr "Hantar fail..."
+msgstr "فائلیں ارسال کریں..."
 
 #: ../applet/main.c:932
 msgid "Browse files..."
-msgstr "Layar fail..."
+msgstr "فائلیں دیکھیں..."
 
 #: ../applet/main.c:943
 msgid "Open Keyboard Preferences..."
-msgstr "Buka Keutamaan Papan Kekunci..."
+msgstr "کیبورڈ کی ترجیحات کھولیں..."
 
 #: ../applet/main.c:951
 msgid "Open Mouse Preferences..."
-msgstr "Buka Keutamaan Tetikus..."
+msgstr "ماؤس کی ترجیحات کھولیں..."
 
 #: ../applet/main.c:961
 msgid "Open Sound Preferences..."
-msgstr "Buka Keutamaan Bunyi..."
+msgstr "آواز کی ترجیحات کھولیں..."
 
 #: ../applet/main.c:1081
 msgid "Debug"
-msgstr "Nyahpepijat"
+msgstr "ڈی بگ"
 
 #. Parse command-line options
 #: ../applet/main.c:1100
 msgid "- Bluetooth applet"
-msgstr "- Aplet Bluetooth"
+msgstr "- بلیو ٹوتھ ایپلیٹ"
 
 #: ../applet/main.c:1105
 #, c-format
 msgid ""
 "%s\n"
 "Run '%s --help' to see a full list of available command line options.\n"
-msgstr "%s⏎\nJalankan '%s --help' untuk lihat senarai penuh pilihan baris perintah yang tersedia.⏎\n"
+msgstr ""
 
 #: ../applet/main.c:1122
 msgid "Bluetooth Applet"
-msgstr "Aplet Bluetooth"
+msgstr "بلیو ٹوتھ ایپلیٹ"
 
 #. Power switch
 #. Translators: This string appears next to a toggle switch which controls
@@ -280,205 +279,205 @@ msgstr "Aplet Bluetooth"
 #: ../properties/mate-bluetooth-properties.desktop.in.in.h:1
 #: ../moblin/moblin-panel.c:1455
 msgid "Bluetooth"
-msgstr "Bluetooth"
+msgstr "بلیو ٹوتھ"
 
 #: ../applet/notify.c:163
 msgid "Bluetooth: Enabled"
-msgstr "Bluetooth: Dibenarkan"
+msgstr "بلیو ٹوتھ: فعال"
 
 #: ../applet/agent.c:251 ../applet/agent.c:332
 #, c-format
 msgid "Device '%s' wants to pair with this computer"
-msgstr "Peranti '%s' ingin berpasangan dengan komputer ini"
+msgstr "آلہ '%s' اس کمپیوٹر سے جڑنا جاہتا ہے"
 
 #: ../applet/agent.c:257
 #, c-format
 msgid "Please enter the PIN mentioned on device %s."
-msgstr "Sila masukan PIN yang disebut pada peranti %s."
+msgstr "ازراہِ کرم آلے %s میں مذکور پِن داخل کریں."
 
 #: ../applet/agent.c:339
 #, c-format
 msgid "Please confirm whether the PIN '%s' matches the one on device %s."
-msgstr "Sila pastikan sama ada PIN '%s' sama dengan peranti %s."
+msgstr "ازارہِ کرم تصدیق کریں کہ کیا پِن '%s' ألے %s کی پِن سے میل کھاتی ہے."
 
 #. translators: Whether to grant access to a particular service
 #: ../applet/agent.c:385
 #, c-format
 msgid "Grant access to '%s'"
-msgstr "Beri capaian kepada '%s'"
+msgstr "'%s' کو رسائی کی اجازت دیں"
 
 #: ../applet/agent.c:390
 #, c-format
 msgid "Device %s wants access to the service '%s'."
-msgstr "Peranti %s hendak mencapai perkhidmatan '%s'."
+msgstr "ألہ %s سروس '%s' تک رسائی چاہتا ہے."
 
 #. translators: this is a popup telling you a particular device
 #. * has asked for pairing
 #: ../applet/agent.c:496 ../applet/agent.c:531 ../applet/agent.c:573
 #, c-format
 msgid "Pairing request for '%s'"
-msgstr "Permintaan perpasangan untuk '%s'"
+msgstr "جڑنے کی درخواست برائے '%s'"
 
 #: ../applet/agent.c:500 ../applet/agent.c:535 ../applet/agent.c:577
 #: ../applet/agent.c:618 ../applet/agent.c:656
 msgid "Bluetooth device"
-msgstr "Peranti Bluetooth"
+msgstr "بلیو ٹوتھ آلہ"
 
 #: ../applet/agent.c:501 ../applet/agent.c:536 ../applet/agent.c:578
 msgid "Enter PIN"
-msgstr "Masukkan PIN"
+msgstr "پِن داخل کریں"
 
 #. translators: this is a popup telling you a particular device
 #. * has asked for pairing
 #: ../applet/agent.c:608
 #, c-format
 msgid "Pairing confirmation for '%s'"
-msgstr "Pengesahan perpasangan untuk '%s'"
+msgstr "جوڑنے کی معلومات برائے '%s'"
 
 #: ../applet/agent.c:619
 msgid "Verify PIN"
-msgstr "Mengesahkan PIN"
+msgstr "پِن کی تصدیق کریں"
 
 #: ../applet/agent.c:652
 #, c-format
 msgid "Authorization request from '%s'"
-msgstr "Permintaan kebenaran dari '%s'"
+msgstr "اختیار دہی کی درخواست از '%s'"
 
 #: ../applet/agent.c:657
 msgid "Check authorization"
-msgstr "Menyemak kebenaran"
+msgstr "اختیار دہی کی پڑتال کریں"
 
 #: ../applet/mate-bluetooth-applet.desktop.in.in.h:1
 msgid "Bluetooth Manager"
-msgstr "Pengurus Bluetooth"
+msgstr "بلیو ٹوتھ منیجر"
 
 #: ../applet/mate-bluetooth-applet.desktop.in.in.h:2
 msgid "MATE Bluetooth Manager applet"
-msgstr "Aplet Pengurus Bluetooth MATE"
+msgstr ""
 
 #: ../applet/popup-menu.ui.h:1
 msgid "Bluetooth: Checking"
-msgstr "Bluetooth: Memeriksa"
+msgstr "بلیو ٹوتھ: پڑتال کی جارہی ہے"
 
 #: ../applet/popup-menu.ui.h:2
 msgid "Browse files on device..."
-msgstr "Layar fail dalam peranti..."
+msgstr "آلے پر فائلیں دیکھیں..."
 
 #: ../applet/popup-menu.ui.h:3 ../properties/adapter.c:339
 #: ../moblin/moblin-panel.c:1297 ../moblin/moblin-panel.c:1385
 msgid "Devices"
-msgstr "Peranti"
+msgstr "آلے"
 
 #: ../applet/popup-menu.ui.h:4
 msgid "Preferences"
-msgstr "Keutamaan"
+msgstr "ترجیحات"
 
 #: ../applet/popup-menu.ui.h:5
 msgid "Quit"
-msgstr "Keluar"
+msgstr "برخاست کریں"
 
 #: ../applet/popup-menu.ui.h:6
 msgid "Send files to device..."
-msgstr "Hantar fail ke peranti..."
+msgstr "آلے پر فائلیں ارسال کریں..."
 
 #: ../applet/popup-menu.ui.h:7
 msgid "Set up new device..."
-msgstr "Persediaan peranti baru..."
+msgstr "نیا ألہ وضع کریں"
 
 #: ../applet/popup-menu.ui.h:8
 msgid "Visible"
-msgstr "Boleh Dilihat"
+msgstr "رویت پذیر"
 
 #: ../applet/authorisation-dialogue.ui.h:1
 msgid "_Always grant access"
-msgstr "_Sentiasa beri capaian"
+msgstr "_ہمیشہ رسائی کی اجازت دیں"
 
 #: ../applet/authorisation-dialogue.ui.h:2
 msgid "_Grant"
-msgstr "_Diterima"
+msgstr "_اجازت دیں"
 
 #: ../applet/authorisation-dialogue.ui.h:3
 msgid "_Reject"
-msgstr "_Ditolak"
+msgstr "_مسترد کریں"
 
 #: ../applet/confirm-dialogue.ui.h:1
 msgid "_Does not match"
-msgstr "_Tidak sepadan"
+msgstr "م_شابہت نہیں رکھتے"
 
 #: ../applet/confirm-dialogue.ui.h:2
 msgid "_Matches"
-msgstr "_Padanan"
+msgstr "_مشابہ"
 
 #: ../applet/passkey-dialogue.ui.h:1
 msgid "_Show input"
-msgstr "_Tunjuk Input"
+msgstr "ماداخل _دکھائیں"
 
 #: ../properties/main.c:90
 msgid "Cannot start \"Personal File Sharing\" Preferences"
-msgstr "Tidak dapat mulakan Keutamaan \"Perkongsian Fail Peribadi\""
+msgstr "\"ذاتی فائل شیئرنگ\" کی ترجیحات نہیں چلائی جاسکتیں"
 
 #: ../properties/main.c:95
 msgid ""
 "Please verify that the \"Personal File Sharing\" program is correctly "
 "installed."
-msgstr "Sila sahkan sama ada program \"Perkongsian Fail Peribadi\" dipasang dengan betul."
+msgstr "ازراہِ کرم تصدیق کریں کہ \"ذاتی فائل شیئرنگ\" پروگرام درست طور پر نصب ہے."
 
 #: ../properties/main.c:124
 msgid "Bluetooth Preferences"
-msgstr "Keutamaan Bluetooth"
+msgstr "بلیو ٹوتھ کی ترجیحات"
 
 #: ../properties/main.c:139
 msgid "_Show Bluetooth icon"
-msgstr "_Tunjuk ikon Bluetooth"
+msgstr "بلیو ٹوتھ کی _آئکن دکھائیں"
 
 #: ../properties/main.c:163
 msgid "Receive Files"
-msgstr "Terima Fail"
+msgstr "فائلیں وصول کریں"
 
 #: ../properties/main.c:211
 msgid "Output a list of currently known devices"
-msgstr "Keluarkan senarai peranti yang dikenali"
+msgstr "حالیہ معلوم آلوں کی فہرست دیکھیں"
 
 #: ../properties/main.c:249
 msgid "Bluetooth Properties"
-msgstr "Sifat Bluetooth"
+msgstr "بلیو ٹوتھ کی خصوصیات"
 
 #. The discoverable checkbox
 #: ../properties/adapter.c:286
 msgid "Make computer _visible"
-msgstr "Jadikan komputer _tampak"
+msgstr "کمپیوٹر کو _رویت پذیر بنائیں"
 
 #: ../properties/adapter.c:309
 msgid "Friendly name"
-msgstr "Nama mesra"
+msgstr "دوستانہ نام"
 
 #: ../properties/adapter.c:371
 msgid "Set up _new device..."
-msgstr "Persediaan _peranti baru..."
+msgstr "_نیا آلہ وضع کریں..."
 
 #: ../properties/adapter.c:394
 msgid "_Remove"
-msgstr "_Tanggal"
+msgstr "_حذف کریں"
 
 #: ../properties/adapter.c:671
 msgid "Bluetooth is disabled"
-msgstr "Bluetooth dilumpuhkan"
+msgstr "بلیو ٹوتھ معطل ہے"
 
 #: ../properties/adapter.c:711
 msgid "No Bluetooth adapters present"
-msgstr "Tiada penyesuai Bluetooth hadir"
+msgstr "کوئی بلیو ٹوتھ اڈاپٹر موجود نہیں"
 
 #: ../properties/properties-no-adapter.ui.h:1
 msgid "Your computer does not have any Bluetooth adapters plugged in."
-msgstr "Komputer anda tidak mempunyai penyesuai Bluetooth yang dipalam masuk."
+msgstr "آپ کے کمپیوٹر سے کوئی بلیو ٹوتھ اڈاپٹر جڑا ہوا نہیں ہے."
 
 #: ../properties/properties-killed-adapter.ui.h:1
 msgid "Bluetooth has been disabled by a switch on your computer."
-msgstr "Bluetooth telah dilumpuhkan oleh suis pada komputer anda."
+msgstr ""
 
 #: ../properties/mate-bluetooth-properties.desktop.in.in.h:2
 msgid "Configure Bluetooth settings"
-msgstr "Kongfigur tetapan Bluetooth"
+msgstr "بلیو ٹوتھ کی ترتیبات کی تشکیل کریں"
 
 #. translators:
 #. * The '%s' is the device name, for example:
@@ -486,16 +485,16 @@ msgstr "Kongfigur tetapan Bluetooth"
 #: ../wizard/main.c:206 ../wizard/main.c:327
 #, c-format
 msgid "Pairing with '%s' cancelled"
-msgstr "Berpasangan dengan '%s' dibatalkan"
+msgstr "'%s' کے ساتھ جوڑنا ملتوی کردیا گیا"
 
 #: ../wizard/main.c:246 ../moblin/moblin-panel.c:1049
 #, c-format
 msgid "Please confirm that the PIN displayed on '%s' matches this one."
-msgstr "Sila pastikan PIN yang dipapar pada '%s' sepadan dengan ini."
+msgstr "ازراہِ کرم تصدیق کریں کہ '%s' پر دکھائی جانے والی پِن اس والی سے ملتی ہے."
 
 #: ../wizard/main.c:300 ../moblin/moblin-panel.c:1100
 msgid "Please enter the following PIN:"
-msgstr "Sila masukkan PIN berikut:"
+msgstr "ازراہِ کرم یہ پِن داخل کریں:"
 
 #. translators:
 #. * The '%s' is the device name, for example:
@@ -503,7 +502,7 @@ msgstr "Sila masukkan PIN berikut:"
 #: ../wizard/main.c:383
 #, c-format
 msgid "Setting up '%s' failed"
-msgstr "Penetapan '%s' gagal"
+msgstr "'%s' کو وضع کرنے میں ناکامی"
 
 #. translators:
 #. * The '%s' is the device name, for example:
@@ -511,18 +510,18 @@ msgstr "Penetapan '%s' gagal"
 #: ../wizard/main.c:514
 #, c-format
 msgid "Connecting to '%s'..."
-msgstr "Menyambung ke '%s'..."
+msgstr "اتصال قائم کیا جارہا ہے تا '%s'..."
 
 #: ../wizard/main.c:550 ../moblin/moblin-panel.c:658
 #, c-format
 msgid ""
 "Please enter the following PIN on '%s' and press “Enter” on the keyboard:"
-msgstr "Sila masukkan PIN pada '%s' and tekan \"ENTER\" pada papan kekunci:"
+msgstr "ازراہِ کرم '%s' میں ذیل کی پِن داخل کریں اور کیبورڈ سے ''انٹر'' دبائیں:"
 
 #: ../wizard/main.c:552 ../moblin/moblin-panel.c:660
 #, c-format
 msgid "Please enter the following PIN on '%s':"
-msgstr "Sila masukkan PIN pada '%s':"
+msgstr "ازراہِ کرم '%s' پر یہ پِن داخل کریں:"
 
 #. translators:
 #. * The '%s' is the device name, for example:
@@ -530,16 +529,16 @@ msgstr "Sila masukkan PIN pada '%s':"
 #: ../wizard/main.c:573
 #, c-format
 msgid "Please wait while finishing setup on device '%s'..."
-msgstr "Tunggu sebentar semasa menyelesaikan tetapan pada peranti '%s' ..."
+msgstr "جب تک کہ ألے '%s' کا انتظام ختم نہیں ہوجاتا انتظار فرمائیں..."
 
 #: ../wizard/main.c:589 ../moblin/moblin-panel.c:686
 #, c-format
 msgid "Successfully set up new device '%s'"
-msgstr "Berjaya menetapkan peranti baru '%s'"
+msgstr "کامیابی سے نیا آلہ '%s' وضع کردیا گیا"
 
 #: ../wizard/wizard.ui.h:1
 msgid "'0000' (most headsets, mice and GPS devices)"
-msgstr "'0000' (kebanyakan set kepala, tetikus and peranti GPS)"
+msgstr "'0000' (زیادہ تر ہیڈ سیٹس، ماؤس اور GPS آلات)"
 
 #: ../wizard/wizard.ui.h:2
 msgid "'1111'"
@@ -551,275 +550,279 @@ msgstr "'1234'"
 
 #: ../wizard/wizard.ui.h:4
 msgid "Bluetooth New Device Setup"
-msgstr "Persediaan Peranti Baru Bluetooth"
+msgstr "بلیو ٹوتھ نئے آلے کا انتظام"
 
 #: ../wizard/wizard.ui.h:5
 msgid "Custom PIN:"
-msgstr "PIN Suai:"
+msgstr "مخصوص پِن:"
 
 #: ../wizard/wizard.ui.h:6
 msgid "Device Setup"
-msgstr "Persediaan Peranti"
+msgstr "آلے کا انتظام"
 
 #: ../wizard/wizard.ui.h:7
 msgid "Device Setup Failed"
-msgstr "Persediaan Peranti Gagal"
+msgstr "آلے کے انتظام میں ناکامی"
 
 #: ../wizard/wizard.ui.h:8
 msgid "Device search"
-msgstr "Menggelintar peranti"
+msgstr "آلہ کی تلاش"
 
 #: ../wizard/wizard.ui.h:9
 msgid "Do not pair"
-msgstr "Jangan pasangkan"
+msgstr ""
 
 #. This is a button to answer: Does the PIN matches the one on the device?
 #: ../wizard/wizard.ui.h:11 ../moblin/moblin-panel.c:1253
 msgid "Does not match"
-msgstr "Tidak sepadan"
+msgstr "میل نہیں کھاتے"
 
 #: ../wizard/wizard.ui.h:12
 msgid "Finishing New Device Setup"
-msgstr "Menyelesaikan Persediaan Peranti Baru"
+msgstr "نئے آلے کا انتظام ختم کیا جارہا ہے"
 
 #. Translators: this is a PIN with a set value, such as 1111, or 0000
 #: ../wizard/wizard.ui.h:14
 msgid "Fixed PIN"
-msgstr "PIN Tetap"
+msgstr "ثابت پِن"
 
 #: ../wizard/wizard.ui.h:15
 msgid "Introduction"
-msgstr "Pengenalan"
+msgstr "تعارف"
 
 #. This is a button to answer: Does the PIN matches the one on the device?
 #: ../wizard/wizard.ui.h:17 ../moblin/moblin-panel.c:1249
 msgid "Matches"
-msgstr "Padan"
+msgstr "مشابہ"
 
 #: ../wizard/wizard.ui.h:18
 msgid "PIN Options"
-msgstr "Pilihan PIN "
+msgstr "پِن کے اختیارات"
 
 #: ../wizard/wizard.ui.h:19
 msgid "PIN _options..."
-msgstr "P_ilihan PIN..."
+msgstr "پِن کے ا_ختیارات..."
 
 #: ../wizard/wizard.ui.h:20 ../moblin/moblin-panel.c:1163
 msgid "Select the additional services you want to use with your device:"
-msgstr "Sila pilih perkhidmatan tambahan yang anda ingin guna dengan peranti anda:"
+msgstr "اپنے آلے کے ساتھ استعمال کے لیے اضافی خدمات منتخب کریں:"
 
 #: ../wizard/wizard.ui.h:21
 msgid "Select the device you want to setup"
-msgstr "Pilih peranti untuk dipasangkan"
+msgstr "آلہ منتخب کریں جسے آپ وضع کرنا چاہتے ہیں"
 
 #: ../wizard/wizard.ui.h:22
 msgid "Setup Completed"
-msgstr "Persediaan Selesai"
+msgstr "انتظام تمام ہوا"
 
 #: ../wizard/wizard.ui.h:23
 msgid ""
 "The Bluetooth new device setup will walk you through the process of "
 "configuring Bluetooth enabled devices for use with this computer."
-msgstr "Persediaan peranti baru Bluetooth akan memimpin anda menerusi proses mengkonfigur peranti terbenar Bluetooth untuk diguna dengan komputer ini."
+msgstr "‫نئے بلیو ٹوتھ آلے کا انتظام، بلیو ٹوتھ کے حامل آلات کو اس کمپیوٹر کے ساتھ استعمال کے لیے مرتب کرنے کے عمل میں آپ کی راہ نمائی کرے گا۔"
 
 #: ../wizard/wizard.ui.h:24
 msgid ""
 "The device will need to be within 10 meters of your computer, and be "
 "“visible” (sometimes called “discoverable”). Check the device's manual if in"
 " doubt."
-msgstr "Peranti diperlukan dalam jangkauan 10 meter dari komputer anda, dan akan \"tampak\" (kadangkala dikenali sebagai \"boleh dilihat\"). Semak panduan peranti jika masih ragu."
+msgstr "آلے کو آپ کے کمپیوٹر کے 10 میٹر میں ہونا چاہیے. اور اسے ''رویت پذیر'' ہونا چاہیے (بعض اوقات ''قابلِ دریافت'' کہا جاتا ہے). اگر شبہ ہو تو آلے کی ہدایات دیکھیں."
 
 #: ../wizard/wizard.ui.h:25
 msgid "Welcome to the Bluetooth new device setup"
-msgstr "Selamat Datang ke persediaan peranti Bluetooth"
+msgstr "بلیو ٹھوتھ کے نئے آلے کے انتظام میں خوش آمدید"
 
 #: ../wizard/wizard.ui.h:26
 msgid "_Automatic PIN selection"
-msgstr "Pemilihan PIN _automatik"
+msgstr "_خودکار پِن انتخاب"
 
 #: ../wizard/wizard.ui.h:27
 msgid "_Restart Setup"
-msgstr "_Mula Semula Persediaan"
+msgstr "انتظام کو _دوبارہ چلائیں"
 
 #: ../sendto/main.c:162
 #, c-format
 msgid "%'d second"
 msgid_plural "%'d seconds"
-msgstr[0] "%'d saat"
+msgstr[0] "%'d سیکنڈ"
+msgstr[1] "%'d سیکنڈ"
 
 #: ../sendto/main.c:167 ../sendto/main.c:180
 #, c-format
 msgid "%'d minute"
 msgid_plural "%'d minutes"
-msgstr[0] "%'d minit"
+msgstr[0] "%'d منٹ"
+msgstr[1] "%'d منٹ"
 
 #: ../sendto/main.c:178
 #, c-format
 msgid "%'d hour"
 msgid_plural "%'d hours"
-msgstr[0] "%'d jam"
+msgstr[0] "%'d گھنٹہ"
+msgstr[1] "%'d گھنٹے"
 
 #: ../sendto/main.c:188
 #, c-format
 msgid "approximately %'d hour"
 msgid_plural "approximately %'d hours"
-msgstr[0] "kira-kira %'d jam"
+msgstr[0] "تقریباً %'d گھنٹہ"
+msgstr[1] "تقریباً %'d گھنٹے"
 
 #: ../sendto/main.c:249
 msgid "File Transfer"
-msgstr "Pemindahan Fail"
+msgstr "فائل منتقلی"
 
 #: ../sendto/main.c:253
 msgid "_Retry"
-msgstr "_Cuba Lagi"
+msgstr "_دوبارہ کوشش کریں"
 
 #. translators: This is the heading for the progress dialogue
 #: ../sendto/main.c:273
 msgid "Sending files via Bluetooth"
-msgstr "Penghantaran fail melalui Bluetooth"
+msgstr "بلیو ٹوتھ کے ذریعے فائل ارسال کی جارہی ہے"
 
 #: ../sendto/main.c:285
 msgid "From:"
-msgstr "Dari:"
+msgstr "از طرف:"
 
 #: ../sendto/main.c:298
 msgid "To:"
-msgstr "Ke:"
+msgstr "تا:"
 
 #: ../sendto/main.c:343 ../sendto/main.c:359
 msgid "An unknown error occurred"
-msgstr "Ralat tidak diketahui telah berlaku"
+msgstr "نامعلوم غلطی واقع ہوئی ہے"
 
 #: ../sendto/main.c:352
 msgid ""
 "Make sure that remote device is switched on and that it accepts Bluetooth "
 "connections"
-msgstr "Pastikan peranti jauh dihidupkan dan ia menerima sambungan Bluetooth"
+msgstr "یقین کر لیں کہ بعید آلہ چل رہا ہے اور یہ کہ یہ بلیو ٹوتھ اتصال قبول کرتا ہے"
 
 #: ../sendto/main.c:450
 #, c-format
 msgid "Sending %s"
-msgstr "Menghantar %s"
+msgstr "ارسال کیا جارہا ہے %s"
 
 #: ../sendto/main.c:457 ../sendto/main.c:523
 #, c-format
 msgid "Sending file %d of %d"
-msgstr "Menghantar fail %d dari %d"
+msgstr "فائل %d برائے %d ارسال کی جارہی ہے"
 
 #: ../sendto/main.c:519
 #, c-format
 msgid "%d KB/s"
-msgstr "%d KB/s"
+msgstr "%d ک.ب/س"
 
 #: ../sendto/main.c:521
 #, c-format
 msgid "%d B/s"
-msgstr "%d B/s"
+msgstr "%d ب/س"
 
 #: ../sendto/main.c:641
 msgid "Select Device to Send To"
-msgstr "Pilih Peranti untuk Hantar Ke"
+msgstr "ارسال کرنے کے لیے آلہ منتخب کریں"
 
 #: ../sendto/main.c:645
 msgid "Send _To"
-msgstr "Hantar _Ke"
+msgstr "ارسال کریں _تا"
 
 #: ../sendto/main.c:687
 msgid "Choose files to send"
-msgstr "Pilih fail untuk dihantar"
+msgstr "ارسال کرنے کے لیے فائلیں منتخب کریں"
 
 #: ../sendto/main.c:716
 msgid "Remote device to use"
-msgstr "Peranti terpencil untuk digunakan"
+msgstr "استعمال کے لیے بعید ألہ"
 
 #: ../sendto/main.c:718
 msgid "Remote device's name"
-msgstr "Nama peranti jauh"
+msgstr "بعید آلے کا نام"
 
 #: ../sendto/caja-sendto-plugin.c:168
 msgid "Programming error, could not find the device in the list"
-msgstr "Ralat pengaturcaraan, tidak dapat cari peranti dalam senarai"
+msgstr "پروگرامنگ کی غلطی، فہرست میں آلہ تلاش نہیں کیا جاسکتا"
 
 #: ../sendto/caja-sendto-plugin.c:243
 #, c-format
 msgid "Obex Push file transfer unsupported"
-msgstr "Pemindahan fail Obex Push tidak disokong"
+msgstr "Obex پُش فائل منتقلی کی معاونت نہیں ہے"
 
 #: ../sendto/caja-sendto-plugin.c:262
 msgid "Bluetooth (OBEX Push)"
-msgstr "Bluetooth (Tolakkan OBEX)"
+msgstr "بلیو ٹوتھ (OBEX Push)"
 
 #: ../moblin/main.c:86
 msgid "Run in standalone mode"
-msgstr "Jalan dalam mod berdiri sendiri"
+msgstr "یکتا اسلوب میں چلائیں"
 
 #: ../moblin/main.c:94 ../moblin/bluetooth-panel.desktop.in.in.h:2
 msgid "Moblin Bluetooth Panel"
-msgstr "Panel Moblin Bluetooth"
+msgstr "موبلن بلیو ٹوتھ پینل"
 
 #: ../moblin/main.c:95
 msgid "- Moblin Bluetooth Panel"
-msgstr "- Panel Moblin Bluetooth"
+msgstr "- موبلن بلیو ٹوتھ پینل"
 
 #: ../moblin/main.c:122
 msgid "bluetooth"
-msgstr "bluetooth"
+msgstr "بلیو ٹوتھ"
 
 #: ../moblin/moblin-panel.c:533
 #, c-format
 msgid "Pairing with %s failed."
-msgstr "Berpasangan dengan %s gagal."
+msgstr "%s سے جڑنے میں ناکامی."
 
 #: ../moblin/moblin-panel.c:895
 msgid "<u>Pair</u>"
-msgstr "<u>Pasangan</u>"
+msgstr "<u>جوڑیں</u>"
 
 #: ../moblin/moblin-panel.c:909
 msgid "<u>Connect</u>"
-msgstr "<u>Sambung</u>"
+msgstr "<u>متصل ہوں</u>"
 
 #: ../moblin/moblin-panel.c:928
 msgid "<u>Browse</u>"
-msgstr "<b>Layar</b>"
+msgstr "<u>انتخاب</u>"
 
 #: ../moblin/moblin-panel.c:1122
 msgid "Device setup failed"
-msgstr "Persediaan peranti gagal"
+msgstr "آلے کے انتظام میں ناکامی"
 
 #. Back button
 #: ../moblin/moblin-panel.c:1136 ../moblin/moblin-panel.c:1212
 #: ../moblin/moblin-panel.c:1261 ../moblin/moblin-panel.c:1323
 #: ../moblin/moblin-panel.c:1540
 msgid "Back to devices"
-msgstr "Kembali ke peranti"
+msgstr "آلوں کی طرف واپس جائیں"
 
 #: ../moblin/moblin-panel.c:1175
 msgid "Done"
-msgstr "Selesai"
+msgstr "ہوگیا"
 
 #: ../moblin/moblin-panel.c:1196 ../moblin/moblin-panel.c:1233
 msgid "Device setup"
-msgstr "Persediaan peranti"
+msgstr "آلے کا انتظام"
 
 #: ../moblin/moblin-panel.c:1344
 msgid "Only show:"
-msgstr "Hanya tunjuk:"
+msgstr "صرف دکھائیں:"
 
 #. Button for PIN options file
 #: ../moblin/moblin-panel.c:1350
 msgid "PIN options"
-msgstr "Pilihan PIN"
+msgstr "پِن کے اختیارات"
 
 #. Add new button
 #: ../moblin/moblin-panel.c:1433
 msgid "Add a new device"
-msgstr "Tambah peranti baru"
+msgstr "نیا آلہ شامل کریں"
 
 #. Button for Send file
 #: ../moblin/moblin-panel.c:1500
 msgid "Send file from your computer"
-msgstr "Hantar fail dari komputer anda"
+msgstr "اپنے کمپیوٹر سے فائل ارسال کریں"
 
 #: ../moblin/bluetooth-panel.desktop.in.in.h:1
 msgid "Bluetooth Manager Panel"
-msgstr "Pengurus Panel Bluetooth"
+msgstr "بلیو ٹوتھ منیجر پینل"

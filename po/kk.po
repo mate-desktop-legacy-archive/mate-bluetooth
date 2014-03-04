@@ -1,22 +1,21 @@
-# Kazakh translation for mate-bluetooth.
-# Copyright (C) 2010 mate-bluetooth's COPYRIGHT HOLDER
-# This file is distributed under the same license as the mate-bluetooth package.
-# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2010.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-bluetooth master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=mate-bluetooth&component=general\n"
-"POT-Creation-Date: 2010-08-16 16:29+0000\n"
-"PO-Revision-Date: 2010-09-16 15:28+0600\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-01-02 17:44+0100\n"
+"PO-Revision-Date: 2013-11-03 06:43+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
-"Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
+"Language-Team: Kazakh (http://www.transifex.com/projects/p/MATE/language/kk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
-"X-Poedit-Language: Kazakh\n"
-"X-Poedit-Country: KAZAKHSTAN\n"
+"Language: kk\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../lib/bluetooth-client.c:127
 msgid "All types"
@@ -38,7 +37,8 @@ msgstr "Компьютер"
 msgid "Network"
 msgstr "Желі"
 
-#. translators: a hands-free headset, a combination of a single speaker with a microphone
+#. translators: a hands-free headset, a combination of a single speaker with a
+#. microphone
 #: ../lib/bluetooth-client.c:138
 msgid "Headset"
 msgstr ""
@@ -79,23 +79,20 @@ msgstr "Tablet"
 msgid "Video device"
 msgstr "Видео құрылғысы"
 
-#: ../lib/bluetooth-client.c:158
-#: ../lib/bluetooth-chooser.c:129
+#: ../lib/bluetooth-client.c:158 ../lib/bluetooth-chooser.c:129
 #: ../lib/bluetooth-filter-widget.c:81
 msgid "Unknown"
 msgstr "Белгісіз"
 
-#: ../lib/bluetooth-chooser-button.c:75
-#: ../lib/bluetooth-chooser-button.c:369
+#: ../lib/bluetooth-chooser-button.c:75 ../lib/bluetooth-chooser-button.c:369
 msgid "Click to select device..."
 msgstr "Құрылғыны таңдау үшін шертіңіз..."
 
 #: ../lib/bluetooth-chooser.c:170
 msgid "No adapters available"
-msgstr ""
+msgstr "Қолжетерлік адаптерлер жоқ"
 
-#: ../lib/bluetooth-chooser.c:174
-#: ../lib/bluetooth-chooser.c:868
+#: ../lib/bluetooth-chooser.c:174 ../lib/bluetooth-chooser.c:868
 msgid "Searching for devices..."
 msgstr "Құрылғылар ізделуде..."
 
@@ -105,8 +102,9 @@ msgid "Remove '%s' from the list of devices?"
 msgstr ""
 
 #: ../lib/bluetooth-chooser.c:374
-msgid "If you remove the device, you will have to set it up again before next use."
-msgstr ""
+msgid ""
+"If you remove the device, you will have to set it up again before next use."
+msgstr "Егер құрылғыны алып тастасаңыз, оны келесі рет қолдану алдында тағы да баптау керек болады."
 
 #: ../lib/bluetooth-chooser.c:746
 msgid "Device"
@@ -122,19 +120,19 @@ msgstr "Барлық санаттар"
 
 #: ../lib/bluetooth-filter-widget.c:73
 msgid "Paired"
-msgstr ""
+msgstr "Жұпталған"
 
 #: ../lib/bluetooth-filter-widget.c:75
 msgid "Trusted"
-msgstr ""
+msgstr "Сенімді"
 
 #: ../lib/bluetooth-filter-widget.c:77
 msgid "Not paired or trusted"
-msgstr ""
+msgstr "Жұпталған не сенімді емес"
 
 #: ../lib/bluetooth-filter-widget.c:79
 msgid "Paired or trusted"
-msgstr ""
+msgstr "Жұпталған не сенімді"
 
 #: ../lib/bluetooth-filter-widget.c:227
 msgid "<b>Show Only Bluetooth Devices With...</b>"
@@ -189,8 +187,7 @@ msgstr "Қара_п шығу"
 msgid "Select device to browse"
 msgstr "Шолу үшін құрылғыны таңдаңыз"
 
-#: ../applet/main.c:380
-#: ../properties/properties-adapter-off.ui.h:1
+#: ../applet/main.c:380 ../properties/properties-adapter-off.ui.h:1
 msgid "Turn On Bluetooth"
 msgstr "Bluetooth-ды іске қосыңыз"
 
@@ -206,8 +203,7 @@ msgstr "Bluetooth-ды сөндіріңіз"
 msgid "Bluetooth: On"
 msgstr "Bluetooth: Іске қосылған"
 
-#: ../applet/main.c:390
-#: ../applet/notify.c:154
+#: ../applet/main.c:390 ../applet/notify.c:163
 msgid "Bluetooth: Disabled"
 msgstr "Bluetooth: Сөндірілген"
 
@@ -215,30 +211,23 @@ msgstr "Bluetooth: Сөндірілген"
 msgid "Disconnecting..."
 msgstr "Байланысты үзу..."
 
-#: ../applet/main.c:547
-#: ../sendto/main.c:217
-#: ../sendto/main.c:314
+#: ../applet/main.c:547 ../sendto/main.c:217 ../sendto/main.c:314
 msgid "Connecting..."
 msgstr "Байланыс орнату..."
 
-#: ../applet/main.c:550
-#: ../applet/main.c:891
+#: ../applet/main.c:550 ../applet/main.c:891
 msgid "Connected"
 msgstr "Байланысқан"
 
-#: ../applet/main.c:553
-#: ../applet/main.c:891
+#: ../applet/main.c:553 ../applet/main.c:891
 msgid "Disconnected"
 msgstr "Байланыспаған"
 
-#: ../applet/main.c:909
-#: ../applet/main.c:973
-#: ../properties/adapter.c:380
+#: ../applet/main.c:909 ../applet/main.c:973 ../properties/adapter.c:380
 msgid "Disconnect"
 msgstr "Байланысты үзу"
 
-#: ../applet/main.c:909
-#: ../applet/main.c:973
+#: ../applet/main.c:909 ../applet/main.c:973
 msgid "Connect"
 msgstr "Байланысу"
 
@@ -276,9 +265,7 @@ msgstr "- Bluetooth апплеті"
 msgid ""
 "%s\n"
 "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"%s\n"
-"Командалық жолдың барлық опцияларын қарау үшін '%s --help' енгізіңіз.\n"
+msgstr "%s\nКомандалық жолдың барлық опцияларын қарау үшін '%s --help' енгізіңіз.\n"
 
 #: ../applet/main.c:1122
 msgid "Bluetooth Applet"
@@ -288,18 +275,17 @@ msgstr "Bluetooth апплеті"
 #. Translators: This string appears next to a toggle switch which controls
 #. * enabling/disabling Bluetooth radio's on the device. Akin to the power
 #. * switches in the Network UI of Moblin
-#: ../applet/notify.c:115
-#: ../properties/bluetooth-properties.desktop.in.in.h:1
+#: ../applet/notify.c:124
+#: ../properties/mate-bluetooth-properties.desktop.in.in.h:1
 #: ../moblin/moblin-panel.c:1455
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
-#: ../applet/notify.c:154
+#: ../applet/notify.c:163
 msgid "Bluetooth: Enabled"
 msgstr "Bluetooth: Қосулы"
 
-#: ../applet/agent.c:251
-#: ../applet/agent.c:332
+#: ../applet/agent.c:251 ../applet/agent.c:332
 #, c-format
 msgid "Device '%s' wants to pair with this computer"
 msgstr ""
@@ -327,24 +313,17 @@ msgstr ""
 
 #. translators: this is a popup telling you a particular device
 #. * has asked for pairing
-#: ../applet/agent.c:496
-#: ../applet/agent.c:531
-#: ../applet/agent.c:573
+#: ../applet/agent.c:496 ../applet/agent.c:531 ../applet/agent.c:573
 #, c-format
 msgid "Pairing request for '%s'"
 msgstr ""
 
-#: ../applet/agent.c:500
-#: ../applet/agent.c:535
-#: ../applet/agent.c:577
-#: ../applet/agent.c:618
-#: ../applet/agent.c:656
+#: ../applet/agent.c:500 ../applet/agent.c:535 ../applet/agent.c:577
+#: ../applet/agent.c:618 ../applet/agent.c:656
 msgid "Bluetooth device"
 msgstr "Bluetooth құрылғысы"
 
-#: ../applet/agent.c:501
-#: ../applet/agent.c:536
-#: ../applet/agent.c:578
+#: ../applet/agent.c:501 ../applet/agent.c:536 ../applet/agent.c:578
 msgid "Enter PIN"
 msgstr ""
 
@@ -368,12 +347,12 @@ msgstr ""
 msgid "Check authorization"
 msgstr ""
 
-#: ../applet/bluetooth-applet.desktop.in.in.h:1
+#: ../applet/mate-bluetooth-applet.desktop.in.in.h:1
 msgid "Bluetooth Manager"
 msgstr ""
 
-#: ../applet/bluetooth-applet.desktop.in.in.h:2
-msgid "Bluetooth Manager applet"
+#: ../applet/mate-bluetooth-applet.desktop.in.in.h:2
+msgid "MATE Bluetooth Manager applet"
 msgstr ""
 
 #: ../applet/popup-menu.ui.h:1
@@ -384,10 +363,8 @@ msgstr "Bluetooth: Тексеру"
 msgid "Browse files on device..."
 msgstr ""
 
-#: ../applet/popup-menu.ui.h:3
-#: ../properties/adapter.c:339
-#: ../moblin/moblin-panel.c:1297
-#: ../moblin/moblin-panel.c:1385
+#: ../applet/popup-menu.ui.h:3 ../properties/adapter.c:339
+#: ../moblin/moblin-panel.c:1297 ../moblin/moblin-panel.c:1385
 msgid "Devices"
 msgstr "Құрылғылар"
 
@@ -440,7 +417,9 @@ msgid "Cannot start \"Personal File Sharing\" Preferences"
 msgstr ""
 
 #: ../properties/main.c:95
-msgid "Please verify that the \"Personal File Sharing\" program is correctly installed."
+msgid ""
+"Please verify that the \"Personal File Sharing\" program is correctly "
+"installed."
 msgstr ""
 
 #: ../properties/main.c:124
@@ -482,7 +461,7 @@ msgstr "Өші_ру"
 
 #: ../properties/adapter.c:671
 msgid "Bluetooth is disabled"
-msgstr ""
+msgstr "Bluetooth сөндірулі тұр"
 
 #: ../properties/adapter.c:711
 msgid "No Bluetooth adapters present"
@@ -496,35 +475,30 @@ msgstr ""
 msgid "Bluetooth has been disabled by a switch on your computer."
 msgstr ""
 
-#: ../properties/bluetooth-properties.desktop.in.in.h:2
+#: ../properties/mate-bluetooth-properties.desktop.in.in.h:2
 msgid "Configure Bluetooth settings"
 msgstr ""
 
 #. translators:
 #. * The '%s' is the device name, for example:
 #. * Pairing with 'Sony Bluetooth Headset' cancelled
-#.
-#: ../wizard/main.c:206
-#: ../wizard/main.c:327
+#: ../wizard/main.c:206 ../wizard/main.c:327
 #, c-format
 msgid "Pairing with '%s' cancelled"
 msgstr ""
 
-#: ../wizard/main.c:246
-#: ../moblin/moblin-panel.c:1049
+#: ../wizard/main.c:246 ../moblin/moblin-panel.c:1049
 #, c-format
 msgid "Please confirm that the PIN displayed on '%s' matches this one."
 msgstr ""
 
-#: ../wizard/main.c:300
-#: ../moblin/moblin-panel.c:1100
+#: ../wizard/main.c:300 ../moblin/moblin-panel.c:1100
 msgid "Please enter the following PIN:"
 msgstr ""
 
 #. translators:
 #. * The '%s' is the device name, for example:
 #. * Setting up 'Sony Bluetooth Headset' failed
-#.
 #: ../wizard/main.c:383
 #, c-format
 msgid "Setting up '%s' failed"
@@ -533,20 +507,18 @@ msgstr ""
 #. translators:
 #. * The '%s' is the device name, for example:
 #. * Connecting to 'Sony Bluetooth Headset' now...
-#.
 #: ../wizard/main.c:514
 #, c-format
 msgid "Connecting to '%s'..."
 msgstr ""
 
-#: ../wizard/main.c:550
-#: ../moblin/moblin-panel.c:658
+#: ../wizard/main.c:550 ../moblin/moblin-panel.c:658
 #, c-format
-msgid "Please enter the following PIN on '%s' and press “Enter” on the keyboard:"
+msgid ""
+"Please enter the following PIN on '%s' and press “Enter” on the keyboard:"
 msgstr ""
 
-#: ../wizard/main.c:552
-#: ../moblin/moblin-panel.c:660
+#: ../wizard/main.c:552 ../moblin/moblin-panel.c:660
 #, c-format
 msgid "Please enter the following PIN on '%s':"
 msgstr ""
@@ -554,14 +526,12 @@ msgstr ""
 #. translators:
 #. * The '%s' is the device name, for example:
 #. * Please wait while finishing setup on 'Sony Bluetooth Headset'...
-#.
 #: ../wizard/main.c:573
 #, c-format
 msgid "Please wait while finishing setup on device '%s'..."
 msgstr ""
 
-#: ../wizard/main.c:589
-#: ../moblin/moblin-panel.c:686
+#: ../wizard/main.c:589 ../moblin/moblin-panel.c:686
 #, c-format
 msgid "Successfully set up new device '%s'"
 msgstr ""
@@ -584,7 +554,7 @@ msgstr ""
 
 #: ../wizard/wizard.ui.h:5
 msgid "Custom PIN:"
-msgstr ""
+msgstr "Таңдауыңызша PIN:"
 
 #: ../wizard/wizard.ui.h:6
 msgid "Device Setup"
@@ -600,13 +570,12 @@ msgstr ""
 
 #: ../wizard/wizard.ui.h:9
 msgid "Do not pair"
-msgstr ""
+msgstr "Жұптамау"
 
 #. This is a button to answer: Does the PIN matches the one on the device?
-#: ../wizard/wizard.ui.h:11
-#: ../moblin/moblin-panel.c:1253
+#: ../wizard/wizard.ui.h:11 ../moblin/moblin-panel.c:1253
 msgid "Does not match"
-msgstr ""
+msgstr "Сәйкес емес"
 
 #: ../wizard/wizard.ui.h:12
 msgid "Finishing New Device Setup"
@@ -619,24 +588,22 @@ msgstr ""
 
 #: ../wizard/wizard.ui.h:15
 msgid "Introduction"
-msgstr ""
+msgstr "Басы"
 
 #. This is a button to answer: Does the PIN matches the one on the device?
-#: ../wizard/wizard.ui.h:17
-#: ../moblin/moblin-panel.c:1249
+#: ../wizard/wizard.ui.h:17 ../moblin/moblin-panel.c:1249
 msgid "Matches"
-msgstr ""
+msgstr "Сәйкес"
 
 #: ../wizard/wizard.ui.h:18
 msgid "PIN Options"
-msgstr ""
+msgstr "PIN опциялары"
 
 #: ../wizard/wizard.ui.h:19
 msgid "PIN _options..."
 msgstr ""
 
-#: ../wizard/wizard.ui.h:20
-#: ../moblin/moblin-panel.c:1163
+#: ../wizard/wizard.ui.h:20 ../moblin/moblin-panel.c:1163
 msgid "Select the additional services you want to use with your device:"
 msgstr ""
 
@@ -649,11 +616,16 @@ msgid "Setup Completed"
 msgstr ""
 
 #: ../wizard/wizard.ui.h:23
-msgid "The Bluetooth new device setup will walk you through the process of configuring Bluetooth enabled devices for use with this computer."
+msgid ""
+"The Bluetooth new device setup will walk you through the process of "
+"configuring Bluetooth enabled devices for use with this computer."
 msgstr ""
 
 #: ../wizard/wizard.ui.h:24
-msgid "The device will need to be within 10 meters of your computer, and be “visible” (sometimes called “discoverable”). Check the device's manual if in doubt."
+msgid ""
+"The device will need to be within 10 meters of your computer, and be "
+"“visible” (sometimes called “discoverable”). Check the device's manual if in"
+" doubt."
 msgstr ""
 
 #: ../wizard/wizard.ui.h:25
@@ -674,8 +646,7 @@ msgid "%'d second"
 msgid_plural "%'d seconds"
 msgstr[0] "%'d секунд"
 
-#: ../sendto/main.c:167
-#: ../sendto/main.c:180
+#: ../sendto/main.c:167 ../sendto/main.c:180
 #, c-format
 msgid "%'d minute"
 msgid_plural "%'d minutes"
@@ -714,22 +685,22 @@ msgstr "Кімнен:"
 msgid "To:"
 msgstr "Кімге:"
 
-#: ../sendto/main.c:343
-#: ../sendto/main.c:359
+#: ../sendto/main.c:343 ../sendto/main.c:359
 msgid "An unknown error occurred"
 msgstr ""
 
 #: ../sendto/main.c:352
-msgid "Make sure that remote device is switched on and that it accepts Bluetooth connections"
+msgid ""
+"Make sure that remote device is switched on and that it accepts Bluetooth "
+"connections"
 msgstr ""
 
 #: ../sendto/main.c:450
 #, c-format
 msgid "Sending %s"
-msgstr ""
+msgstr "Жіберуде %s"
 
-#: ../sendto/main.c:457
-#: ../sendto/main.c:523
+#: ../sendto/main.c:457 ../sendto/main.c:523
 #, c-format
 msgid "Sending file %d of %d"
 msgstr ""
@@ -742,7 +713,7 @@ msgstr "%d КБ/с"
 #: ../sendto/main.c:521
 #, c-format
 msgid "%d B/s"
-msgstr ""
+msgstr "%d Б/с"
 
 #: ../sendto/main.c:641
 msgid "Select Device to Send To"
@@ -754,11 +725,11 @@ msgstr ""
 
 #: ../sendto/main.c:687
 msgid "Choose files to send"
-msgstr ""
+msgstr "Жіберу үшін файлдарды таңдаңыз"
 
 #: ../sendto/main.c:716
 msgid "Remote device to use"
-msgstr ""
+msgstr "Қолдану үшін қашықтағы құрылғы"
 
 #: ../sendto/main.c:718
 msgid "Remote device's name"
@@ -781,8 +752,7 @@ msgstr ""
 msgid "Run in standalone mode"
 msgstr ""
 
-#: ../moblin/main.c:94
-#: ../moblin/bluetooth-panel.desktop.in.in.h:2
+#: ../moblin/main.c:94 ../moblin/bluetooth-panel.desktop.in.in.h:2
 msgid "Moblin Bluetooth Panel"
 msgstr ""
 
@@ -816,10 +786,8 @@ msgid "Device setup failed"
 msgstr ""
 
 #. Back button
-#: ../moblin/moblin-panel.c:1136
-#: ../moblin/moblin-panel.c:1212
-#: ../moblin/moblin-panel.c:1261
-#: ../moblin/moblin-panel.c:1323
+#: ../moblin/moblin-panel.c:1136 ../moblin/moblin-panel.c:1212
+#: ../moblin/moblin-panel.c:1261 ../moblin/moblin-panel.c:1323
 #: ../moblin/moblin-panel.c:1540
 msgid "Back to devices"
 msgstr ""
@@ -828,8 +796,7 @@ msgstr ""
 msgid "Done"
 msgstr "Дайын"
 
-#: ../moblin/moblin-panel.c:1196
-#: ../moblin/moblin-panel.c:1233
+#: ../moblin/moblin-panel.c:1196 ../moblin/moblin-panel.c:1233
 msgid "Device setup"
 msgstr ""
 
@@ -855,4 +822,3 @@ msgstr ""
 #: ../moblin/bluetooth-panel.desktop.in.in.h:1
 msgid "Bluetooth Manager Panel"
 msgstr ""
-

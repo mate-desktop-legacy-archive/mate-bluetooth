@@ -3,20 +3,21 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-#   <lutusq@lutusq.jazztel.es>, 2012.
+# Adolfo Jayme Barrientos <fitoschido@ubuntu.com>, 2014
+# Lluís Tusquellas <lutusq@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-01-02 17:44+0100\n"
-"PO-Revision-Date: 2012-04-15 10:36+0000\n"
-"Last-Translator: Lluís Tusquellas <lutusq@lutusq.jazztel.es>\n"
-"Language-Team: Spanish (Castilian) (http://www.transifex.com/projects/p/MATE/language/es/)\n"
+"PO-Revision-Date: 2014-02-16 17:32+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitoschido@ubuntu.com>\n"
+"Language-Team: Spanish (http://www.transifex.com/projects/p/MATE/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../lib/bluetooth-client.c:127
 msgid "All types"
@@ -266,7 +267,7 @@ msgstr "- Miniaplicación para Bluetooth"
 msgid ""
 "%s\n"
 "Run '%s --help' to see a full list of available command line options.\n"
-msgstr "%s\nEjecute «%s --help» para ver una lista completa de todas las opciones disponibles de la línea de comandos.\n"
+msgstr "%s\nEjecute «%s --help» para ver una lista completa de todas las órdenes disponibles.\n"
 
 #: ../applet/main.c:1122
 msgid "Bluetooth Applet"
@@ -483,7 +484,6 @@ msgstr "Configurar opciones de Bluetooth"
 #. translators:
 #. * The '%s' is the device name, for example:
 #. * Pairing with 'Sony Bluetooth Headset' cancelled
-#. 
 #: ../wizard/main.c:206 ../wizard/main.c:327
 #, c-format
 msgid "Pairing with '%s' cancelled"
@@ -501,7 +501,6 @@ msgstr "Introduzca el siguiente PIN:"
 #. translators:
 #. * The '%s' is the device name, for example:
 #. * Setting up 'Sony Bluetooth Headset' failed
-#. 
 #: ../wizard/main.c:383
 #, c-format
 msgid "Setting up '%s' failed"
@@ -510,7 +509,6 @@ msgstr "Falló al configurar «%s»"
 #. translators:
 #. * The '%s' is the device name, for example:
 #. * Connecting to 'Sony Bluetooth Headset' now...
-#. 
 #: ../wizard/main.c:514
 #, c-format
 msgid "Connecting to '%s'..."
@@ -530,7 +528,6 @@ msgstr "Introduzca el siguiente PIN en «%s»:"
 #. translators:
 #. * The '%s' is the device name, for example:
 #. * Please wait while finishing setup on 'Sony Bluetooth Headset'...
-#. 
 #: ../wizard/main.c:573
 #, c-format
 msgid "Please wait while finishing setup on device '%s'..."

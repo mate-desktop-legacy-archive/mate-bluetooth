@@ -1,28 +1,22 @@
-# German translation for mate-bluetooth
-# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
-# This file is distributed under the same license as the mate-bluetooth package.
-# #
-# pair - verbinden/koppeln
-# #
-# Mario Blättermann <mariobl@gnome.org>, 2009, 2010.
-# Christian Kirbach <Christian.Kirbach@googlemail.com>, 2009, 2010.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# to_ba, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-bluetooth\n"
+"Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-09-04 16:02+0200\n"
-"PO-Revision-Date: 2010-09-04 16:03+0200\n"
-"Last-Translator: Christian Kirbach <Christian.Kirbach@googlemail.com>\n"
-"Language-Team: Deutsch <mate-de@gnome.org>\n"
+"POT-Creation-Date: 2012-01-02 17:44+0100\n"
+"PO-Revision-Date: 2014-02-18 14:52+0000\n"
+"Last-Translator: to_ba\n"
+"Language-Team: German (http://www.transifex.com/projects/p/MATE/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Launchpad-Export-Date: 2008-10-05 13:36+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
-"X-Poedit-Language: German\n"
-"X-Poedit-Country: GERMANY\n"
 
 #: ../lib/bluetooth-client.c:127
 msgid "All types"
@@ -44,7 +38,8 @@ msgstr "Rechner"
 msgid "Network"
 msgstr "Netzwerk"
 
-#. translators: a hands-free headset, a combination of a single speaker with a microphone
+#. translators: a hands-free headset, a combination of a single speaker with a
+#. microphone
 #: ../lib/bluetooth-client.c:138
 msgid "Headset"
 msgstr "Headset"
@@ -110,9 +105,7 @@ msgstr "»%s« aus der Liste der bekannten Geräte entfernen?"
 #: ../lib/bluetooth-chooser.c:374
 msgid ""
 "If you remove the device, you will have to set it up again before next use."
-msgstr ""
-"Falls Sie das Gerät entfernen, müssen Sie es vor der nächsten Benutzung "
-"erneut konfigurieren."
+msgstr "Falls Sie das Gerät entfernen, müssen Sie es vor der nächsten Benutzung erneut konfigurieren."
 
 #: ../lib/bluetooth-chooser.c:746
 msgid "Device"
@@ -211,7 +204,7 @@ msgstr "Bluetooth ausschalten"
 msgid "Bluetooth: On"
 msgstr "Bluetooth: Ein"
 
-#: ../applet/main.c:390 ../applet/notify.c:154
+#: ../applet/main.c:390 ../applet/notify.c:163
 msgid "Bluetooth: Disabled"
 msgstr "Bluetooth: Deaktiviert"
 
@@ -255,7 +248,6 @@ msgstr "Tastatur-Einstellungen öffnen …"
 msgid "Open Mouse Preferences..."
 msgstr "Maus-Einstellungen öffnen …"
 
-# Der zu öffnende Dialog heißt Audio-Einstellungen.
 #: ../applet/main.c:961
 msgid "Open Sound Preferences..."
 msgstr "Audio-Einstellungen öffnen …"
@@ -274,10 +266,7 @@ msgstr "- Bluetooth-Applet"
 msgid ""
 "%s\n"
 "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"%s\n"
-"Rufen Sie »%s --help« auf, um eine vollständige Liste der "
-"Befehlszeilenoptionen zu erhalten.\n"
+msgstr "%s\nRufen Sie »%s --help« auf, um eine vollständige Liste der Befehlszeilenoptionen zu erhalten.\n"
 
 #: ../applet/main.c:1122
 msgid "Bluetooth Applet"
@@ -287,12 +276,13 @@ msgstr "Bluetooth-Applet"
 #. Translators: This string appears next to a toggle switch which controls
 #. * enabling/disabling Bluetooth radio's on the device. Akin to the power
 #. * switches in the Network UI of Moblin
-#: ../applet/notify.c:115 ../properties/bluetooth-properties.desktop.in.in.h:1
+#: ../applet/notify.c:124
+#: ../properties/mate-bluetooth-properties.desktop.in.in.h:1
 #: ../moblin/moblin-panel.c:1455
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: ../applet/notify.c:154
+#: ../applet/notify.c:163
 msgid "Bluetooth: Enabled"
 msgstr "Bluetooth: Aktiviert"
 
@@ -309,9 +299,7 @@ msgstr "Bitte geben Sie die auf dem Gerät »%s« angezeigte PIN ein."
 #: ../applet/agent.c:339
 #, c-format
 msgid "Please confirm whether the PIN '%s' matches the one on device %s."
-msgstr ""
-"Bitte bestätigen Sie, dass die PIN »%s« mit der auf dem Gerät %s angezeigten "
-"PIN übereinstimmt."
+msgstr "Bitte bestätigen Sie, dass die PIN »%s« mit der auf dem Gerät %s angezeigten PIN übereinstimmt."
 
 #. translators: Whether to grant access to a particular service
 #: ../applet/agent.c:385
@@ -360,13 +348,13 @@ msgstr "Autorisierungsanfrage von %s"
 msgid "Check authorization"
 msgstr "Legitimierung prüfen"
 
-#: ../applet/bluetooth-applet.desktop.in.in.h:1
+#: ../applet/mate-bluetooth-applet.desktop.in.in.h:1
 msgid "Bluetooth Manager"
 msgstr "Bluetooth-Verwaltung"
 
-#: ../applet/bluetooth-applet.desktop.in.in.h:2
-msgid "Bluetooth Manager applet"
-msgstr "Bluetooth-Verwaltungs-Applet"
+#: ../applet/mate-bluetooth-applet.desktop.in.in.h:2
+msgid "MATE Bluetooth Manager applet"
+msgstr "MATE Bluetooth Manager applet"
 
 #: ../applet/popup-menu.ui.h:1
 msgid "Bluetooth: Checking"
@@ -427,16 +415,13 @@ msgstr "_Eingabe anzeigen"
 
 #: ../properties/main.c:90
 msgid "Cannot start \"Personal File Sharing\" Preferences"
-msgstr ""
-"Einstellungen zur persönlichen Dateifreigabe konnten nicht gestartet werden"
+msgstr "Einstellungen zur persönlichen Dateifreigabe konnten nicht gestartet werden"
 
 #: ../properties/main.c:95
 msgid ""
 "Please verify that the \"Personal File Sharing\" program is correctly "
 "installed."
-msgstr ""
-"Bitte stellen Sie sicher, dass das Programm »Persönliche Dateifreigabe« "
-"korrekt installiert ist."
+msgstr "Bitte stellen Sie sicher, dass das Programm »Persönliche Dateifreigabe« korrekt installiert ist."
 
 #: ../properties/main.c:124
 msgid "Bluetooth Preferences"
@@ -489,17 +474,15 @@ msgstr "Es sind keine Bluetooth-Adapter mit Ihrem Rechner verbunden."
 
 #: ../properties/properties-killed-adapter.ui.h:1
 msgid "Bluetooth has been disabled by a switch on your computer."
-msgstr ""
-"Bluetooth ist über einen Schalter an Ihrem Rechner ausgeschaltet worden."
+msgstr "Bluetooth ist über einen Schalter an Ihrem Rechner ausgeschaltet worden."
 
-#: ../properties/bluetooth-properties.desktop.in.in.h:2
+#: ../properties/mate-bluetooth-properties.desktop.in.in.h:2
 msgid "Configure Bluetooth settings"
 msgstr "Bluetooth-Einstellungen bearbeiten"
 
 #. translators:
 #. * The '%s' is the device name, for example:
 #. * Pairing with 'Sony Bluetooth Headset' cancelled
-#.
 #: ../wizard/main.c:206 ../wizard/main.c:327
 #, c-format
 msgid "Pairing with '%s' cancelled"
@@ -508,9 +491,7 @@ msgstr "Kopplung mit »%s« wurde abgebrochen"
 #: ../wizard/main.c:246 ../moblin/moblin-panel.c:1049
 #, c-format
 msgid "Please confirm that the PIN displayed on '%s' matches this one."
-msgstr ""
-"Bitte bestätigen Sie, dass die auf dem Gerät »%s« angezeigte PIN mit dieser "
-"übereinstimmt."
+msgstr "Bitte bestätigen Sie, dass die auf dem Gerät »%s« angezeigte PIN mit dieser übereinstimmt."
 
 #: ../wizard/main.c:300 ../moblin/moblin-panel.c:1100
 msgid "Please enter the following PIN:"
@@ -519,7 +500,6 @@ msgstr "Bitte geben Sie die folgende PIN ein:"
 #. translators:
 #. * The '%s' is the device name, for example:
 #. * Setting up 'Sony Bluetooth Headset' failed
-#.
 #: ../wizard/main.c:383
 #, c-format
 msgid "Setting up '%s' failed"
@@ -528,7 +508,6 @@ msgstr "Konfiguration von »%s« ist gescheitert"
 #. translators:
 #. * The '%s' is the device name, for example:
 #. * Connecting to 'Sony Bluetooth Headset' now...
-#.
 #: ../wizard/main.c:514
 #, c-format
 msgid "Connecting to '%s'..."
@@ -538,9 +517,7 @@ msgstr "Verbindung zu »%s« wird hergestellt …"
 #, c-format
 msgid ""
 "Please enter the following PIN on '%s' and press “Enter” on the keyboard:"
-msgstr ""
-"Bitte geben Sie die folgende PIN auf »%s« ein und drücken Sie die "
-"Eingabetaste auf der Tastatur:"
+msgstr "Bitte geben Sie die folgende PIN auf »%s« ein und drücken Sie die Eingabetaste auf der Tastatur:"
 
 #: ../wizard/main.c:552 ../moblin/moblin-panel.c:660
 #, c-format
@@ -550,13 +527,10 @@ msgstr "Bitte geben Sie die folgende PIN auf »%s« ein:"
 #. translators:
 #. * The '%s' is the device name, for example:
 #. * Please wait while finishing setup on 'Sony Bluetooth Headset'...
-#.
 #: ../wizard/main.c:573
 #, c-format
 msgid "Please wait while finishing setup on device '%s'..."
-msgstr ""
-"Bitte warten Sie, während die Konfiguration des Gerätes »%s« abgeschlossen "
-"wird …"
+msgstr "Bitte warten Sie, während die Konfiguration des Gerätes »%s« abgeschlossen wird …"
 
 #: ../wizard/main.c:589 ../moblin/moblin-panel.c:686
 #, c-format
@@ -646,19 +620,14 @@ msgstr "Konfiguration vollständig"
 msgid ""
 "The Bluetooth new device setup will walk you through the process of "
 "configuring Bluetooth enabled devices for use with this computer."
-msgstr ""
-"Der Bluetooth-Geräteassistent wird Sie durch den Vorgang der Konfiguration "
-"von Bluetooth-Geräten zur Benutzung mit diesem Rechner führen."
+msgstr "Der Bluetooth-Geräteassistent wird Sie durch den Vorgang der Konfiguration von Bluetooth-Geräten zur Benutzung mit diesem Rechner führen."
 
 #: ../wizard/wizard.ui.h:24
 msgid ""
 "The device will need to be within 10 meters of your computer, and be "
-"“visible” (sometimes called “discoverable”). Check the device's manual if in "
-"doubt."
-msgstr ""
-"Das Gerät muss sich in einem Umkreis von 10 Metern um Ihren Rechner befinden "
-"und “sichtbar” (bzw. “erkennbar”) sein. Ziehen Sie das Handbuch des Gerätes "
-"zu Rate, falls Sie unsicher sind."
+"“visible” (sometimes called “discoverable”). Check the device's manual if in"
+" doubt."
+msgstr "Das Gerät muss sich in einem Umkreis von 10 Metern um Ihren Rechner befinden und “sichtbar” (bzw. “erkennbar”) sein. Ziehen Sie das Handbuch des Gerätes zu Rate, falls Sie unsicher sind."
 
 #: ../wizard/wizard.ui.h:25
 msgid "Welcome to the Bluetooth new device setup"
@@ -729,9 +698,7 @@ msgstr "Ein unbekannter Fehler ist aufgetreten"
 msgid ""
 "Make sure that remote device is switched on and that it accepts Bluetooth "
 "connections"
-msgstr ""
-"Stellen Sie sicher, dass das entfernte Gerät eingeschaltet ist und Bluetooth-"
-"Verbindungen akzeptiert"
+msgstr "Stellen Sie sicher, dass das entfernte Gerät eingeschaltet ist und Bluetooth-Verbindungen akzeptiert"
 
 #: ../sendto/main.c:450
 #, c-format
@@ -792,11 +759,11 @@ msgstr "Im unabhängigen Modus ausführen"
 
 #: ../moblin/main.c:94 ../moblin/bluetooth-panel.desktop.in.in.h:2
 msgid "Moblin Bluetooth Panel"
-msgstr "Moblin Bluetooth-Panel"
+msgstr "Moblin-Bluetooth-Leiste"
 
 #: ../moblin/main.c:95
 msgid "- Moblin Bluetooth Panel"
-msgstr "- Moblin Bluetooth-Panel"
+msgstr "- Moblin-Bluetooth-Leiste"
 
 #: ../moblin/main.c:122
 msgid "bluetooth"
@@ -860,158 +827,3 @@ msgstr "Datei von Ihrem Rechner senden"
 #: ../moblin/bluetooth-panel.desktop.in.in.h:1
 msgid "Bluetooth Manager Panel"
 msgstr "Bluetooth-Verwaltungs-Applet"
-
-#~ msgid "Whether to show the notification icon"
-#~ msgstr "Benachrichtigungssymbol anzeigen"
-
-#~ msgid "Whether to show the notification icon."
-#~ msgstr "Legt fest, wann das Benachrichtigungssymbol angezeigt werden soll."
-
-#~ msgid "MateConf error: %s"
-#~ msgstr "MateConf-Fehler: %s"
-
-#~ msgid "All further errors shown only on terminal."
-#~ msgstr "Alle weiteren Fehler werden nur im Terminal angezeigt."
-
-#~ msgid "A Bluetooth manager for the MATE desktop"
-#~ msgstr "Ein Bluetooth-Manager für die MATE Arbeitsumgebung"
-
-#~ msgid "translator-credits"
-#~ msgstr ""
-#~ "Launchpad Contributions:\n"
-#~ "  Andre Klapper https://launchpad.net/~a9016009\n"
-#~ "  Bruno L. Juchli https://launchpad.net/~bruno-juchli\n"
-#~ "  Marcel Holtmann https://launchpad.net/~holtmann\n"
-#~ "  Stefan Horning https://launchpad.net/~stefan-horning\n"
-#~ "  Thomas Trummer https://launchpad.net/~th-trummer\n"
-#~ "  Vinzenz Vietzke https://launchpad.net/~v1nz\n"
-#~ "  funkyferdy https://launchpad.net/~funkyferdy\n"
-#~ "\n"
-#~ "Mario Blättermann <mariobl@gnome.org>"
-
-#~ msgid "MATE Bluetooth home page"
-#~ msgstr "MATE Bluetooth-Webseite"
-
-#~ msgid "Bluetooth: Unknown"
-#~ msgstr "Bluetooth: Unbekannt"
-
-#~ msgid "Enter passkey"
-#~ msgstr "Geben Sie Ihren Schlüssel ein"
-
-#~ msgid "Check passkey"
-#~ msgstr "Schlüssel überprüfen"
-
-#~ msgid "Known devices"
-#~ msgstr "Bekannte Geräte"
-
-#~ msgid "Delete"
-#~ msgstr "Entfernen"
-
-#~ msgid "Successfully configured '%s'"
-#~ msgstr "»%s« wurde erfolgreich konfiguriert"
-
-#~ msgid "Bluetooth Device Wizard"
-#~ msgstr "Bluetooth-Geräteassistent"
-
-#~ msgid "Setup Finished"
-#~ msgstr "Konfiguration abgeschlossen"
-
-#~ msgid "Connecting to 'Foobar'..."
-#~ msgstr "Verbindung zu »Foobar« wird hergestellt …"
-
-#~ msgid "Finishing setup on 'Foobar'..."
-#~ msgstr "Konfiguration auf »Foobar« wird abgeschlossen …"
-
-#~ msgid "S_earch"
-#~ msgstr "S_uchen"
-
-#~ msgid "Authentication request"
-#~ msgstr "Legitimierungsanfrage"
-
-#~ msgid "Pairing request for device:"
-#~ msgstr "Verbindungsanfrage für Gerät:"
-
-#~ msgid "Enter passkey for authentication:"
-#~ msgstr "Geben Sie zur Legitimierung Ihren Schlüssel ein:"
-
-#~ msgid "Confirmation request"
-#~ msgstr "Bestätigungsanfrage"
-
-#~ msgid "Confirm value for authentication:"
-#~ msgstr "Bestätigen Sie zur Legitimierung den Wert:"
-
-#~ msgid "Authorization request"
-#~ msgstr "Legitimierungsanfrage"
-
-#~ msgid "Authorization request for device:"
-#~ msgstr "Legitimierungsanfrage für Gerät:"
-
-#~ msgid "Confirmation request for %s"
-#~ msgstr "Bestätigungsanfrage für %s"
-
-#~ msgid "Confirm passkey"
-#~ msgstr "Schlüssel bestätigen:"
-
-#~ msgid "Please wait whilst '%s' is being paired"
-#~ msgstr "Bitte warten Sie, während die Verbindung zu »%s« hergestellt wird"
-
-#~ msgid "Additional setup"
-#~ msgstr "Zusätzliche Einstellungen"
-
-#~ msgid "Setting up new device"
-#~ msgstr "Neues Gerät wird konfiguriert"
-
-#~ msgid "Error Occurred"
-#~ msgstr "Es ist ein Fehler aufgetreten"
-
-#~ msgid "gtk-close"
-#~ msgstr "gtk-close"
-
-#~ msgid "General"
-#~ msgstr "Allgemein"
-
-#~ msgid "Notification area"
-#~ msgstr "Benachrichtigungsfeld"
-
-#~ msgid "Never display icon"
-#~ msgstr "Symbol niemals anzeigen"
-
-#~ msgid "Only display when adapter present"
-#~ msgstr "Nur zeigen, wenn ein Adapter vorhanden ist"
-
-#~ msgid "Always display icon"
-#~ msgstr "Symbol immer anzeigen"
-
-#~ msgid "Unnamed Adapter"
-#~ msgstr "Unbenannter Adapter"
-
-#~ msgid "_Powered"
-#~ msgstr "_Eingeschaltet"
-
-#~ msgid ""
-#~ "Display options for the notification icon. Valid options are \"never\", "
-#~ "\"present\" and \"always\"."
-#~ msgstr ""
-#~ "Anzeigeoptionen für das Benachrichtigungssymbol. Mögliche Werte sind: "
-#~ "»never«, »present« und »always«."
-
-#~ msgid "Summary"
-#~ msgstr "Zusammenfassung"
-
-#~ msgid "Checking Bluetooth status"
-#~ msgstr "Bluetooth-Status überprüfen"
-
-#~ msgid "Recognized Bluetooth Devices"
-#~ msgstr "Erkannte Bluetooth-Geräte"
-
-#~ msgid "Distrust"
-#~ msgstr "Nicht vertrauen"
-
-#~ msgid "Trust"
-#~ msgstr "Vertrauen"
-
-#~ msgid "Use _fixed passkey:"
-#~ msgstr "_Festen Schlüssel verwenden:"
-
-#~ msgid "File transfer"
-#~ msgstr "Dateiübertragung"

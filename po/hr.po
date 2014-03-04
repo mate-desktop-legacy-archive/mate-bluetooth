@@ -1,731 +1,833 @@
-# Croatian translation for bluez-mate
-# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
-# This file is distributed under the same license as the bluez-mate package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2007.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Ivica  Kolić <ikoli@yahoo.com>, 2013
 msgid ""
 msgstr ""
-"Project-Id-Version: bluez-mate\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2008-09-29 14:31+0200\n"
-"PO-Revision-Date: 2008-03-03 13:55+0000\n"
-"Last-Translator: Danijel Šnajder <Unknown>\n"
-"Language-Team: Croatian <hr@li.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-01-02 17:44+0100\n"
+"PO-Revision-Date: 2013-12-07 01:24+0000\n"
+"Last-Translator: Ivica  Kolić <ikoli@yahoo.com>\n"
+"Language-Team: Croatian (http://www.transifex.com/projects/p/MATE/language/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2008-10-05 13:36+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
+"Language: hr\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
-#, c-format
-#~ msgid "Created bonding with %s"
-#~ msgstr "Povezivanje s %s"
-
-#, c-format
-#~ msgid "Removed bonding with %s"
-#~ msgstr "Prekinuta veza s %s"
-
-#, c-format
-#~ msgid "Couldn't execute command: %s\n"
-#~ msgstr "Ne mogu izvršiti naredbu: %s\n"
-
-#~ msgid "never"
-#~ msgstr "nikada"
-
-#~ msgid "1 minute"
-#~ msgstr "1 minuta"
-
-#, c-format
-#~ msgid "%g minutes"
-#~ msgstr "%g minute/a"
-
-#~ msgid "Other devices can connect"
-#~ msgstr "Mogu se spojiti drugi uređaji"
-
-#~ msgid "Visible and connectable for other devices"
-#~ msgstr "Vidljiv i poveziv za druge uređaje"
-
-#~ msgid "Make adapter invisible after:"
-#~ msgstr "Učini adapter nevidljivim nakon:"
-
-#~ msgid "Unspecified"
-#~ msgstr "Neodređeno"
-
-#~ msgid "Desktop workstation"
-#~ msgstr "Radna stanica"
-
-#~ msgid "Laptop computer"
-#~ msgstr "Prijenosno računalo"
-
-#: ../common/bluetooth-client.c:82
+#: ../lib/bluetooth-client.c:127
 msgid "All types"
-msgstr ""
+msgstr "Sve vrste"
 
-#: ../common/bluetooth-client.c:84
+#: ../lib/bluetooth-client.c:129
 msgid "Phone"
-msgstr ""
+msgstr "Telefon"
 
-#: ../common/bluetooth-client.c:86
+#: ../lib/bluetooth-client.c:131
 msgid "Modem"
-msgstr ""
+msgstr "Modem"
 
-#: ../common/bluetooth-client.c:88
+#: ../lib/bluetooth-client.c:133
 msgid "Computer"
-msgstr ""
+msgstr "Računalo"
 
-#: ../common/bluetooth-client.c:90
+#: ../lib/bluetooth-client.c:135
 msgid "Network"
-msgstr ""
+msgstr "Mreža"
 
-#: ../common/bluetooth-client.c:92 ../wizard/main.c:326
+#. translators: a hands-free headset, a combination of a single speaker with a
+#. microphone
+#: ../lib/bluetooth-client.c:138
 msgid "Headset"
 msgstr ""
 
-#: ../common/bluetooth-client.c:94
-msgid "Headphone"
-msgstr ""
+#: ../lib/bluetooth-client.c:140
+msgid "Headphones"
+msgstr "Slušalice"
 
-#: ../common/bluetooth-client.c:96 ../wizard/main.c:311
+#: ../lib/bluetooth-client.c:142
+msgid "Audio device"
+msgstr "Audio uređaj"
+
+#: ../lib/bluetooth-client.c:144
 msgid "Keyboard"
-msgstr ""
+msgstr "Tipkovnica"
 
-#: ../common/bluetooth-client.c:98 ../wizard/main.c:306
+#: ../lib/bluetooth-client.c:146
 msgid "Mouse"
 msgstr "Miš"
 
-#: ../common/bluetooth-client.c:100
+#: ../lib/bluetooth-client.c:148
 msgid "Camera"
-msgstr ""
+msgstr "Kamera"
 
-#: ../common/bluetooth-client.c:102 ../wizard/main.c:321
+#: ../lib/bluetooth-client.c:150
 msgid "Printer"
 msgstr "Pisač"
 
-#: ../common/bluetooth-client.c:104
+#: ../lib/bluetooth-client.c:152
 msgid "Joypad"
 msgstr ""
 
-#: ../common/bluetooth-client.c:106
+#: ../lib/bluetooth-client.c:154
 msgid "Tablet"
-msgstr ""
+msgstr "Tablet"
 
-#: ../common/bluetooth-client.c:108
+#: ../lib/bluetooth-client.c:156
+msgid "Video device"
+msgstr "Video uređaj"
+
+#: ../lib/bluetooth-client.c:158 ../lib/bluetooth-chooser.c:129
+#: ../lib/bluetooth-filter-widget.c:81
 msgid "Unknown"
+msgstr "Nepoznato"
+
+#: ../lib/bluetooth-chooser-button.c:75 ../lib/bluetooth-chooser-button.c:369
+msgid "Click to select device..."
+msgstr "Klikni za odabir uređaja..."
+
+#: ../lib/bluetooth-chooser.c:170
+msgid "No adapters available"
 msgstr ""
 
-#: ../common/helper.c:162
-msgid "Select Device"
+#: ../lib/bluetooth-chooser.c:174 ../lib/bluetooth-chooser.c:868
+msgid "Searching for devices..."
+msgstr "Tražim uređaje..."
+
+#: ../lib/bluetooth-chooser.c:372
+#, c-format
+msgid "Remove '%s' from the list of devices?"
+msgstr "Ukloniti '%s' sa liste uređaja?"
+
+#: ../lib/bluetooth-chooser.c:374
+msgid ""
+"If you remove the device, you will have to set it up again before next use."
 msgstr ""
 
-#: ../common/helper.c:222
-msgid "Choose files to send"
+#: ../lib/bluetooth-chooser.c:746
+msgid "Device"
+msgstr "Uređaj"
+
+#: ../lib/bluetooth-chooser.c:783
+msgid "Type"
+msgstr "Vrsta"
+
+#: ../lib/bluetooth-filter-widget.c:71
+msgid "All categories"
+msgstr "Sve kategorije"
+
+#: ../lib/bluetooth-filter-widget.c:73
+msgid "Paired"
 msgstr ""
 
-#: ../applet/main.c:123
-msgid "A Bluetooth manager for the MATE desktop"
-msgstr "Upravitelj Bluetoothom za MATE radno okruženje"
-
-#: ../applet/main.c:126 ../analyzer/dialog.c:128
-msgid "translator-credits"
-msgstr ""
-"Launchpad Contributions:\n"
-"  Krešo Kunjas https://launchpad.net/~deresh\n"
-"\n"
-"Launchpad Contributions:\n"
-"  Danijel Šnajder https://launchpad.net/~phantomlord\n"
-"  Krešo Kunjas https://launchpad.net/~deresh"
-
-#: ../applet/main.c:177 ../applet/main.c:232
-msgid "Set up new device..."
+#: ../lib/bluetooth-filter-widget.c:75
+msgid "Trusted"
 msgstr ""
 
-#: ../applet/main.c:242
-msgid "Send files to device..."
+#: ../lib/bluetooth-filter-widget.c:77
+msgid "Not paired or trusted"
 msgstr ""
 
-#: ../applet/main.c:250
-msgid "Browse files on device..."
+#: ../lib/bluetooth-filter-widget.c:79
+msgid "Paired or trusted"
 msgstr ""
 
-#: ../applet/main.c:373
+#: ../lib/bluetooth-filter-widget.c:227
+msgid "<b>Show Only Bluetooth Devices With...</b>"
+msgstr ""
+
+#. The device category filter
+#: ../lib/bluetooth-filter-widget.c:243
+msgid "Device _category:"
+msgstr "Kategorija _uređaja:"
+
+#: ../lib/bluetooth-filter-widget.c:258
+msgid "Select the device category to filter"
+msgstr ""
+
+#. The device type filter
+#: ../lib/bluetooth-filter-widget.c:272
+msgid "Device _type:"
+msgstr "Vrsta _uređaja:"
+
+#: ../lib/bluetooth-filter-widget.c:293
+msgid "Select the device type to filter"
+msgstr ""
+
+#: ../lib/bluetooth-filter-widget.c:299
+msgid "Input devices (mice, keyboards, etc.)"
+msgstr "Ulazni uređaji (miš, tipkovnice, itd.)"
+
+#: ../lib/bluetooth-filter-widget.c:303
+msgid "Headphones, headsets and other audio devices"
+msgstr ""
+
+#: ../lib/plugins/geoclue.c:162
+msgid "Use this GPS device for Geolocation services"
+msgstr ""
+
+#. translators:
+#. * This is in a test plugin, please make sure you add the "(test)" part,
+#. * or leave untranslated
+#: ../lib/plugins/test.c:53
+msgid "Access the Internet using your cell phone (test)"
+msgstr "Pristupite internetu koristeći vaš mobitel (test)"
+
+#: ../applet/main.c:147
+msgid "Select Device to Browse"
+msgstr ""
+
+#: ../applet/main.c:151
+msgid "_Browse"
+msgstr "_Pretraži"
+
+#: ../applet/main.c:160
+msgid "Select device to browse"
+msgstr ""
+
+#: ../applet/main.c:380 ../properties/properties-adapter-off.ui.h:1
+msgid "Turn On Bluetooth"
+msgstr "Ukjluči Bluetooth"
+
+#: ../applet/main.c:381
+msgid "Bluetooth: Off"
+msgstr "Bluetooth: isključen"
+
+#: ../applet/main.c:384
+msgid "Turn Off Bluetooth"
+msgstr "Isključi Bluetooth"
+
+#: ../applet/main.c:385
+msgid "Bluetooth: On"
+msgstr "Bluetooth: uključen"
+
+#: ../applet/main.c:390 ../applet/notify.c:163
+msgid "Bluetooth: Disabled"
+msgstr "Bluetooth: onemogućen"
+
+#: ../applet/main.c:544
+msgid "Disconnecting..."
+msgstr "Odspajanje..."
+
+#: ../applet/main.c:547 ../sendto/main.c:217 ../sendto/main.c:314
+msgid "Connecting..."
+msgstr "Spajanje..."
+
+#: ../applet/main.c:550 ../applet/main.c:891
+msgid "Connected"
+msgstr "Spojen"
+
+#: ../applet/main.c:553 ../applet/main.c:891
+msgid "Disconnected"
+msgstr "Odspojen"
+
+#: ../applet/main.c:909 ../applet/main.c:973 ../properties/adapter.c:380
+msgid "Disconnect"
+msgstr "Odspoji"
+
+#: ../applet/main.c:909 ../applet/main.c:973
+msgid "Connect"
+msgstr "Spoji"
+
+#: ../applet/main.c:922
+msgid "Send files..."
+msgstr "Šalji datoteke..."
+
+#: ../applet/main.c:932
+msgid "Browse files..."
+msgstr ""
+
+#: ../applet/main.c:943
+msgid "Open Keyboard Preferences..."
+msgstr "Otvori osobitosti tipkovnice..."
+
+#: ../applet/main.c:951
+msgid "Open Mouse Preferences..."
+msgstr "Otvori osobitosti miša..."
+
+#: ../applet/main.c:961
+msgid "Open Sound Preferences..."
+msgstr "Otvori osobitosti zvuka..."
+
+#: ../applet/main.c:1081
+msgid "Debug"
+msgstr ""
+
+#. Parse command-line options
+#: ../applet/main.c:1100
+msgid "- Bluetooth applet"
+msgstr ""
+
+#: ../applet/main.c:1105
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+
+#: ../applet/main.c:1122
 msgid "Bluetooth Applet"
 msgstr "Applet Bluetootha"
 
-#: ../applet/agent.c:258
-msgid "Authentication request"
-msgstr "Traženje provjere autentičnosti"
+#. Power switch
+#. Translators: This string appears next to a toggle switch which controls
+#. * enabling/disabling Bluetooth radio's on the device. Akin to the power
+#. * switches in the Network UI of Moblin
+#: ../applet/notify.c:124
+#: ../properties/mate-bluetooth-properties.desktop.in.in.h:1
+#: ../moblin/moblin-panel.c:1455
+msgid "Bluetooth"
+msgstr "Bluetooth"
 
-#: ../applet/agent.c:286 ../applet/agent.c:395
-msgid "Pairing request for device:"
-msgstr "Traženje uparivanja za uređaj:"
+#: ../applet/notify.c:163
+msgid "Bluetooth: Enabled"
+msgstr "Bluetooth: omogućen"
 
-#: ../applet/agent.c:303
-msgid "Enter passkey for authentication:"
-msgstr ""
-
-#: ../applet/agent.c:327
-msgid "Show input"
-msgstr "Pokaži unos"
-
-#: ../applet/agent.c:369
-msgid "Confirmation request"
-msgstr "Traženje potvrde"
-
-#: ../applet/agent.c:412
-msgid "Confirm value for authentication:"
-msgstr ""
-
-#: ../applet/agent.c:456
-msgid "Authorization request"
-msgstr "Zahtjev za autorizaciju"
-
-#: ../applet/agent.c:482
-msgid "Authorization request for device:"
-msgstr ""
-
-#: ../applet/agent.c:503
+#: ../applet/agent.c:251 ../applet/agent.c:332
 #, c-format
-msgid "Grant access to %s?"
+msgid "Device '%s' wants to pair with this computer"
 msgstr ""
 
-#: ../applet/agent.c:512
-msgid "Always grant access"
+#: ../applet/agent.c:257
+#, c-format
+msgid "Please enter the PIN mentioned on device %s."
+msgstr ""
+
+#: ../applet/agent.c:339
+#, c-format
+msgid "Please confirm whether the PIN '%s' matches the one on device %s."
+msgstr ""
+
+#. translators: Whether to grant access to a particular service
+#: ../applet/agent.c:385
+#, c-format
+msgid "Grant access to '%s'"
+msgstr ""
+
+#: ../applet/agent.c:390
+#, c-format
+msgid "Device %s wants access to the service '%s'."
 msgstr ""
 
 #. translators: this is a popup telling you a particular device
 #. * has asked for pairing
-#: ../applet/agent.c:586 ../applet/agent.c:633 ../applet/agent.c:683
+#: ../applet/agent.c:496 ../applet/agent.c:531 ../applet/agent.c:573
 #, c-format
-msgid "Pairing request for %s"
+msgid "Pairing request for '%s'"
 msgstr ""
 
-#: ../applet/agent.c:590 ../applet/agent.c:637 ../applet/agent.c:687
-#: ../applet/agent.c:736 ../applet/agent.c:781
+#: ../applet/agent.c:500 ../applet/agent.c:535 ../applet/agent.c:577
+#: ../applet/agent.c:618 ../applet/agent.c:656
 msgid "Bluetooth device"
 msgstr "Bluetooth uređaj"
 
-#: ../applet/agent.c:591
-msgid "Enter PIN code"
-msgstr ""
-
-#: ../applet/agent.c:638 ../applet/agent.c:688
-msgid "Enter passkey"
-msgstr ""
+#: ../applet/agent.c:501 ../applet/agent.c:536 ../applet/agent.c:578
+msgid "Enter PIN"
+msgstr "Unesite PIN"
 
 #. translators: this is a popup telling you a particular device
 #. * has asked for pairing
-#: ../applet/agent.c:732
+#: ../applet/agent.c:608
 #, c-format
-msgid "Confirmation request for %s"
+msgid "Pairing confirmation for '%s'"
 msgstr ""
 
-#: ../applet/agent.c:737
-msgid "Confirm passkey"
+#: ../applet/agent.c:619
+msgid "Verify PIN"
 msgstr ""
 
-#: ../applet/agent.c:777
+#: ../applet/agent.c:652
 #, c-format
-msgid "Authorization request for %s"
+msgid "Authorization request from '%s'"
 msgstr ""
 
-#: ../applet/agent.c:782
+#: ../applet/agent.c:657
 msgid "Check authorization"
 msgstr ""
 
-#: ../applet/bluetooth-applet.desktop.in.h:1
+#: ../applet/mate-bluetooth-applet.desktop.in.in.h:1
 msgid "Bluetooth Manager"
 msgstr "Upravitelj Bluetoothom"
 
-#: ../applet/bluetooth-applet.desktop.in.h:2
-msgid "Bluetooth Manager applet"
-msgstr "Applet Upravitelja Bluetoothom"
+#: ../applet/mate-bluetooth-applet.desktop.in.in.h:2
+msgid "MATE Bluetooth Manager applet"
+msgstr ""
 
-#: ../properties/main.c:63
+#: ../applet/popup-menu.ui.h:1
+msgid "Bluetooth: Checking"
+msgstr ""
+
+#: ../applet/popup-menu.ui.h:2
+msgid "Browse files on device..."
+msgstr ""
+
+#: ../applet/popup-menu.ui.h:3 ../properties/adapter.c:339
+#: ../moblin/moblin-panel.c:1297 ../moblin/moblin-panel.c:1385
+msgid "Devices"
+msgstr "Uređaji"
+
+#: ../applet/popup-menu.ui.h:4
+msgid "Preferences"
+msgstr "Osobitosti"
+
+#: ../applet/popup-menu.ui.h:5
+msgid "Quit"
+msgstr "Isključi"
+
+#: ../applet/popup-menu.ui.h:6
+msgid "Send files to device..."
+msgstr "Šalji datoteke uređaju..."
+
+#: ../applet/popup-menu.ui.h:7
+msgid "Set up new device..."
+msgstr ""
+
+#: ../applet/popup-menu.ui.h:8
+msgid "Visible"
+msgstr "Vidljivo"
+
+#: ../applet/authorisation-dialogue.ui.h:1
+msgid "_Always grant access"
+msgstr ""
+
+#: ../applet/authorisation-dialogue.ui.h:2
+msgid "_Grant"
+msgstr ""
+
+#: ../applet/authorisation-dialogue.ui.h:3
+msgid "_Reject"
+msgstr ""
+
+#: ../applet/confirm-dialogue.ui.h:1
+msgid "_Does not match"
+msgstr ""
+
+#: ../applet/confirm-dialogue.ui.h:2
+msgid "_Matches"
+msgstr ""
+
+#: ../applet/passkey-dialogue.ui.h:1
+msgid "_Show input"
+msgstr ""
+
+#: ../properties/main.c:90
+msgid "Cannot start \"Personal File Sharing\" Preferences"
+msgstr ""
+
+#: ../properties/main.c:95
+msgid ""
+"Please verify that the \"Personal File Sharing\" program is correctly "
+"installed."
+msgstr ""
+
+#: ../properties/main.c:124
 msgid "Bluetooth Preferences"
 msgstr "Postavke Bluetootha"
 
-#: ../properties/main.c:94
-msgid "General"
-msgstr "Opcenito"
+#: ../properties/main.c:139
+msgid "_Show Bluetooth icon"
+msgstr ""
 
-#: ../properties/main.c:131
+#: ../properties/main.c:163
+msgid "Receive Files"
+msgstr "Primi datoteke"
+
+#: ../properties/main.c:211
+msgid "Output a list of currently known devices"
+msgstr ""
+
+#: ../properties/main.c:249
 msgid "Bluetooth Properties"
 msgstr ""
 
-#: ../properties/general.c:172
-msgid "File transfer"
-msgstr ""
+#. The discoverable checkbox
+#: ../properties/adapter.c:286
+msgid "Make computer _visible"
+msgstr "Učini računalo _vidljivim"
 
-#: ../properties/general.c:176
-msgid "Receive files from remote devices"
-msgstr ""
-
-#: ../properties/general.c:184
-msgid "Share files from public folder"
-msgstr ""
-
-#: ../properties/general.c:195
-msgid "Notification area"
-msgstr ""
-
-#: ../properties/general.c:199
-msgid "Never display icon"
-msgstr "Nikad ne pokazuj ikonu"
-
-#: ../properties/general.c:206
-msgid "Only display when adapter present"
-msgstr "Pokazuj ikonu samo kad je prisutan adapter"
-
-#: ../properties/general.c:213
-msgid "Always display icon"
-msgstr "Uvijek pokazuj ikonu"
-
-#: ../properties/adapter.c:99
-msgid "Adapter"
-msgstr "Adapter"
-
-#: ../properties/adapter.c:174
-msgid "always"
-msgstr ""
-
-#: ../properties/adapter.c:176
-msgid "hidden"
-msgstr ""
-
-#: ../properties/adapter.c:179
-#, c-format
-msgid "%'g minute"
-msgid_plural "%'g minutes"
-msgstr[0] ""
-msgstr[1] ""
-
-#: ../properties/adapter.c:477
-msgid "Visibility setting"
-msgstr ""
-
-#: ../properties/adapter.c:490
-msgid "Hidden"
-msgstr ""
-
-#: ../properties/adapter.c:502
-msgid "Always visible"
-msgstr ""
-
-#: ../properties/adapter.c:514
-msgid "Temporary visible"
-msgstr ""
-
-#: ../properties/adapter.c:566
+#: ../properties/adapter.c:309
 msgid "Friendly name"
+msgstr "Prijateljsko ime"
+
+#: ../properties/adapter.c:371
+msgid "Set up _new device..."
 msgstr ""
 
-#: ../properties/adapter.c:587
-msgid "Known devices"
+#: ../properties/adapter.c:394
+msgid "_Remove"
+msgstr "_Ukloni"
+
+#: ../properties/adapter.c:671
+msgid "Bluetooth is disabled"
 msgstr ""
 
-#: ../properties/dialog.c:41
-msgid "Remove from list of known devices?"
+#: ../properties/adapter.c:711
+msgid "No Bluetooth adapters present"
 msgstr ""
 
-#: ../properties/dialog.c:42
-msgid ""
-"If you delete the device, you have to set it up again before next use."
+#: ../properties/properties-no-adapter.ui.h:1
+msgid "Your computer does not have any Bluetooth adapters plugged in."
 msgstr ""
 
-#: ../properties/bluetooth-properties.desktop.in.h:1
-msgid "Bluetooth"
+#: ../properties/properties-killed-adapter.ui.h:1
+msgid "Bluetooth has been disabled by a switch on your computer."
 msgstr ""
 
-#: ../properties/bluetooth-properties.desktop.in.h:2
+#: ../properties/mate-bluetooth-properties.desktop.in.in.h:2
 msgid "Configure Bluetooth settings"
 msgstr "Uredi postavke Bluetootha"
 
-#: ../properties/bluetooth-manager.schemas.in.h:1
+#. translators:
+#. * The '%s' is the device name, for example:
+#. * Pairing with 'Sony Bluetooth Headset' cancelled
+#: ../wizard/main.c:206 ../wizard/main.c:327
+#, c-format
+msgid "Pairing with '%s' cancelled"
+msgstr ""
+
+#: ../wizard/main.c:246 ../moblin/moblin-panel.c:1049
+#, c-format
+msgid "Please confirm that the PIN displayed on '%s' matches this one."
+msgstr ""
+
+#: ../wizard/main.c:300 ../moblin/moblin-panel.c:1100
+msgid "Please enter the following PIN:"
+msgstr ""
+
+#. translators:
+#. * The '%s' is the device name, for example:
+#. * Setting up 'Sony Bluetooth Headset' failed
+#: ../wizard/main.c:383
+#, c-format
+msgid "Setting up '%s' failed"
+msgstr ""
+
+#. translators:
+#. * The '%s' is the device name, for example:
+#. * Connecting to 'Sony Bluetooth Headset' now...
+#: ../wizard/main.c:514
+#, c-format
+msgid "Connecting to '%s'..."
+msgstr ""
+
+#: ../wizard/main.c:550 ../moblin/moblin-panel.c:658
+#, c-format
 msgid ""
-"Display options for the notification icon. Valid options are \"never\", "
-"\"present\" and \"always\"."
+"Please enter the following PIN on '%s' and press “Enter” on the keyboard:"
 msgstr ""
 
-#: ../properties/bluetooth-manager.schemas.in.h:2
-msgid "If Bluetooth file sharing is enabled"
-msgstr ""
-
-#: ../properties/bluetooth-manager.schemas.in.h:3
-msgid "If receiving of remote files via Bluetooth is enabled"
-msgstr ""
-
-#: ../properties/bluetooth-manager.schemas.in.h:4
-msgid ""
-"If the service for receiving remote files via Bluetooth is enabled or not."
-msgstr ""
-
-#: ../properties/bluetooth-manager.schemas.in.h:5
-msgid "If the service for sharing files via Bluetooth is enabled or not."
-msgstr ""
-
-#: ../properties/bluetooth-manager.schemas.in.h:6
-msgid "When to show the notification icon"
-msgstr ""
-
-#: ../wizard/main.c:75
+#: ../wizard/main.c:552 ../moblin/moblin-panel.c:660
 #, c-format
-msgid "Please enter the following PIN code: %s"
+msgid "Please enter the following PIN on '%s':"
 msgstr ""
 
-#: ../wizard/main.c:94
+#. translators:
+#. * The '%s' is the device name, for example:
+#. * Please wait while finishing setup on 'Sony Bluetooth Headset'...
+#: ../wizard/main.c:573
 #, c-format
-msgid "Please enter the following passkey: %s%s"
+msgid "Please wait while finishing setup on device '%s'..."
 msgstr ""
 
-#: ../wizard/main.c:115
+#: ../wizard/main.c:589 ../moblin/moblin-panel.c:686
 #, c-format
-msgid "Pairing with %s canceled"
+msgid "Successfully set up new device '%s'"
 msgstr ""
 
-#: ../wizard/main.c:118
-#, c-format
-msgid "Pairing with %s finished"
+#: ../wizard/wizard.ui.h:1
+msgid "'0000' (most headsets, mice and GPS devices)"
 msgstr ""
 
-#: ../wizard/main.c:145
-#, c-format
-msgid "Successfully paired with %s"
+#: ../wizard/wizard.ui.h:2
+msgid "'1111'"
+msgstr "'1111'"
+
+#: ../wizard/wizard.ui.h:3
+msgid "'1234'"
+msgstr "'1234'"
+
+#: ../wizard/wizard.ui.h:4
+msgid "Bluetooth New Device Setup"
 msgstr ""
 
-#: ../wizard/main.c:159
-#, c-format
-msgid "Pairing with %s failed"
+#: ../wizard/wizard.ui.h:5
+msgid "Custom PIN:"
 msgstr ""
 
-#: ../wizard/main.c:193
-#, c-format
-msgid "Connecting to %s now ..."
+#: ../wizard/wizard.ui.h:6
+msgid "Device Setup"
 msgstr ""
 
-#: ../wizard/main.c:264
-msgid "Introduction"
+#: ../wizard/wizard.ui.h:7
+msgid "Device Setup Failed"
 msgstr ""
 
-#: ../wizard/main.c:265
-msgid "Welcome to the Bluetooth device setup wizard"
-msgstr ""
-
-#: ../wizard/main.c:268
-msgid ""
-"The device wizard will walk you through the process of configuring Bluetooth "
-"enabled devices for use with this computer.\n"
-"\n"
-msgstr ""
-
-#: ../wizard/main.c:303
-msgid "Device type"
-msgstr ""
-
-#: ../wizard/main.c:304
-msgid "Select the type of device you want to setup"
-msgstr ""
-
-#: ../wizard/main.c:316
-msgid "Mobile phone"
-msgstr ""
-
-#: ../wizard/main.c:331
-msgid "Any device"
-msgstr ""
-
-#: ../wizard/main.c:392
+#: ../wizard/wizard.ui.h:8
 msgid "Device search"
 msgstr ""
 
-#: ../wizard/main.c:393
+#: ../wizard/wizard.ui.h:9
+msgid "Do not pair"
+msgstr ""
+
+#. This is a button to answer: Does the PIN matches the one on the device?
+#: ../wizard/wizard.ui.h:11 ../moblin/moblin-panel.c:1253
+msgid "Does not match"
+msgstr ""
+
+#: ../wizard/wizard.ui.h:12
+msgid "Finishing New Device Setup"
+msgstr ""
+
+#. Translators: this is a PIN with a set value, such as 1111, or 0000
+#: ../wizard/wizard.ui.h:14
+msgid "Fixed PIN"
+msgstr ""
+
+#: ../wizard/wizard.ui.h:15
+msgid "Introduction"
+msgstr "Uvod"
+
+#. This is a button to answer: Does the PIN matches the one on the device?
+#: ../wizard/wizard.ui.h:17 ../moblin/moblin-panel.c:1249
+msgid "Matches"
+msgstr ""
+
+#: ../wizard/wizard.ui.h:18
+msgid "PIN Options"
+msgstr "PIN opcije"
+
+#: ../wizard/wizard.ui.h:19
+msgid "PIN _options..."
+msgstr "PIN _opcije..."
+
+#: ../wizard/wizard.ui.h:20 ../moblin/moblin-panel.c:1163
+msgid "Select the additional services you want to use with your device:"
+msgstr ""
+
+#: ../wizard/wizard.ui.h:21
 msgid "Select the device you want to setup"
 msgstr ""
 
-#: ../wizard/main.c:428
-msgid "Device setup"
+#: ../wizard/wizard.ui.h:22
+msgid "Setup Completed"
 msgstr ""
 
-#: ../wizard/main.c:429
-msgid "Setting up new device"
+#: ../wizard/wizard.ui.h:23
+msgid ""
+"The Bluetooth new device setup will walk you through the process of "
+"configuring Bluetooth enabled devices for use with this computer."
 msgstr ""
 
-#: ../wizard/main.c:451
-msgid "Summary"
+#: ../wizard/wizard.ui.h:24
+msgid ""
+"The device will need to be within 10 meters of your computer, and be "
+"“visible” (sometimes called “discoverable”). Check the device's manual if in"
+" doubt."
 msgstr ""
 
-#: ../wizard/main.c:452
-msgid "Succesfully configured new device"
+#: ../wizard/wizard.ui.h:25
+msgid "Welcome to the Bluetooth new device setup"
 msgstr ""
 
-#: ../wizard/main.c:462
-msgid "Bluetooth Device Wizard"
+#: ../wizard/wizard.ui.h:26
+msgid "_Automatic PIN selection"
 msgstr ""
 
-#: ../sendto/main.c:93
+#: ../wizard/wizard.ui.h:27
+msgid "_Restart Setup"
+msgstr ""
+
+#: ../sendto/main.c:162
 #, c-format
 msgid "%'d second"
 msgid_plural "%'d seconds"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
 
-#: ../sendto/main.c:98 ../sendto/main.c:111
+#: ../sendto/main.c:167 ../sendto/main.c:180
 #, c-format
 msgid "%'d minute"
 msgid_plural "%'d minutes"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
 
-#: ../sendto/main.c:109
+#: ../sendto/main.c:178
 #, c-format
 msgid "%'d hour"
 msgid_plural "%'d hours"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
 
-#: ../sendto/main.c:119
+#: ../sendto/main.c:188
 #, c-format
 msgid "approximately %'d hour"
 msgid_plural "approximately %'d hours"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
 
-#: ../sendto/main.c:145
+#: ../sendto/main.c:249
 msgid "File Transfer"
-msgstr ""
+msgstr "Prijenos datoteka"
 
-#: ../sendto/main.c:162
+#: ../sendto/main.c:253
+msgid "_Retry"
+msgstr "_Pokušaj ponovno"
+
+#. translators: This is the heading for the progress dialogue
+#: ../sendto/main.c:273
 msgid "Sending files via Bluetooth"
 msgstr ""
 
-#: ../sendto/main.c:174
+#: ../sendto/main.c:285
 msgid "From:"
-msgstr ""
+msgstr "Od:"
 
-#: ../sendto/main.c:190
+#: ../sendto/main.c:298
 msgid "To:"
 msgstr ""
 
-#: ../sendto/main.c:206
-msgid "Connecting..."
-msgstr ""
-
-#: ../sendto/main.c:254
-#, c-format
-msgid "Sending %s"
-msgstr ""
-
-#: ../sendto/main.c:261 ../sendto/main.c:326
-#, c-format
-msgid "Sending file %d of %d"
-msgstr ""
-
-#: ../sendto/main.c:322
-#, c-format
-msgid "%d KB/s"
-msgstr ""
-
-#: ../sendto/main.c:324
-#, c-format
-msgid "%d B/s"
-msgstr ""
-
-#: ../sendto/main.c:373
+#: ../sendto/main.c:343 ../sendto/main.c:359
 msgid "An unknown error occurred"
 msgstr ""
 
-#: ../sendto/main.c:383
+#: ../sendto/main.c:352
 msgid ""
 "Make sure that remote device is switched on and that it accepts Bluetooth "
 "connections"
 msgstr ""
 
-#: ../sendto/main.c:554 ../browse/main.c:38
+#: ../sendto/main.c:450
+#, c-format
+msgid "Sending %s"
+msgstr "Šaljem %s"
+
+#: ../sendto/main.c:457 ../sendto/main.c:523
+#, c-format
+msgid "Sending file %d of %d"
+msgstr "Šaljem datoteku %d od %d"
+
+#: ../sendto/main.c:519
+#, c-format
+msgid "%d KB/s"
+msgstr "%d KB/s"
+
+#: ../sendto/main.c:521
+#, c-format
+msgid "%d B/s"
+msgstr "%d B/s"
+
+#: ../sendto/main.c:641
+msgid "Select Device to Send To"
+msgstr ""
+
+#: ../sendto/main.c:645
+msgid "Send _To"
+msgstr ""
+
+#: ../sendto/main.c:687
+msgid "Choose files to send"
+msgstr "Odaberite datoteke za slanje"
+
+#: ../sendto/main.c:716
 msgid "Remote device to use"
 msgstr ""
 
-#: ../analyzer/main.c:166
-msgid "Saving of protocol trace failed"
+#: ../sendto/main.c:718
+msgid "Remote device's name"
+msgstr "Ime udaljenog uređaja"
+
+#: ../sendto/caja-sendto-plugin.c:168
+msgid "Programming error, could not find the device in the list"
 msgstr ""
 
-#: ../analyzer/main.c:313
-msgid "Loading Trace"
+#: ../sendto/caja-sendto-plugin.c:243
+#, c-format
+msgid "Obex Push file transfer unsupported"
 msgstr ""
 
-#: ../analyzer/main.c:317
-msgid "Live Import"
+#: ../sendto/caja-sendto-plugin.c:262
+msgid "Bluetooth (OBEX Push)"
 msgstr ""
 
-#: ../analyzer/main.c:321
-msgid "Protocol Trace"
+#: ../moblin/main.c:86
+msgid "Run in standalone mode"
 msgstr ""
 
-#: ../analyzer/main.c:326
-msgid "Unsaved"
+#: ../moblin/main.c:94 ../moblin/bluetooth-panel.desktop.in.in.h:2
+msgid "Moblin Bluetooth Panel"
 msgstr ""
 
-#: ../analyzer/main.c:609
-msgid "Can't live import from"
+#: ../moblin/main.c:95
+msgid "- Moblin Bluetooth Panel"
 msgstr ""
 
-#: ../analyzer/main.c:842 ../analyzer/main.c:1032 ../analyzer/dialog.c:102
-#: ../analyzer/bluetooth-analyzer.desktop.in.h:2
-msgid "Bluetooth Analyzer"
+#: ../moblin/main.c:122
+msgid "bluetooth"
+msgstr "bluetooth"
+
+#: ../moblin/moblin-panel.c:533
+#, c-format
+msgid "Pairing with %s failed."
 msgstr ""
 
-#: ../analyzer/main.c:856
-msgid "_File"
+#: ../moblin/moblin-panel.c:895
+msgid "<u>Pair</u>"
 msgstr ""
 
-#: ../analyzer/main.c:886
-msgid "Open _Recent"
+#: ../moblin/moblin-panel.c:909
+msgid "<u>Connect</u>"
 msgstr ""
 
-#: ../analyzer/main.c:933
-msgid "_Edit"
+#: ../moblin/moblin-panel.c:928
+msgid "<u>Browse</u>"
 msgstr ""
 
-#: ../analyzer/main.c:942
-msgid "_View"
+#: ../moblin/moblin-panel.c:1122
+msgid "Device setup failed"
 msgstr ""
 
-#: ../analyzer/main.c:947
-msgid "_Full Screen"
+#. Back button
+#: ../moblin/moblin-panel.c:1136 ../moblin/moblin-panel.c:1212
+#: ../moblin/moblin-panel.c:1261 ../moblin/moblin-panel.c:1323
+#: ../moblin/moblin-panel.c:1540
+msgid "Back to devices"
 msgstr ""
 
-#: ../analyzer/main.c:954
-msgid "_Tools"
+#: ../moblin/moblin-panel.c:1175
+msgid "Done"
 msgstr ""
 
-#: ../analyzer/main.c:959
-msgid "_Debug Packet List"
+#: ../moblin/moblin-panel.c:1196 ../moblin/moblin-panel.c:1233
+msgid "Device setup"
 msgstr ""
 
-#: ../analyzer/main.c:968
-msgid "_Help"
-msgstr ""
+#: ../moblin/moblin-panel.c:1344
+msgid "Only show:"
+msgstr "Samo pokaži:"
 
-#: ../analyzer/dialog.c:110
-msgid "Bluetooth protocol analyzer"
-msgstr ""
+#. Button for PIN options file
+#: ../moblin/moblin-panel.c:1350
+msgid "PIN options"
+msgstr "PIN opcije"
 
-#: ../analyzer/dialog.c:140
-msgid "All Files"
-msgstr ""
+#. Add new button
+#: ../moblin/moblin-panel.c:1433
+msgid "Add a new device"
+msgstr "Dodaj novi uređaj"
 
-#: ../analyzer/dialog.c:145
-msgid "Supported Files"
-msgstr ""
+#. Button for Send file
+#: ../moblin/moblin-panel.c:1500
+msgid "Send file from your computer"
+msgstr "Šaljem datoteku sa vašega računala"
 
-#: ../analyzer/dialog.c:154
-msgid "Frontline BTSnoop Files"
-msgstr ""
-
-#: ../analyzer/dialog.c:160
-msgid "Apple Packet Logger Files"
-msgstr ""
-
-#: ../analyzer/dialog.c:175
-msgid "By Extension"
-msgstr ""
-
-#: ../analyzer/dialog.c:180
-msgid "Frontline BTSnoop Format"
-msgstr ""
-
-#: ../analyzer/dialog.c:185
-msgid "Apple Packet Logger Format"
-msgstr ""
-
-#: ../analyzer/dialog.c:249
-msgid "Select File _Type"
-msgstr ""
-
-#: ../analyzer/dialog.c:292
-msgid "File Type"
-msgstr ""
-
-#: ../analyzer/dialog.c:297
-msgid "Extensions"
-msgstr ""
-
-#: ../analyzer/dialog.c:331
-msgid "Save File"
-msgstr ""
-
-#: ../analyzer/dialog.c:373
-msgid "Open File"
-msgstr ""
-
-#: ../analyzer/dialog.c:455
-msgid "Local connection"
-msgstr ""
-
-#: ../analyzer/dialog.c:463
-msgid "Remote connection"
-msgstr ""
-
-#: ../analyzer/dialog.c:497
-msgid "Open Import"
-msgstr ""
-
-#: ../analyzer/dialog.c:537
-msgid "Save the protocol trace before closing?"
-msgstr ""
-
-#: ../analyzer/dialog.c:538
-msgid "If you don't save, all information will be permanently lost."
-msgstr ""
-
-#: ../analyzer/dialog.c:546
-msgid "Close _without Saving"
-msgstr ""
-
-#: ../analyzer/dialog.c:576
-msgid "There is"
-msgstr ""
-
-#: ../analyzer/dialog.c:576
-msgid "There are"
-msgstr ""
-
-#: ../analyzer/dialog.c:577
-msgid "unsaved protocol trace."
-msgstr ""
-
-#: ../analyzer/dialog.c:578
-msgid "unsaved protocol traces."
-msgstr ""
-
-#: ../analyzer/dialog.c:579
-msgid "If you quit now, all information will be lost."
-msgstr ""
-
-#: ../analyzer/dialog.c:589
-msgid "_Discard Changes"
-msgstr ""
-
-#: ../analyzer/tracer.c:250
-msgid "Type"
-msgstr ""
-
-#: ../analyzer/tracer.c:258
-msgid "Packet"
-msgstr ""
-
-#: ../analyzer/tracer.c:267
-msgid "Timestamp"
-msgstr ""
-
-#: ../analyzer/bluetooth-analyzer.desktop.in.h:1
-msgid "Analyze Bluetooth traces"
-msgstr ""
-
-#: ../analyzer/bluetooth-manager.xml.in.h:1
-msgid "Apple Packet Logger File"
-msgstr ""
-
-#: ../analyzer/bluetooth-manager.xml.in.h:2
-msgid "Frontline BTSnoop File"
+#: ../moblin/bluetooth-panel.desktop.in.in.h:1
+msgid "Bluetooth Manager Panel"
 msgstr ""

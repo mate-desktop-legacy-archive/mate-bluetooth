@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Alban  <nofbname@gmail.com>, 2012.
+# Alban <nofbname@gmail.com>, 2012
+# ard1t <ardit.dani@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-01-02 17:44+0100\n"
-"PO-Revision-Date: 2012-07-27 23:03+0000\n"
-"Last-Translator: Alban <nofbname@gmail.com>\n"
+"PO-Revision-Date: 2014-01-16 14:25+0000\n"
+"Last-Translator: ard1t <ardit.dani@gmail.com>\n"
 "Language-Team: Albanian (http://www.transifex.com/projects/p/MATE/language/sq/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -266,7 +267,7 @@ msgstr "- Bluetooth applet"
 msgid ""
 "%s\n"
 "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
+msgstr "%s\nShkruaj '%s --help' për të shikuar listën e plotë të opcioneve të rreshtit të komandës.\n"
 
 #: ../applet/main.c:1122
 msgid "Bluetooth Applet"
@@ -483,7 +484,6 @@ msgstr "Konfiguro parametrat e Bluetooth"
 #. translators:
 #. * The '%s' is the device name, for example:
 #. * Pairing with 'Sony Bluetooth Headset' cancelled
-#. 
 #: ../wizard/main.c:206 ../wizard/main.c:327
 #, c-format
 msgid "Pairing with '%s' cancelled"
@@ -501,7 +501,6 @@ msgstr "Ju lutemi shkruani PIN-in e mëposhtëm:"
 #. translators:
 #. * The '%s' is the device name, for example:
 #. * Setting up 'Sony Bluetooth Headset' failed
-#. 
 #: ../wizard/main.c:383
 #, c-format
 msgid "Setting up '%s' failed"
@@ -510,7 +509,6 @@ msgstr "Ngritja e '%s' dështoi"
 #. translators:
 #. * The '%s' is the device name, for example:
 #. * Connecting to 'Sony Bluetooth Headset' now...
-#. 
 #: ../wizard/main.c:514
 #, c-format
 msgid "Connecting to '%s'..."
@@ -530,7 +528,6 @@ msgstr "Ju lutemi shkruani PIN-in e mëposhtëm për '%s'"
 #. translators:
 #. * The '%s' is the device name, for example:
 #. * Please wait while finishing setup on 'Sony Bluetooth Headset'...
-#. 
 #: ../wizard/main.c:573
 #, c-format
 msgid "Please wait while finishing setup on device '%s'..."
@@ -649,29 +646,29 @@ msgstr "_Restarto konfigurimet"
 #, c-format
 msgid "%'d second"
 msgid_plural "%'d seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d sekonda"
+msgstr[1] "%'d sekonda"
 
 #: ../sendto/main.c:167 ../sendto/main.c:180
 #, c-format
 msgid "%'d minute"
 msgid_plural "%'d minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d minuta"
+msgstr[1] "%'d minuta"
 
 #: ../sendto/main.c:178
 #, c-format
 msgid "%'d hour"
 msgid_plural "%'d hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d orë"
+msgstr[1] "%'d orë"
 
 #: ../sendto/main.c:188
 #, c-format
 msgid "approximately %'d hour"
 msgid_plural "approximately %'d hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "rreth %'d orë"
+msgstr[1] "rreth %'d orë"
 
 #: ../sendto/main.c:249
 msgid "File Transfer"
