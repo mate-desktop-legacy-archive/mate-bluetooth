@@ -57,7 +57,7 @@ enum {
 	LAST_SIGNAL
 };
 
-static int signals[LAST_SIGNAL] = { 0 };
+static guint signals[LAST_SIGNAL] = { 0 };
 
 #define BLUETOOTH_KILLSWITCH_GET_PRIVATE(obj) (G_TYPE_INSTANCE_GET_PRIVATE((obj), \
 				BLUETOOTH_TYPE_KILLSWITCH, BluetoothKillswitchPrivate))

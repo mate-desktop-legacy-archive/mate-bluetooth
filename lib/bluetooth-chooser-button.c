@@ -63,7 +63,7 @@ enum {
 	LAST_SIGNAL
 };
 
-static int signals[LAST_SIGNAL] = { 0 };
+static guint signals[LAST_SIGNAL] = { 0 };
 
 static void	bluetooth_chooser_button_class_init	(BluetoothChooserButtonClass * klass);
 static void	bluetooth_chooser_button_init		(BluetoothChooserButton      * button);

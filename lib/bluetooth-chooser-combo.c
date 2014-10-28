@@ -55,7 +55,7 @@ enum {
 	LAST_SIGNAL
 };
 
-static int signals[LAST_SIGNAL] = { 0 };
+static guint signals[LAST_SIGNAL] = { 0 };
 
 static void	bluetooth_chooser_combo_class_init	(BluetoothChooserComboClass * klass);
 static void	bluetooth_chooser_combo_init		(BluetoothChooserCombo      * combo);
